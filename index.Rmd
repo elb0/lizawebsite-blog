@@ -1,5 +1,5 @@
 ---
-title: "My Blog"
+title: "Data analysis, statistics education and more."
 site: distill::distill_website
 listing: posts
 ---

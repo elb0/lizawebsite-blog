@@ -2,7 +2,7 @@ name: "lizawebsite-blog"
 title: "Liza's blog"
 theme: theme.css
 description: |
-  My Blog
+  Musings on data analysis, statistics education and more.
 output_dir: "docs"
 favicon: images/favicon.ico
 navbar:
@@ -11,4 +11,12 @@ navbar:
       href: index.Rmd
     - text: "Back to main site"
       href: https://www.lizabolton.com
+    - icon: fa fa-twitter
+      href: https://twitter.com/Liza_bolton
+    - icon: fa fa-github
+      href: https://github.com/elb0
+    - icon: fa fa-linkedin
+      href: https://www.linkedin.com/in/lizabolton/
+    - icon: fa fa-paper-plane
+      href: mailto:liza.bolton@utoronto.ca
 output: distill::distill_article

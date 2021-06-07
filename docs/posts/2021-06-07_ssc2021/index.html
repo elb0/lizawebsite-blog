@@ -2442,6 +2442,18 @@ d-appendix d-footnote-list a.footnote-backlink {
 <div class="nav-right">
 <a href="../../index.Rmd">Blog</a>
 <a href="https://www.lizabolton.com">Back to main site</a>
+<a href="https://twitter.com/Liza_bolton">
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>
+<a href="https://github.com/elb0">
+<i class="fa fa-github" aria-hidden="true"></i>
+</a>
+<a href="https://www.linkedin.com/in/lizabolton/">
+<i class="fa fa-linkedin" aria-hidden="true"></i>
+</a>
+<a href="mailto:liza.bolton@utoronto.ca">
+<i class="fa fa-paper-plane" aria-hidden="true"></i>
+</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2478,6 +2490,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <ul>
 <li><a href="#invited-presidential-address-probability-statistics-and-murder">Invited Presidential Address: <em>Probability, Statistics, and Murder</em></a></li>
 <li><a href="#data-privacy-in-official-statistics-panel-session">Data privacy in official statistics (Panel Session)</a></li>
+<li><a href="#mverse-an-r-library-for-teaching-and-conducting-multiverse-analysis">mverse: An R Library for Teaching and Conducting Multiverse Analysis</a></li>
 </ul></li>
 <li><a href="#reading-list">Reading list</a>
 <ul>
@@ -2507,9 +2520,9 @@ d-appendix d-footnote-list a.footnote-backlink {
 <p>Les statistiques et les sciences des données sont devenues omniprésentes dans les sciences dures et humaines. En travaillant avec des données volumineuses ou des méthodologies complexes, il est primordial que les analystes de données soient capables de programmer. R est un langage de programmation gratuit et populaire au sein de la communauté statistique. Il fonctionne à merveille pour les visualisations de données, leur préparation préalable et l’adoption de méthodologies simples ou complexes. En tant qu’éducateurs en statistique, nous avons remarqué que les formations en programmation varient parmi nos étudiants de cycle supérieur. Notre équipe de sept étudiants de premier cycle, deux étudiants de cycle supérieur et deux professeurs assistants ont conçu une boîte à outils afin d’aider les étudiants à rehausser leurs aptitudes de programmation en R. La boîte à outils est composée d’un ensemble de modules interactifs que les étudiants terminent de façon autonome. Les modules commencent par la base de l’installation de R, puis progressent vers tidyverse jusqu’à l’emploi de méthodes bayésiennes. Lors de cet exposé, nous décrirons les grandes lignes du développement et de l’utilisation de cette boîte à outils, et soulignerons les étapes à venir.</p>
 <h2 id="talk-notes">Talk notes</h2>
 <p><em>Notes and reflections of varying quality from the talks I attended + resources shared.</em></p>
+<p>Note: If I’ve written about talk and there is anything you’d like me to correct or add, please just let me know! Twitter/email links in the navigation bar.</p>
 <h3 id="invited-presidential-address-probability-statistics-and-murder">Invited Presidential Address: <em>Probability, Statistics, and Murder</em></h3>
-<p><i class="fa fa-user"></i> Jeffrey Rosenthal</p>
-<p><i class="fa fa-twitter"></i> <a href="https://twitter.com/ProbabilityProf">@ProbabilityProf</a></p>
+<p><i class="fa fa-user"></i> Jeffrey Rosenthal, <i class="fa fa-twitter"></i> <a href="https://twitter.com/ProbabilityProf">@ProbabilityProf</a></p>
 <p>Jeff took us on a journey through his experiences with media and especially as an expert witness in court cases. There are a mish-mash of links below and much more on his website: <a href="http://probability.ca" class="uri">http://probability.ca</a>.</p>
 <p>An example of a case that was especially interesting/surprising was when he was an expert witness in a case about a marijuana grow-op. This story was really neat because significant jail time rests on whether or not the number of plants was more or less than 500. More than 500 leads to a mandatory three-year jail term.</p>
 <p>The level of aggressive attacks you end up facing as a expert witness sounds extremely off-putting! I’m glad Jeff’s skin is think enough to go out and do this kind of work, because mine certainly is not.</p>
@@ -2534,23 +2547,31 @@ d-appendix d-footnote-list a.footnote-backlink {
 <li><p>www.probability.ca/justice</p></li>
 </ul>
 <h3 id="data-privacy-in-official-statistics-panel-session">Data privacy in official statistics (Panel Session)</h3>
-<p><i class="fa fa-user"></i></p>
-<p><i class="fa fa-twitter"></i> <a href="https://twitter.com/ProbabilityProf">@ProbabilityProf</a></p>
+<p><i class="fa fa-user"></i> <a href="http://www.sfu.ca/~destep/">Donald Estep</a>, Canadian Statistical Sciences Institute and Simon Fraser University, <i class="fa fa-twitter"></i> <a href="https://twitter.com/donestep1">@donestep1</a></p>
+<p><i class="fa fa-user"></i> <a href="https://www.research.manchester.ac.uk/portal/natalie.shlomo.html">Natalie Shlomo</a>, University of Manchester</p>
+<p><i class="fa fa-user"></i> John Eltinge, US Census Bureau</p>
+<p><i class="fa fa-user"></i> Anne-Sophie Charest, Université Laval</p>
+<p><i class="fa fa-user"></i> Pierre Desrochers, Statistics Canada</p>
 <ul>
 <li>People don necessarily understand what their own views on disclosure/privacy look like mathematically.</li>
 <li>What is inference vs what is disclosure.</li>
 <li>Uniqueness: if you publish something that is unique to one person, that is disclosure and that is fairly well agreed upon. BUT, what about as is scales up? What features makes these different, in context?</li>
 <li>What ‘privacy’ is interpreted as is context dependent, and expressed through jurisdictional law.</li>
 <li>Synthetic data generates new data by random draws from preditice models.</li>
+<li>Differential privacy is a “pertubation tool”, a way to add noise/misclassify probabilistically.</li>
+<li>A wider ethical consider in this area is the question of which predictions are intrusions in unacceptable ways. This is more of an ethical/philosophical. When should we <em>not</em> make inferences?</li>
+<li>How can we learn from others who have been doing risk communication (e.g., around health) to improve our own practices in official statistics</li>
 </ul>
 <p>My background is using official statistics for social and health research in Aotearoa New Zealand, so it was excellent to dip a toe back into this world and hear about the context here.</p>
-<p>Big thanks to CANSSI for supporting this panel.</p>
-<p><i class="fa fa-twitter"></i> <a href="https://twitter.com/CANSSIINCASS">@CANSSIINCASS</a></p>
+<p>Big thanks to CANSSI for supporting this panel. <i class="fa fa-twitter"></i> <a href="https://twitter.com/CANSSIINCASS">@CANSSIINCASS</a></p>
 <h4 id="links-1">Links</h4>
 <ul>
 <li>Duncan, George &amp; Keller-McNulty, Sallie &amp; Stokes, Lynne. (2001). <em>Disclosure Risk vs. Data Utility: The RU Confidentiality Map</em>. <a href="https://www.researchgate.net/publication/245939728_Disclosure_Risk_vs_Data_Utility_The_RU_Confidentiality_Map" class="uri">https://www.researchgate.net/publication/245939728_Disclosure_Risk_vs_Data_Utility_The_RU_Confidentiality_Map</a></li>
 <li>Kaloskampis. (2019). <em>Synthetic data for public good</em>. <a href="https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/" class="uri">https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/</a></li>
+<li>Near, Darais &amp; Boeckl. (2020). <em>Differential Privacy for Privacy-Preserving Data Analysis: An Introduction to our Blog Series</em>. <a href="https://www.nist.gov/blogs/cybersecurity-insights/differential-privacy-privacy-preserving-data-analysis-introduction-our" class="uri">https://www.nist.gov/blogs/cybersecurity-insights/differential-privacy-privacy-preserving-data-analysis-introduction-our</a></li>
 </ul>
+<h3 id="mverse-an-r-library-for-teaching-and-conducting-multiverse-analysis">mverse: An R Library for Teaching and Conducting Multiverse Analysis</h3>
+<p><i class="fa fa-user"></i> <a href="http://www.sfu.ca/~destep/">Donald Estep</a>, Canadian Statistical Sciences Institute and Simon Fraser University, <i class="fa fa-twitter"></i> <a href="https://twitter.com/donestep1">@donestep1</a></p>
 <h2 id="reading-list">Reading list</h2>
 <h3 id="books">Books</h3>
 <p><i class="fa fa-book"></i> <a href="https://www.goodreads.com/review/list/44982838-liza?ref=nav_mybooks&amp;shelf=ssc2021">Goodreads shelf for SSC2021</a></p>
