@@ -144,7 +144,7 @@ I was part of the ISSC team, so not notes, other than I think Nathalie did a fab
 
 #### Links
 
-- Slides: <will add later>
+- Slides: _will add later_
 - 2020 TidyTuesday activities on GitHub: https://github.com/elb0/ISSC
 
 ## Reading list
