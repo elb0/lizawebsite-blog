@@ -3,7 +3,7 @@ title: "My first Statistical Society of Canada Annual Meeting"
 description: |
   Notes and links from SSC2021. I often find I get the most from conferences if I take notes with the vague notion of sharing them. So this is mostly for me, but I hope it might be of interest to others, too. Note: This post will be updated sporadically.
 author: Liza Bolton
-date: 2021-06-06
+date: 2021-06-07
 output:
   distill::distill_article:
     toc: true
@@ -127,13 +127,25 @@ Big thanks to CANSSI for supporting this panel. <i class="fa fa-twitter"></i> [\
 - Interactive modules are being developed by the team. Great demo of a Shiny app for playing with the hurricane data. 
 - Submitting to CRAN sometime this summer.
 
-Great presentation from Micahel, and I'm super excited about the package. 
+Great presentation from Michael, and I'm super excited about playing with this package!
 
 #### Links
 
 - Slides: http://www.utstat.utoronto.ca/~moon/mverse-ssc21/#1
 - Package on GitHub: https://github.com/mverseanalysis/mverse
 - Steegen S, Tuerlinckx F, Gelman A, Vanpaemel W. _Increasing Transparency Through a Multiverse Analysis_. Perspectives on Psychological Science. 2016;11(5):702-712. doi:10.1177/1745691616658637 https://journals.sagepub.com/doi/10.1177/1745691616658637
+
+
+### Independent Summer Statistics Community (ISSC): Building a sustainable online undergraduate student community with Cocurricular Activities and Experiential Learning Opportunities 
+
+<i class="fa fa-user"></i> [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon), University of Toronto
+
+I was part of the ISSC team, so not notes, other than I think Nathalie did a fab job explaining it. 
+
+#### Links
+
+- Slides: <will add later>
+- 2020 TidyTuesday activities on GitHub: https://github.com/elb0/ISSC
 
 ## Reading list
 

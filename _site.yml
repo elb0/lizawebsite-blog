@@ -8,7 +8,7 @@ favicon: images/favicon.ico
 navbar:
   right:
     - text: "Blog"
-      href: index.Rmd
+      href: index.html
     - text: "Back to main site"
       href: https://www.lizabolton.com
     - icon: fa fa-twitter
