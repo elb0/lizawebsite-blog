@@ -2,6 +2,7 @@
 title: "My first Statistical Society of Canada Annual Meeting"
 description: |
   Notes and links from SSC2021. I often find I get the most from conferences if I take notes with the vague notion of sharing them. So this is mostly for me, but I hope it might be of interest to others, too. Note: This post will be updated sporadically.
+preview: images/SSCDesktopBannerMap.png
 author: Liza Bolton
 date: 2021-06-07
 output:
@@ -142,10 +143,38 @@ Great presentation from Michael, and I'm super excited about playing with this p
 
 I was part of the ISSC team, so not notes, other than I think Nathalie did a fab job explaining it. 
 
+Unofficial list of Canadian universities doing ASA DataFest: U of T, UBC, Waterloo, 
+MacEwan/University of Alberta — we should all be friends!
+
 #### Links
 
-- Slides: _will add later_
+- [Slides](pdfs/ISSC-SSC-presentation-2021.pdf) (pdf)
 - 2020 TidyTuesday activities on GitHub: https://github.com/elb0/ISSC
+
+### Online Homework Impact in an Introductory Statistics Course
+
+<i class="fa fa-user"></i> [Tharshanna Nadarajah](https://www.statistics.utoronto.ca/people/directories/all-faculty/tharshanna-nadarajah), University of Toronto
+
+Neat intro to [MyOpenMath](https://www.myopenmath.com/) advantages and how Tharshanna has used it in teaching, student response and outcomes.
+
+#### Links
+
+- MyOpenMath: https://www.myopenmath.com
+
+### Tactile Response Experimental Analysis Toolkit (TREAT)
+
+<i class="fa fa-user"></i> [Sohee Kang](https://www.utsc.utoronto.ca/cms/sohee-kang), University of Toronto
+
+Some lovely data collection activities that students can do in class from a phone or computer. Love this from the abstract: "Students often feel disengaged with data that they do not perceive as being "real" or "authentic", and it is important that they believe that the data they are analyzing is representative of real-world problems."
+
+#### Links
+
+- Movement breaks that can be used in experiments https://ocw.utoronto.ca/movement-breaks/
+
+#### Q&A for Statistical Education 2
+
+- Lot's of support for using Slack, though size/licensing can be challenging in large courses or with institution policy
+- Course emails are extremely helpful 
 
 ## Reading list
 

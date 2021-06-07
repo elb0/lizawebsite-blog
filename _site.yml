@@ -5,6 +5,7 @@ description: |
   Musings on data analysis, statistics education and more.
 output_dir: "docs"
 favicon: images/favicon.ico
+base_url: blog.lizabolton.com
 navbar:
   right:
     - text: "Blog"
