@@ -1,0 +1,123 @@
+---
+title: "My first Statistical Society of Canada Annual Meeting"
+description: |
+  Notes and links from SSC2021. I often find I get the most from conferences if I take notes with the vague notion of sharing them. So this is mostly for me, but I hope it might be of interest to others, too. Note: This post will be updated sporadically.
+author: Liza Bolton
+date: 2021-06-06
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
+---
+
+
+<i class="fa fa-user"></i> [My SSC profile](https://ssc2021.us2.pathable.com/people/XzcrQr8XdXWt4vXoK)
+
+## Talks you should go to (very biased recommendations)
+
+### Independent Summer Statistics Community (ISSC): Building a sustainable online undergraduate student community with Cocurricular Activities and Experiential Learning Opportunities
+
+<i class="fa fa-calendar-plus"></i> 1:45 PM - 2:00 PM EDT on Monday, June 7
+
+<i class="fa fa-link"></i> [Event link](https://ssc2021.us2.pathable.com/meetings/3wTmrXyDRvAisAxnT)
+
+<i class="fa fa-user"></i> [Nathalie Moon](https://ssc2021.us2.pathable.com/people/Zbufrk98i6S8dR2mX)
+
+#### Abstract
+In response to disruptions to our students’ plans due to COVID-19 and widespread feelings of isolation, we built a virtual community to help our students build portfolios, meet peers, and explore careers. In all, over 700 students in our programs signed up, and among the 164 students who responded to our end-of-summer survey, 41% were active and 48% passive participants; our data suggests that even passive participation was beneficial in making students feel more connected. As part of the ISSC, we held formal and informal data science workshops, social events, and career-building activities culminating in a DataFest COVID-19 Virtual Challenge. In all, 92 eligible teams applied to participate in DataFest, 62 were invited to compete, and 42 submitted complete submissions. In this talk, we will outline the principles guiding how the ISSC was structured including practical advice and tips for building a sustainable community, lessons learned, and plans for 2021.
+
+#### Résumé
+En réponse aux perturbations des plans des élèves en raison de la COVID-19 et au sentiment d'isolement généralisé, nous avons créé une communauté virtuelle pour aider les étudiants à monter leur portfolio, à rencontrer leurs pairs et à découvrir des carrières. En tout, plus de 700 étudiants se sont inscrits à nos programmes et, parmi les 164 étudiants qui ont répondu à notre enquête de fin d'été, 41 % étaient des participants actifs et 48 % des participants passifs. Nos données suggèrent que même la participation passive a été bénéfique en donnant aux étudiants le sentiment d'être plus connectés. Dans le cadre de la Communauté statistique indépendante d’été, nous avons organisé des ateliers formels et informels sur les sciences des données, des événements sociaux et des activités de développement de carrière, qui ont débouché au défi virtuel des données DataFest COVID-19. Au total, 92 équipes admissibles ont posé leur candidature pour participer à ce défi, 62 ont été invitées à concourir et 42 ont soumis des dossiers complets. Dans cet exposé, nous présenterons les principes qui ont guidé la structure de la Communauté statistique indépendante d’été, les conseils pratiques et les astuces qui ont contribué à créer une communauté durable, ainsi que les leçons apprises et nos plans pour 2021.
+
+### The Development and Implementation of a Toolkit for Learning R at all Levels.
+
+<i class="fa fa-calendar-plus"></i> 3:45 PM - 4:00 PM EDT on Wednesday, June 9
+
+<i class="fa fa-user"></i> [Event link](https://ssc2021.us2.pathable.com/meetings/nRJ8fRhYPR6N8Qprf)
+
+<i class="fa fa-user"></i> [Samantha-Jo Caetano](https://ssc2021.us2.pathable.com/people/wcZrSJC4wcw9TSN4i)
+
+#### Abstract
+Statistics and data science have become ubiquitous in the hard and social sciences. When working with large data or complex methodology it is crucial that the data analysts are able to program. R is a statistical programming language that is free and popular in the statistics community. R works well for data visualizations, wrangling and employing simple to complex methodology. As educators in statistics we noticed a variation of programming backgrounds in our senior students. Our team of 7 undergraduate students, 2 graduate students, and 2 assistant professors have developed a toolkit to help students improve their programming in R. The toolkit is a set of interactive modules that students complete autonomously. The modules start from the very basics of installing R to tidyverse to employing Bayesian methods. In this talk, we will outline the development and uses of this toolkit, and highlight some next steps.
+
+#### Résumé
+Les statistiques et les sciences des données sont devenues omniprésentes dans les sciences dures et humaines. En travaillant avec des données volumineuses ou des méthodologies complexes, il est primordial que les analystes de données soient capables de programmer. R est un langage de programmation gratuit et populaire au sein de la communauté statistique. Il fonctionne à merveille pour les visualisations de données, leur préparation préalable et l’adoption de méthodologies simples ou complexes. En tant qu’éducateurs en statistique, nous avons remarqué que les formations en programmation varient parmi nos étudiants de cycle supérieur. Notre équipe de sept étudiants de premier cycle, deux étudiants de cycle supérieur et deux professeurs assistants ont conçu une boîte à outils afin d’aider les étudiants à rehausser leurs aptitudes de programmation en R. La boîte à outils est composée d’un ensemble de modules interactifs que les étudiants terminent de façon autonome. Les modules commencent par la base de l’installation de R, puis progressent vers tidyverse jusqu’à l’emploi de méthodes bayésiennes. Lors de cet exposé, nous décrirons les grandes lignes du développement et de l’utilisation de cette boîte à outils, et soulignerons les étapes à venir.
+
+## Talk notes
+
+_Notes and reflections of varying quality from the talks I attended + resources shared._
+
+### Invited Presidential Address: *Probability, Statistics, and Murder*
+
+<i class="fa fa-user"></i> Jeffrey Rosenthal
+
+<i class="fa fa-twitter"></i> [\@ProbabilityProf](https://twitter.com/ProbabilityProf)
+
+Jeff took us on a journey through his experiences with media and especially as an expert witness in court cases. There are a mish-mash of links below and much more on his website: http://probability.ca.
+
+An example of a case that was especially interesting/surprising was when he was an expert witness in a case about a marijuana grow-op. This story was really neat because significant jail time rests on whether or not the number of plants was more or less than 500. More than 500 leads to a mandatory three-year jail term.
+
+The level of aggressive attacks you end up facing as a expert witness sounds extremely off-putting! I'm glad Jeff's skin is think enough to go out and do this kind of work, because mine certainly is not.
+
+Some of Jeff's final notes and advice: 
+
+- Statisticians are nicer, especially Canadian ones.
+- Be cautious about what consulting work you agree to, especially in an adversarial context.
+- You can get paid a lot. Think about whether you want to you negotiate an hourly or fixed rate.
+- There are lots of satisfying/important aspects, but also lots of annoying/unpleasant ones, too.
+- __"If we statisticians don't do it, then who will?"__
+
+#### Links
+
+Here are several links that were referred to during that talk or shared in chat. (Not exhaustive.)
+
+-   Lottery link: <http://probability.ca/lotteryscandal/>
+
+-   Annals Quadfecta: <https://imstat.org/2021/05/14/the-annals-quadfecta-23/>
+
+-   Jeff's Canadian Supreme Court opinion writing article: <http://probability.ca/jeff/ftpdir/SCC_UTLJ.pdf>
+
+-   Discussion of SIDS/SUDI case history: <https://en.wikipedia.org/wiki/Sally_Clark>
+
+    -   "The Clark case has its Aussie version that continues as Jeff speaks." - Grace Chiu <https://www.seattletimes.com/seattle-news/health/australian-mom-convicted-of-killing-4-children-seeks-pardon/>
+    
+-  www.probability.ca/justice    
+
+### Data privacy in official statistics (Panel Session)
+
+<i class="fa fa-user"></i> 
+
+<i class="fa fa-twitter"></i> [\@ProbabilityProf](https://twitter.com/ProbabilityProf)
+
+- People don necessarily understand what their own views on disclosure/privacy look like mathematically.
+- What is inference vs what is disclosure.
+- Uniqueness: if you publish something that is unique to one person, that is disclosure and that is fairly well agreed upon. BUT, what about as is scales up? What features makes these different, in context?
+- What 'privacy' is interpreted as is context dependent, and expressed through jurisdictional law.
+- Synthetic data generates new data by random draws from preditice models. 
+
+My background is using official statistics for social and health research in Aotearoa New Zealand, so it was excellent to dip a toe back into this world and hear about the context here. 
+
+
+Big thanks to CANSSI for supporting this panel.
+
+<i class="fa fa-twitter"></i> [\@CANSSIINCASS](https://twitter.com/CANSSIINCASS)
+
+#### Links
+
+- Duncan, George & Keller-McNulty, Sallie & Stokes, Lynne. (2001). _Disclosure Risk vs. Data Utility: The RU Confidentiality Map_. https://www.researchgate.net/publication/245939728_Disclosure_Risk_vs_Data_Utility_The_RU_Confidentiality_Map
+- Kaloskampis. (2019). _Synthetic data for public good_. https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/
+
+
+## Reading list
+
+### Books
+
+<i class="fa fa-book"></i> [Goodreads shelf for SSC2021](https://www.goodreads.com/review/list/44982838-liza?ref=nav_mybooks&shelf=ssc2021)
+
+- _Knock on Wood: Luck, Chance, and the Meaning of Everything_ by Jeffrey S. Rosenthal https://www.goodreads.com/book/show/36300756-knock-on-wood
+
+### Articles
+
+-   Jeff's Canadian Supreme Court opinion writing article: <http://probability.ca/jeff/ftpdir/SCC_UTLJ.pdf>
+- Kaloskampis. (2019). _Synthetic data for public good_. https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/

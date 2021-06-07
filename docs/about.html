@@ -2138,7 +2138,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
     --title-color:     #000000;
-    --header-color:    #4f1e52;
+    --header-color:    #611E65;
     --body-color:      #000000;
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -2152,9 +2152,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /*-- ARTICLE METADATA --*/
   d-byline {
-    --heading-size:    0.6rem;
+    --heading-size:    1rem;
     --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
+    --body-size:       1rem;
     --body-color:      rgba(0, 0, 0, 0.8);
   }
 
@@ -2180,29 +2180,34 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #4f1e52;
+    --bkgd-color:       #3C143F;
+    padding: 20px 0px;
   }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #4f1e52;
+    --bkgd-color:       #3C143F;
   }
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
   a {
-    color: #4f1e52;
+    color: #611E65;
   }
 
   a:hover, a:active {
-    color: #4f1e52;
+    color: #87528A;
     text-decoration: underline;
   }
 
   ul > li::marker {
-    color: #4f1e52;
+    color: #87528A;
+  }
+
+  body {
+    background-color: #fffcfa;
   }
 
   .distill-site-header .logo img{
@@ -2220,8 +2225,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       font-weight: 300;
   }
 
+
+  d-title p {
+      font-weight: 20;
+  }
+
   d-appendix {
-    background-color: #faf7fd;
+    background-color: #F1DAC4;
     border-top: none;
   }
 
@@ -2232,7 +2242,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       text-decoration: none;
       color: initial;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2420,8 +2431,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
+<a href="index.Rmd">Blog</a>
+<a href="https://www.lizabolton.com">Back to main site</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
