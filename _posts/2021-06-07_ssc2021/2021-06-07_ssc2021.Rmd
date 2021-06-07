@@ -3,6 +3,9 @@ title: "My first Statistical Society of Canada Annual Meeting"
 description: |
   Notes and links from SSC2021. I often find I get the most from conferences if I take notes with the vague notion of sharing them. So this is mostly for me, but I hope it might be of interest to others, too. Note: This post will be updated sporadically.
 preview: images/SSCDesktopBannerMap.png
+categories: 
+  - conferences
+  - stats-ed
 author: Liza Bolton
 date: 2021-06-07
 output:
@@ -123,33 +126,31 @@ Big thanks to CANSSI for supporting this panel. <i class="fa fa-twitter"></i> [\
 
 <i class="fa fa-user"></i> [Michael Moon](https://www.statistics.utoronto.ca/people/directories/graduate-students/michael-jongho-moon), University of Toronto, <i class="fa fa-twitter"></i> [\@micbonmoon](https://twitter.com/micbonmoon)
 
-- Motivating example, you'll get different conclusions based on the choice to keep or remove an outlier when investigating hurricane names and people's response (question: do people take hurricane's less seriously if they have a feminine name?).
-- Familiar verbs from `dplyr`, removes need to do a bunch of error prone copy and pasting (systematic).
-- Interactive modules are being developed by the team. Great demo of a Shiny app for playing with the hurricane data. 
-- Submitting to CRAN sometime this summer.
+-   Motivating example, you'll get different conclusions based on the choice to keep or remove an outlier when investigating hurricane names and people's response (question: do people take hurricane's less seriously if they have a feminine name?).
+-   Familiar verbs from `dplyr`, removes need to do a bunch of error prone copy and pasting (systematic).
+-   Interactive modules are being developed by the team. Great demo of a Shiny app for playing with the hurricane data.
+-   Submitting to CRAN sometime this summer.
 
 Great presentation from Michael, and I'm super excited about playing with this package!
 
 #### Links
 
-- Slides: http://www.utstat.utoronto.ca/~moon/mverse-ssc21/#1
-- Package on GitHub: https://github.com/mverseanalysis/mverse
-- Steegen S, Tuerlinckx F, Gelman A, Vanpaemel W. _Increasing Transparency Through a Multiverse Analysis_. Perspectives on Psychological Science. 2016;11(5):702-712. doi:10.1177/1745691616658637 https://journals.sagepub.com/doi/10.1177/1745691616658637
+-   Slides: <http://www.utstat.utoronto.ca/~moon/mverse-ssc21/#1>
+-   Package on GitHub: <https://github.com/mverseanalysis/mverse>
+-   Steegen S, Tuerlinckx F, Gelman A, Vanpaemel W. *Increasing Transparency Through a Multiverse Analysis*. Perspectives on Psychological Science. 2016;11(5):702-712. <doi:10.1177/1745691616658637> <https://journals.sagepub.com/doi/10.1177/1745691616658637>
 
-
-### Independent Summer Statistics Community (ISSC): Building a sustainable online undergraduate student community with Cocurricular Activities and Experiential Learning Opportunities 
+### Independent Summer Statistics Community (ISSC): Building a sustainable online undergraduate student community with Cocurricular Activities and Experiential Learning Opportunities
 
 <i class="fa fa-user"></i> [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon), University of Toronto
 
-I was part of the ISSC team, so not notes, other than I think Nathalie did a fab job explaining it. 
+I was part of the ISSC team, so not notes, other than I think Nathalie did a fab job explaining it.
 
-Unofficial list of Canadian universities doing ASA DataFest: U of T, UBC, Waterloo, 
-MacEwan/University of Alberta — we should all be friends!
+Unofficial list of Canadian universities doing ASA DataFest: U of T, UBC, Waterloo, MacEwan/University of Alberta --- we should all be friends!
 
 #### Links
 
-- [Slides](pdfs/ISSC-SSC-presentation-2021.pdf) (pdf)
-- 2020 TidyTuesday activities on GitHub: https://github.com/elb0/ISSC
+-   [Slides](pdfs/ISSC-SSC-presentation-2021.pdf) (pdf)
+-   2020 TidyTuesday activities on GitHub: <https://github.com/elb0/ISSC>
 
 ### Online Homework Impact in an Introductory Statistics Course
 
@@ -159,7 +160,7 @@ Neat intro to [MyOpenMath](https://www.myopenmath.com/) advantages and how Thars
 
 #### Links
 
-- MyOpenMath: https://www.myopenmath.com
+-   MyOpenMath: <https://www.myopenmath.com>
 
 ### Tactile Response Experimental Analysis Toolkit (TREAT)
 
@@ -169,12 +170,77 @@ Some lovely data collection activities that students can do in class from a phon
 
 #### Links
 
-- Movement breaks that can be used in experiments https://ocw.utoronto.ca/movement-breaks/
+-   Movement breaks that can be used in experiments <https://ocw.utoronto.ca/movement-breaks/>
 
-#### Q&A for Statistical Education 2
+### Q&A for Statistical Education 2 session
 
-- Lot's of support for using Slack, though size/licensing can be challenging in large courses or with institution policy
-- Course emails are extremely helpful 
+-   Lot's of support for using Slack, though size/licensing can be challenging in large courses or with institution policy. Used for the Independent Summer Statistics Community and TA management by some courses at U of T.
+-   Course emails are extremely helpful! E.g., [sta303\@utoronto.ca](mailto:sta303@utoronto.ca){.email}. Add a communication policy to your syllabus about where to go for what. We say course email is only for personal/private matters and everything else should be done via Piazza, e.g., "How many pages should this assignment be?", "What's a likelihood ratio test?" etc.
+
+### Cautiously Constructing Charts
+
+<i class="fa fa-user"></i> [Michael Correll](https://correll.io/), Tableau
+
+-   "We're just making bar charts, what's ethically laden about that!" \**sarcasm intensifies*\*
+
+-   Types of bad visualizations: deceptive, fragile, bullshit ^[In the sense of Frankfurt's _On Bullshit_ http://www2.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf], evil
+
+-   Loved the example of the when bar charts should start at 0, but how this 'rule' is a major issue when you try to show line graphs of global temperature and demonstrate the serious increases.
+
+    -   So, when IS it okay to truncate the y-axis? The camps Michael identifies are: the anathemists, the line chart exceptionsists, the signalers (be really explicit about truncation!). The things is, there hasn't really be testing of effectiveness in any of this.
+    -   Further research suggests that rule following isn't going to cut it! The context of the charts AND the *intent* are very important.
+
+-   There are multiple places in the pipeline where things can go wrong, but this means there are places for us to intervene!
+
+    -   The **environment** is *curated* to **data** which is *wrangled* to **prepared data** which is *visualized* to get an **image** and that image is *read* by someone to get a **message.** (Michael has a nice image to go with this in his slides.)
+    
+-  Any human-computer interaction assistance project eventually just becomes Clippy.     
+
+#### Links
+
+-   <https://accidental-art.tumblr.com/>
+
+-   Frankfurt. (1986). *On bullshit*. <http://www2.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf>
+
+- McNutt, Kindlmannn & Correll. (2020). _Surfacing Visualization Mirages_ https://arxiv.org/abs/2001.02316
+
+- Correll. (2018). _Ethical Dimensions of Visualization Research_. https://arxiv.org/pdf/1811.07271.pdf ) if that helps.
+
+### The Case Against Explainable Artificial Intelligence and Machine Learning
+
+<i class="fa fa-user"></i> [Boris Babic](https://borisbabic.com/), INSEAD but soon to be U of T
+
+-  White box (like  a good ol' GLM that is easy for a human to understand) vs a black box (e.g., deep learning models), but of course there is lots of potential for grey boxes, like how many parameters is too many? What about level of understanding of the user?
+-  Explainable vs interprettable 
+- 'Ersatz understanding': in law/philosophy the idea of understanding is based in the 'why' between input and output.
+  -  Why isn't this genuine understanding? Example given of post-hoc judge's assistant noticing a pattern and saying that is why a decision was made for denying parole, when really there could be other reasons. The assistant is the white box approximation, but the judge is the black box. 'Pseudo-understanding'. 
+- We want explainable systems because this is tied to our ideas around accountability and trust.
+- We also want robustness (e.g., we'd expect similar advice for similar patients in a health context). White box approximations can give us a sense of ocal faithfulness but the potential to produce super different outcomes. 
+-   In summary, the main issues are pseudo/ersatz understanding—we have a false impression that we do understand what the black box is doing, the potential for non-stability when trying to use approximations, and the challenges due to existing issues with statistical literacy of data product users. Assumptions about causality, etc. 
+
+#### Links
+
+- Thanks to Jim Stallard for recommending _Data Visualization: Charts, Maps, and Interactive Graphics_ by Robert Grant https://www.goodreads.com/book/show/40684954-data-visualization
+- Boris and collaborators have a paper coming out in this topic. Keep an eye on his website: https://borisbabic.com/research/
+
+### Closer Than They Appear: A Bayesian Perspective On Individual-Level Heterogeneity In Risk Assessment
+
+<i class="fa fa-user"></i> [Kristian Lum](https://ldi.upenn.edu/expert/kristian-lum-phd-msc), UPenn, <i class="fa fa-twitter"></i> [\@KLDivergence](https://twitter.com/KLdivergence)
+
+- Kristian is so cool and I love any and every opportunity to hear her speak!
+- This presentation is introducing a new project around failure-to-appear in criminal processes.
+- FAT/FACT/FATE (algorithmic fairness acronyms)
+- There are differences between ideas of GROUP fairness and INDIVIDUAL fairness ("people who are similar should be treated similarly"). Kristian found that this was already being discussed in the risk assessment literature but in a different way. Group probabilities and uncertainty around group-wise rates. 
+- "People are certainly more than the weighted sum of their covariates"
+- We tend to have to make the assumption that, if we're only observing each person once, that their individual probability will be approcimates the group probability. This feels naughty. 
+- What about when you DO have multiple observations per person? Well, it allows us to "take seriously" the idea that each person should only be judged on their own actions. When using group probabilities, you are being 'judged' through the actions of others. 
+- In this project they are looking at using Bayesian random effects distributions and testing with a large Kentucky dataset. This tends to show us that we're in the 'large variance' situation where people are not closely grouped around their group mean. 
+- Risk assessments affect the trajectory of real people's lives. 
+
+#### Links
+
+-   Angwin, Larson, Mattu & Lauren Kirchner. (2016). ProPublica. _Machine Bias_. 
+ https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
 
 ## Reading list
 
@@ -184,8 +250,13 @@ Some lovely data collection activities that students can do in class from a phon
 
 -   *Knock on Wood: Luck, Chance, and the Meaning of Everything* by Jeffrey S. Rosenthal <https://www.goodreads.com/book/show/36300756-knock-on-wood>
 
+-  _Data Visualization: Charts, Maps, and Interactive Graphics_ by Robert Grant https://www.goodreads.com/book/show/40684954-data-visualization
+
 ### Articles
 
 -   Jeff's Canadian Supreme Court opinion writing article: <http://probability.ca/jeff/ftpdir/SCC_UTLJ.pdf>
 -   Kaloskampis. (2019). *Synthetic data for public good*. <https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/>
-- Steegen S, Tuerlinckx F, Gelman A, Vanpaemel W. _Increasing Transparency Through a Multiverse Analysis_. Perspectives on Psychological Science. 2016;11(5):702-712. doi:10.1177/1745691616658637 https://journals.sagepub.com/doi/10.1177/1745691616658637
+-   Steegen S, Tuerlinckx F, Gelman A, Vanpaemel W. *Increasing Transparency Through a Multiverse Analysis*. Perspectives on Psychological Science. 2016;11(5):702-712. <doi:10.1177/1745691616658637> <https://journals.sagepub.com/doi/10.1177/1745691616658637>
+-   McNutt, Kindlmannn & Correll. (2020). _Surfacing Visualization Mirages_ https://arxiv.org/abs/2001.02316
+-   Correll. (2018). _Ethical Dimensions of Visualization Research_. https://arxiv.org/pdf/1811.07271.pdf ) if that helps.
+
