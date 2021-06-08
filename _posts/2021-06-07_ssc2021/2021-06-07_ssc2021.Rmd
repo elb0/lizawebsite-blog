@@ -15,6 +15,11 @@ output:
     self_contained: false
 ---
 
+```{r, echo = FALSE, fig.cap="SSC 2021 Conference banner. Image description: Map of Canada with pink to red gradient from west to east on a black background. Test in top right says 2021 Annual Meeting - Virtual in English and French. All on black background."}
+
+knitr::include_graphics(images/SSCDesktopBannerMap.png)
+```
+
 <i class="fa fa-user"></i> [My SSC profile](https://ssc2021.us2.pathable.com/people/XzcrQr8XdXWt4vXoK)
 
 ## Talks you should go to (very biased recommendations)
@@ -232,7 +237,7 @@ Some lovely data collection activities that students can do in class from a phon
 - FAT/FACT/FATE (algorithmic fairness acronyms)
 - There are differences between ideas of GROUP fairness and INDIVIDUAL fairness ("people who are similar should be treated similarly"). Kristian found that this was already being discussed in the risk assessment literature but in a different way. Group probabilities and uncertainty around group-wise rates. 
 - "People are certainly more than the weighted sum of their covariates"
-- We tend to have to make the assumption that, if we're only observing each person once, that their individual probability will be approcimates the group probability. This feels naughty. 
+- We tend to have to make the assumption, if we're only observing each person once, that their individual probability will be approximated by the group probability. This feels naughty. 
 - What about when you DO have multiple observations per person? Well, it allows us to "take seriously" the idea that each person should only be judged on their own actions. When using group probabilities, you are being 'judged' through the actions of others. 
 - In this project they are looking at using Bayesian random effects distributions and testing with a large Kentucky dataset. This tends to show us that we're in the 'large variance' situation where people are not closely grouped around their group mean. 
 - Risk assessments affect the trajectory of real people's lives. 
@@ -241,6 +246,55 @@ Some lovely data collection activities that students can do in class from a phon
 
 -   Angwin, Larson, Mattu & Lauren Kirchner. (2016). ProPublica. _Machine Bias_. 
  https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+
+
+### On the Use of Auxiliary Variables in Multilevel Regression and Poststratification
+
+<i class="fa fa-user"></i> [Yajuan Si](http://www-personal.umich.edu/~yajuan/), University of Michigan, <i class="fa fa-twitter"></i> [\@yajuansi](https://twitter.com/yajuansi)
+
+-  MRP ("mister P") is multilevel regression (MR) and poststratification (P)
+-  "A model-based perspective of poststratification", Gelman and motivated by Little (1993)
+-  Proposed as a combo of modelling and design.
+-  Rooted in survey research but also modelling and has strong assumption, reliance on auxillary variables. 
+-  Fewer auxiliary, the better BUT it may violate conditional independence assumptions about cells. When constructing cells should use variables highly correlated with the outcome. 
+- "Shrinking from both sides".
+
+```{r, echo=FALSE, fig.cap="List of papers about MRP authored by Si and colleagues"}
+
+knitr::include_graphics("images/si-papers-list.png") 
+
+```
+
+#### Links
+
+- Little. (1993). _Post-Stratification: A Modeler's Perspective._ https://escholarship.org/uc/item/4np24519
+-  See list of papers above
+
+### Survey Calibration via the Generalized-Method-of-Moments (GMM)
+
+<i class="fa fa-user"></i> [Heng Chen](https://www.bankofcanada.ca/profile/heng-chen/), Bank of Canada
+
+-  Motivation: reports that people were concerned about transmission of COVID-19 via cash.
+- Consumer surveys to understand how people were using cash in response to the pandemic. April, July and November 2020. Interested in changes between first and second waves. 
+-  Three main variables of interest: Cash on hand, what proportion of people are using cash, what proportion of people plan to go cashless.
+-  Have repeated cross-sections and longitudinal data. 
+-  For cross-sectional data, considering propensity score, selection into surveys. Then can condition on Y on selection in to the given survey. Compare $Y_1 | S_I$ with $Y_2|S_2$
+-  For longitudinal, there is another 'propensity', that is to stay in both surveys, as well as the selction into the two survey waves.
+-  "covariate balancing", propensity scoring has two jobs: modelling the choice and balance between weighted sample and unbiased targets. The weight (with the PS) is what helps up balance the observed value to the unbiased target.
+-  Advantages of covariate balancing propensity scores: calibrated weights dual problem, "robust to (parametric) misspecification", can use GMM (stacking moments to get other parameters), flexible about the unbiased targets.
+- First, choose the covariates for the PS - they will be your denominator for the moment calculation. Second, get functional forms for the propensity scores for the selection into each survey and attrition measure (for longitudinal).
+- __Results for the cash research:__ Some decrease in cash on hand, but increase in having used cash and 
+
+#### Links
+
+-  Chen et al. (2020). _Cash and COVID-19: The impact of the pandemic on demand for and use of cash_. https://www.bankofcanada.ca/wp-content/uploads/2020/07/sdp2020-6.pdf
+
+
+### An initiative for promoting an inclusive, equitable and diverse environment at SSC
+
+Nothing specific to say other than how glad I am that SSC and NSERC and CANSSI and partner institutions are committed to improving EDI. 
+
+<i class="fa fa-twitter"></i> Folks to follow: [\@BouchraNasri](https://twitter.com/BouchraNasri), [\@donestep1](https://twitter.com/donestep1), [\@statacake](https://twitter.com/statacake),  [\@alejandroadem](https://twitter.com/alejandroadem)
 
 ## Reading list
 
