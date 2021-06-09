@@ -17,7 +17,7 @@ output:
 
 ```{r, echo = FALSE, fig.cap="SSC 2021 Conference banner. Image description: Map of Canada with pink to red gradient from west to east on a black background. Test in top right says 2021 Annual Meeting - Virtual in English and French. All on black background."}
 
-knitr::include_graphics(images/SSCDesktopBannerMap.png)
+knitr::include_graphics("images/SSCDesktopBannerMap.png")
 ```
 
 <i class="fa fa-user"></i> [My SSC profile](https://ssc2021.us2.pathable.com/people/XzcrQr8XdXWt4vXoK)
@@ -112,8 +112,8 @@ Here are several links that were referred to during that talk or shared in chat.
 -   What is inference vs what is disclosure.
 -   Uniqueness: if you publish something that is unique to one person, that is disclosure and that is fairly well agreed upon. BUT, what about as is scales up? What features makes these different, in context?
 -   What 'privacy' is interpreted as is context dependent, and expressed through jurisdictional law.
--   Synthetic data generates new data by random draws from preditice models.
--   Differential privacy is a "pertubation tool", a way to add noise/misclassify probabilistically.
+-   Synthetic data generates new data by random draws from predictive models.
+-   Differential privacy is a "perturbation tool", a way to add noise/misclassify probabilistically.
 -   A wider ethical consider in this area is the question of which predictions are intrusions in unacceptable ways. This is more of an ethical/philosophical. When should we *not* make inferences?
 -   How can we learn from others who have been doing risk communication (e.g., around health) to improve our own practices in official statistics
 
@@ -188,18 +188,20 @@ Some lovely data collection activities that students can do in class from a phon
 
 -   "We're just making bar charts, what's ethically laden about that!" \**sarcasm intensifies*\*
 
--   Types of bad visualizations: deceptive, fragile, bullshit ^[In the sense of Frankfurt's _On Bullshit_ http://www2.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf], evil
+-   Types of bad visualizations: deceptive, fragile, bullshit [^1], evil
 
 -   Loved the example of the when bar charts should start at 0, but how this 'rule' is a major issue when you try to show line graphs of global temperature and demonstrate the serious increases.
 
-    -   So, when IS it okay to truncate the y-axis? The camps Michael identifies are: the anathemists, the line chart exceptionsists, the signalers (be really explicit about truncation!). The things is, there hasn't really be testing of effectiveness in any of this.
+    -   So, when IS it okay to truncate the y-axis? The camps Michael identifies are: the anathemists, the line chart exceptionists, the signalers (be really explicit about truncation!). The things is, there hasn't really be testing of effectiveness in any of this.
     -   Further research suggests that rule following isn't going to cut it! The context of the charts AND the *intent* are very important.
 
 -   There are multiple places in the pipeline where things can go wrong, but this means there are places for us to intervene!
 
     -   The **environment** is *curated* to **data** which is *wrangled* to **prepared data** which is *visualized* to get an **image** and that image is *read* by someone to get a **message.** (Michael has a nice image to go with this in his slides.)
-    
--  Any human-computer interaction assistance project eventually just becomes Clippy.     
+
+-   Any human-computer interaction assistance project eventually just becomes Clippy.
+
+[^1]: In the sense of Frankfurt's *On Bullshit* <http://www2.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf>
 
 #### Links
 
@@ -207,57 +209,61 @@ Some lovely data collection activities that students can do in class from a phon
 
 -   Frankfurt. (1986). *On bullshit*. <http://www2.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf>
 
-- McNutt, Kindlmannn & Correll. (2020). _Surfacing Visualization Mirages_ https://arxiv.org/abs/2001.02316
+-   McNutt, Kindlmannn & Correll. (2020). *Surfacing Visualization Mirages* <https://arxiv.org/abs/2001.02316>
 
-- Correll. (2018). _Ethical Dimensions of Visualization Research_. https://arxiv.org/pdf/1811.07271.pdf ) if that helps.
+-   Correll. (2018). *Ethical Dimensions of Visualization Research*. <https://arxiv.org/pdf/1811.07271.pdf> ) if that helps.
 
 ### The Case Against Explainable Artificial Intelligence and Machine Learning
 
 <i class="fa fa-user"></i> [Boris Babic](https://borisbabic.com/), INSEAD but soon to be U of T
 
--  White box (like  a good ol' GLM that is easy for a human to understand) vs a black box (e.g., deep learning models), but of course there is lots of potential for grey boxes, like how many parameters is too many? What about level of understanding of the user?
--  Explainable vs interprettable 
-- 'Ersatz understanding': in law/philosophy the idea of understanding is based in the 'why' between input and output.
-  -  Why isn't this genuine understanding? Example given of post-hoc judge's assistant noticing a pattern and saying that is why a decision was made for denying parole, when really there could be other reasons. The assistant is the white box approximation, but the judge is the black box. 'Pseudo-understanding'. 
-- We want explainable systems because this is tied to our ideas around accountability and trust.
-- We also want robustness (e.g., we'd expect similar advice for similar patients in a health context). White box approximations can give us a sense of ocal faithfulness but the potential to produce super different outcomes. 
--   In summary, the main issues are pseudo/ersatz understanding—we have a false impression that we do understand what the black box is doing, the potential for non-stability when trying to use approximations, and the challenges due to existing issues with statistical literacy of data product users. Assumptions about causality, etc. 
+-   White box (like a good ol' GLM that is easy for a human to understand) vs a black box (e.g., deep learning models), but of course there is lots of potential for grey boxes, like how many parameters is too many? What about level of understanding of the user?
+
+-   Explainable vs interprettable
+
+-   'Ersatz understanding': in law/philosophy the idea of understanding is based in the 'why' between input and output.
+
+    -   Why isn't this genuine understanding? Example given of post-hoc judge's assistant noticing a pattern and saying that is why a decision was made for denying parole, when really there could be other reasons. The assistant is the white box approximation, but the judge is the black box. 'Pseudo-understanding'.
+
+-   We want explainable systems because this is tied to our ideas around accountability and trust.
+
+-   We also want robustness (e.g., we'd expect similar advice for similar patients in a health context). White box approximations can give us a sense of ocal faithfulness but the potential to produce super different outcomes.
+
+-   In summary, the main issues are pseudo/ersatz understanding---we have a false impression that we do understand what the black box is doing, the potential for non-stability when trying to use approximations, and the challenges due to existing issues with statistical literacy of data product users. Assumptions about causality, etc.
 
 #### Links
 
-- Thanks to Jim Stallard for recommending _Data Visualization: Charts, Maps, and Interactive Graphics_ by Robert Grant https://www.goodreads.com/book/show/40684954-data-visualization
-- Boris and collaborators have a paper coming out in this topic. Keep an eye on his website: https://borisbabic.com/research/
+-   Thanks to Jim Stallard for recommending *Data Visualization: Charts, Maps, and Interactive Graphics* by Robert Grant <https://www.goodreads.com/book/show/40684954-data-visualization>
+-   Boris and collaborators have a paper coming out in this topic. Keep an eye on his website: <https://borisbabic.com/research/>
 
 ### Closer Than They Appear: A Bayesian Perspective On Individual-Level Heterogeneity In Risk Assessment
 
 <i class="fa fa-user"></i> [Kristian Lum](https://ldi.upenn.edu/expert/kristian-lum-phd-msc), UPenn, <i class="fa fa-twitter"></i> [\@KLDivergence](https://twitter.com/KLdivergence)
 
-- Kristian is so cool and I love any and every opportunity to hear her speak!
-- This presentation is introducing a new project around failure-to-appear in criminal processes.
-- FAT/FACT/FATE (algorithmic fairness acronyms)
-- There are differences between ideas of GROUP fairness and INDIVIDUAL fairness ("people who are similar should be treated similarly"). Kristian found that this was already being discussed in the risk assessment literature but in a different way. Group probabilities and uncertainty around group-wise rates. 
-- "People are certainly more than the weighted sum of their covariates"
-- We tend to have to make the assumption, if we're only observing each person once, that their individual probability will be approximated by the group probability. This feels naughty. 
-- What about when you DO have multiple observations per person? Well, it allows us to "take seriously" the idea that each person should only be judged on their own actions. When using group probabilities, you are being 'judged' through the actions of others. 
-- In this project they are looking at using Bayesian random effects distributions and testing with a large Kentucky dataset. This tends to show us that we're in the 'large variance' situation where people are not closely grouped around their group mean. 
-- Risk assessments affect the trajectory of real people's lives. 
+-   Kristian is so cool and I love any and every opportunity to hear her speak!
+-   This presentation is introducing a new project around failure-to-appear in criminal processes.
+-   FAT/FACT/FATE (algorithmic fairness acronyms)
+-   There are differences between ideas of GROUP fairness and INDIVIDUAL fairness ("people who are similar should be treated similarly"). Kristian found that this was already being discussed in the risk assessment literature but in a different way. Group probabilities and uncertainty around group-wise rates.
+-   "People are certainly more than the weighted sum of their covariates"
+-   We tend to have to make the assumption, if we're only observing each person once, that their individual probability will be approximated by the group probability. This feels naughty.
+-   What about when you DO have multiple observations per person? Well, it allows us to "take seriously" the idea that each person should only be judged on their own actions. When using group probabilities, you are being 'judged' through the actions of others.
+-   In this project they are looking at using Bayesian random effects distributions and testing with a large Kentucky dataset. This tends to show us that we're in the 'large variance' situation where people are not closely grouped around their group mean.
+-   Risk assessments affect the trajectory of real people's lives.
 
 #### Links
 
--   Angwin, Larson, Mattu & Lauren Kirchner. (2016). ProPublica. _Machine Bias_. 
- https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
-
+-   Angwin, Larson, Mattu & Lauren Kirchner. (2016). ProPublica. *Machine Bias*. <https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing>
 
 ### On the Use of Auxiliary Variables in Multilevel Regression and Poststratification
 
 <i class="fa fa-user"></i> [Yajuan Si](http://www-personal.umich.edu/~yajuan/), University of Michigan, <i class="fa fa-twitter"></i> [\@yajuansi](https://twitter.com/yajuansi)
 
--  MRP ("mister P") is multilevel regression (MR) and poststratification (P)
--  "A model-based perspective of poststratification", Gelman and motivated by Little (1993)
--  Proposed as a combo of modelling and design.
--  Rooted in survey research but also modelling and has strong assumption, reliance on auxillary variables. 
--  Fewer auxiliary, the better BUT it may violate conditional independence assumptions about cells. When constructing cells should use variables highly correlated with the outcome. 
-- "Shrinking from both sides".
+-   MRP ("mister P") is multilevel regression (MR) and poststratification (P)
+-   "A model-based perspective of poststratification", Gelman and motivated by Little (1993)
+-   Proposed as a combo of modelling and design.
+-   Rooted in survey research but also modelling and has strong assumption, reliance on auxillary variables.
+-   Fewer auxiliary, the better BUT it may violate conditional independence assumptions about cells. When constructing cells should use variables highly correlated with the outcome.
+-   "Shrinking from both sides".
 
 ```{r, echo=FALSE, fig.cap="List of papers about MRP authored by Si and colleagues"}
 
@@ -267,34 +273,108 @@ knitr::include_graphics("images/si-papers-list.png")
 
 #### Links
 
-- Little. (1993). _Post-Stratification: A Modeler's Perspective._ https://escholarship.org/uc/item/4np24519
--  See list of papers above
+-   Little. (1993). *Post-Stratification: A Modeler's Perspective.* <https://escholarship.org/uc/item/4np24519>
+-   See list of papers above
 
 ### Survey Calibration via the Generalized-Method-of-Moments (GMM)
 
 <i class="fa fa-user"></i> [Heng Chen](https://www.bankofcanada.ca/profile/heng-chen/), Bank of Canada
 
--  Motivation: reports that people were concerned about transmission of COVID-19 via cash.
-- Consumer surveys to understand how people were using cash in response to the pandemic. April, July and November 2020. Interested in changes between first and second waves. 
--  Three main variables of interest: Cash on hand, what proportion of people are using cash, what proportion of people plan to go cashless.
--  Have repeated cross-sections and longitudinal data. 
--  For cross-sectional data, considering propensity score, selection into surveys. Then can condition on Y on selection in to the given survey. Compare $Y_1 | S_I$ with $Y_2|S_2$
--  For longitudinal, there is another 'propensity', that is to stay in both surveys, as well as the selction into the two survey waves.
--  "covariate balancing", propensity scoring has two jobs: modelling the choice and balance between weighted sample and unbiased targets. The weight (with the PS) is what helps up balance the observed value to the unbiased target.
--  Advantages of covariate balancing propensity scores: calibrated weights dual problem, "robust to (parametric) misspecification", can use GMM (stacking moments to get other parameters), flexible about the unbiased targets.
-- First, choose the covariates for the PS - they will be your denominator for the moment calculation. Second, get functional forms for the propensity scores for the selection into each survey and attrition measure (for longitudinal).
-- __Results for the cash research:__ Some decrease in cash on hand, but increase in having used cash and 
+-   Motivation: reports that people were concerned about transmission of COVID-19 via cash.
+-   Consumer surveys to understand how people were using cash in response to the pandemic. April, July and November 2020. Interested in changes between first and second waves.
+-   Three main variables of interest: Cash on hand, what proportion of people are using cash, what proportion of people plan to go cashless.
+-   Have repeated cross-sections and longitudinal data.
+-   For cross-sectional data, considering propensity score, selection into surveys. Then can condition on Y on selection in to the given survey. Compare $Y_1 | S_I$ with $Y_2|S_2$
+-   For longitudinal, there is another 'propensity', that is to stay in both surveys, as well as the selction into the two survey waves.
+-   "covariate balancing", propensity scoring has two jobs: modelling the choice and balance between weighted sample and unbiased targets. The weight (with the PS) is what helps up balance the observed value to the unbiased target.
+-   Advantages of covariate balancing propensity scores: calibrated weights dual problem, "robust to (parametric) misspecification", can use GMM (stacking moments to get other parameters), flexible about the unbiased targets.
+-   First, choose the covariates for the PS - they will be your denominator for the moment calculation. Second, get functional forms for the propensity scores for the selection into each survey and attrition measure (for longitudinal).
+-   **Results for the cash research:** Some decrease in cash on hand, but increase in having used cash and
 
 #### Links
 
--  Chen et al. (2020). _Cash and COVID-19: The impact of the pandemic on demand for and use of cash_. https://www.bankofcanada.ca/wp-content/uploads/2020/07/sdp2020-6.pdf
-
+-   Chen et al. (2020). *Cash and COVID-19: The impact of the pandemic on demand for and use of cash*. <https://www.bankofcanada.ca/wp-content/uploads/2020/07/sdp2020-6.pdf>
 
 ### An initiative for promoting an inclusive, equitable and diverse environment at SSC
 
-Nothing specific to say other than how glad I am that SSC and NSERC and CANSSI and partner institutions are committed to improving EDI. 
+Nothing specific to say other than how glad I am that SSC and NSERC and CANSSI and partner institutions are committed to improving EDI.
 
-<i class="fa fa-twitter"></i> Folks to follow: [\@BouchraNasri](https://twitter.com/BouchraNasri), [\@donestep1](https://twitter.com/donestep1), [\@statacake](https://twitter.com/statacake),  [\@alejandroadem](https://twitter.com/alejandroadem)
+<i class="fa fa-twitter"></i> Folks to follow: [\@BouchraNasri](https://twitter.com/BouchraNasri), [\@donestep1](https://twitter.com/donestep1), [\@statacake](https://twitter.com/statacake), [\@alejandroadem](https://twitter.com/alejandroadem)
+
+### A Gentle Introduction to the Poisson Process for a Third Year Probability Course
+
+<i class="fa fa-user"></i> [Lengyi Han](https://cmps.ok.ubc.ca/about/contact/lengyi-han/), UBC
+
+-   Han proposes that the usual ways of introducing Poisson processes and notation can be quite difficult for students, especially to connect to real world examples.
+
+-   Motivation with a Bernoulli process example (arrivals at a bank)
+
+-   Suppose we divide the time in question (say 60 minutes) into equal sub-intervals and a person can only arrive at the midpoint of a sub-interval.
+
+-   If we make finer and finer sub-intervals we show that the Poisson and Bernoulli process will be approximately the same for sufficiently large $n$.
+
+-   After the above, reiterate the assumptions and conditions for a Bernoulli process. From here, students can see that as the interval width tends to 0, we get the Poisson dist.
+
+-   Specifically, the Bernoulli procress avoids the use of $o(h)$ notation and student work through the derivation, motivating the use of this notation as helpful instead of obscure.
+
+    -   Use Taylor expansion
+
+#### Links
+
+-   Lawerence Leemis on YouTube <https://www.youtube.com/channel/UCoXVQ0xV2VOk3XrREv5061w>
+
+### The Development and Implementation of a Toolkit for Learning R at all Levels
+
+<i class="fa fa-user"></i> [Sam Caetano](https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano) (presenting), University of Toronto <i class="fa fa-twitter"></i> [\@StatisticalSam](https://twitter.com/StatisticalSam)
+
+<i class="fa fa-twitter"></i> Also check out: [\@RohanAlexander](https://twitter.com/RohanAlexander), [\@michaelycchong](https://twitter.com/michaelycchong), [\@pailfodgetts](https://twitter.com/pailfodgetts)
+
+-   This was an awesome example of a large team education innovation project! 2 faculty leads, 2 graduate students and 8 undergraduate students (+support from the department)
+-   Students learned a lot about GitHub and collaboration as part of their RA roles.
+-   There are introductions for complete beginners and it is also very 'jump-in-able' for folks who are already some of the way there.
+-   Suggested implementation: could have quiz questions in class quizzes related to the
+
+#### Links
+
+-   Toolkit home page: <https://dosstoolkit.com/>
+-   Read the paper! <https://arxiv.org/abs/2105.09347>
+-   `learnr` package is great for creating interactive tutorials: <https://rstudio.github.io/learnr/>
+
+### Developing and Revising the Student Survey of Motivational Attitudes Toward Statistics: Results from a Pilot Study
+
+<i class="fa fa-user"></i> [Douglas Whitaker](https://www.msvu.ca/academics/bachelor-of-science-bsc/mathematics/meet-our-faculty/douglas-whitaker/), Mount Saint Vincent University <i class="fa fa-twitter"></i> [\@DouglasWhitaker](https://twitter.com/douglaswhitaker)
+
+-   S-SOMAS: Student Survey of MOtivational Attitude toward Statistics
+
+-   One of family of 6 instruments. 2 x topics (statistics, data science) across 3 x types (student, instructor and environment)
+
+-   MASDER: Motivational Attitudes in Statistics and Data Science Education Research team
+
+-   "Expectancy-Value Theory": achievement-related choices and performance are affected by what you **value** and what you **expect to happen**. EVERYTHING else operate through one or both of these.
+
+-   Use PCA, check the loadings/dimensionality before item response theory.
+
+    -   Example given of 'who can do stats' vs 'overall difficulty' on the 'difficult' scale. The two 'who can do' items looks different to the others.
+    -   Saw some substantial misfit
+    -   `eRm` package (Mair et al., 2021), `mirt` package (Chalmers, 2012) for generalized partial credit.
+
+I'm looking forward to seeing how these tools develop!
+
+### Using a "Midterm Warning System" to Improve Student Performance and Engagement in an Introductory Statistics Course: An ongoing RCT Study
+
+<i class="fa fa-user"></i> [Nooshin Rotondi](https://healthsciences.ontariotechu.ca/people/faculty/nooshin-rotondi.php), Ontario Tech University
+
+-   Background: intro stats for health care students, 'have to' be there as opposed to choosing statistics
+-   Measured demographics, response on scale and performance
+-   RCT with two groups, intervention (personalized email) vs control (no personalized email, as per standard practice)
+-   All resources mentioned in personalized emails had been previously shared with the whole class as part of standard practice.
+
+Loved this talk! Excited to see next steps.
+
+#### Links
+
+-   Deslauriers et al. (2012). *Transforming the Lowest-Performing Students: An Intervention That Worked*. <https://www.sei.ubc.ca/bitstream/seima/2141/1/Harris_Intervention_JCST2012.pdf>
+-   Gordanier, Hauk & Sankaran. (2019). *Early intervention in college classes and improved student outcomes*. <https://www.sciencedirect.com/science/article/abs/pii/S0272775718305272>
 
 ## Reading list
 
@@ -304,13 +384,13 @@ Nothing specific to say other than how glad I am that SSC and NSERC and CANSSI a
 
 -   *Knock on Wood: Luck, Chance, and the Meaning of Everything* by Jeffrey S. Rosenthal <https://www.goodreads.com/book/show/36300756-knock-on-wood>
 
--  _Data Visualization: Charts, Maps, and Interactive Graphics_ by Robert Grant https://www.goodreads.com/book/show/40684954-data-visualization
+-   *Data Visualization: Charts, Maps, and Interactive Graphics* by Robert Grant <https://www.goodreads.com/book/show/40684954-data-visualization>
 
 ### Articles
 
 -   Jeff's Canadian Supreme Court opinion writing article: <http://probability.ca/jeff/ftpdir/SCC_UTLJ.pdf>
 -   Kaloskampis. (2019). *Synthetic data for public good*. <https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/>
--   Steegen S, Tuerlinckx F, Gelman A, Vanpaemel W. *Increasing Transparency Through a Multiverse Analysis*. Perspectives on Psychological Science. 2016;11(5):702-712. <doi:10.1177/1745691616658637> <https://journals.sagepub.com/doi/10.1177/1745691616658637>
--   McNutt, Kindlmannn & Correll. (2020). _Surfacing Visualization Mirages_ https://arxiv.org/abs/2001.02316
--   Correll. (2018). _Ethical Dimensions of Visualization Research_. https://arxiv.org/pdf/1811.07271.pdf ) if that helps.
-
+-   Steegen S, Tuerlinck F, Gelman A, Vanpaemel W. *Increasing Transparency Through a Multiverse Analysis*. Perspectives on Psychological Science. 2016;11(5):702-712. <doi:10.1177/1745691616658637> <https://journals.sagepub.com/doi/10.1177/1745691616658637>
+-   McNutt, Kindlmannn & Correll. (2020). *Surfacing Visualization Mirages* <https://arxiv.org/abs/2001.02316>
+-   Correll. (2018). *Ethical Dimensions of Visualization Research*. <https://arxiv.org/pdf/1811.07271.pdf> ) if that helps.
+-   Deslauriers et al. (2012). *Transforming the Lowest-Performing Students: An Intervention That Worked*. <https://www.sei.ubc.ca/bitstream/seima/2141/1/Harris_Intervention_JCST2012.pdf>
