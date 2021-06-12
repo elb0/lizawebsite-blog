@@ -376,6 +376,58 @@ Loved this talk! Excited to see next steps.
 -   Deslauriers et al. (2012). *Transforming the Lowest-Performing Students: An Intervention That Worked*. <https://www.sei.ubc.ca/bitstream/seima/2141/1/Harris_Intervention_JCST2012.pdf>
 -   Gordanier, Hauk & Sankaran. (2019). *Early intervention in college classes and improved student outcomes*. <https://www.sciencedirect.com/science/article/abs/pii/S0272775718305272>
 
+### Data Science and Analytics Section Workshop
+
+<i class="fa fa-user"></i> [Chris Holdgraf](), 2i2c.org, <i class="fa fa-twitter"></i> [\@choldgraf](https://twitter.com/choldgraf)
+
+> An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.
+>
+> \~ Buckheit and Donoho\
+> WaveLab and Reproducible Research, 1995
+
+-   "Jupyter and the last mile problem"
+
+-   "Jupyter is a **community** of people and an **ecosystem** open tools and standard for interactive computing"
+
+-   Language agnostic: "empower people to use open tools"
+
+-   Metaphor of getting you to a coffee shop: walk? pay someone to drive you? use public infrastructure?
+
+    -   What Chris would prefer (for himself and us all) is the public option!
+    -   Take this idea and apply it to creating a great technical report.
+
+-   The notebook experience combines a document standard, and environment (R, Python, etc.), and an interface.
+
+-   Notebooks are "structured but generic". The can have many different front ends, for <example:'classic>', JupyterLab and nteract.
+
+-   JupyterLab is meant to provide a more flexible and customizable space. It is sandalone as a UI, but you can also put components together, Lego-style into the UI you need.
+
+-   Real-time collaboration is being worked on!! Still an early prototype, but I am so excited.
+
+-   Jupyter Book and MyST (pronounced 'mist')
+
+-   Markdown is usually not extensible, but MyST lets you set out roles and directives. Can add images and include references.
+
+-   Want JupyterHub for a small user base (2-80 people)? The Littlest JupyterHub (tljh.jupyter.org). For larger groups, JupyterHub on Kubernetes.
+
+-   Data8.org / inferentialthinking.org
+
+-   We've been using JupyterHub in teaching at U of T for almost a year now, and it has been working really well. I use it with R and it also allows us to use RStudio which is really nice. Big thanks to Nathan Taback who has been leading this from our side, and to the members of 2i2c.org that have been helping us. Highly recommend.
+
+-   I really like Chris' emphasis on design principles in this talk.
+
+The rest of the session was hand on workshops from David Liu, Nathan Taback (<i class="fa fa-twitter"></i> [\@NathanTaback](https://twitter.com/NathanTaback)) and Nathaniel Stevens.  <https://github.com/ssc-datascience/pythonjupyter_wshop2021> They were really good!
+
+#### Links
+
+-   Chris Holdgraf's personal website: <https://predictablynoisy.com/>
+-   Jupyter <https://jupyter.org/> and JupyterHub <https://jupyter.org/hub>
+-   <https://2i2c.org/> (Chris is Director)
+-   Binder <https://mybinder.org/>
+-   JupyterBook for publishing <https://jupyterbook.org> (like bookdown, cool!)
+-   Gorgeous images from Scriberia about data work: <https://zenodo.org/record/3332808>
+-   Pangeo <https://pangeo.io> a community platform for Big Data geoscience
+
 ## Reading list
 
 ### Books
