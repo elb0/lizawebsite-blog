@@ -416,7 +416,11 @@ Loved this talk! Excited to see next steps.
 
 -   I really like Chris' emphasis on design principles in this talk.
 
-The rest of the session was hand on workshops from David Liu, Nathan Taback (<i class="fa fa-twitter"></i> [\@NathanTaback](https://twitter.com/NathanTaback)) and Nathaniel Stevens.  <https://github.com/ssc-datascience/pythonjupyter_wshop2021> They were really good!
+The rest of the session was hand on workshops from [David Liu](https://www.cs.toronto.edu/~david/), Nathan Taback (<i class="fa fa-twitter"></i> [\@NathanTaback](https://twitter.com/NathanTaback)) and [Nathaniel Stevens](https://uwaterloo.ca/statistics-and-actuarial-science/about/people/nstevens).  <https://github.com/ssc-datascience/pythonjupyter_wshop2021> They were really good!
+
+There was a great discussion with all the panellists at the end about R vs Python \*shudder\*. Python is a more general programming language and is much more commonly used in data science, especially when it comes to putting it into production. Python is still (currently) weaker on some of the complex statistical tasks (e.g., advanced time series). For many purposes, both work well, but need to thoughtful about the context.
+
+Nathaniel mentioned that some orgs are 'language agnostic', but that usually just applies to 'tinkering'. If you're putting things into a production pipeline, having them all in the same langauge tends to be better. 
 
 #### Links
 

@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-06-12T16:11:31-04:00"
+      "last_modified": "2021-06-25T14:33:33-04:00"
     },
     {
       "path": "index.html",
       "title": "Data analysis, statistics education and more.",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-06-12T16:11:31-04:00"
+      "last_modified": "2021-06-25T14:33:33-04:00"
     }
   ],
   "collections": ["posts/posts.json"]
