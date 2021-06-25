@@ -1,7 +1,7 @@
 ---
 title: "My first Statistical Society of Canada Annual Meeting"
 description: |
-  Notes and links from SSC2021. I often find I get the most from conferences if I take notes with the vague notion of sharing them. So this is mostly for me, but I hope it might be of interest to others, too. Note: This post will be updated sporadically.
+  Notes and links from SSC2021. I often find I get the most from conferences if I take notes with the vague notion of sharing them. So this is mostly for me, but I hope it might be of interest to others, too.
 preview: images/SSCDesktopBannerMap.png
 categories: 
   - conferences

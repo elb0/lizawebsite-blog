@@ -1,0 +1,104 @@
+---
+title: "USCOTS 2021"
+description: |
+    Notes and links from USCOTS 2021. I often find I get the most from conferences if I take notes with the vague notion of sharing them. So this is mostly for me, but I hope it might be of interest to others, too. Note: This post will be updated sporadically.
+preview: images/uscots.png
+categories: 
+  - conferences
+  - stats-ed
+date: 2021-06-28
+author: Liza Bolton
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
+---
+
+United States Conference on Teaching Statistics https://www.causeweb.org/cause/uscots/uscots21
+
+Program: https://www.causeweb.org/cause/uscots/uscots21/program
+
+## Going Live: Live Coding as an (Incredibly) Effective Tool for Teaching Programming
+
+<i class="fa fa-user"></i> [Mine Cetinkya-Rundel](https://www2.stat.duke.edu/~mc301/), Duke, University of Edinburgh, RStudio, <i class="fa fa-twitter"></i> [\@minebocek](https://twitter.com/minebocek)
+
+
+<i class="fa fa-book"></i> Resources from Mine: https://mine-cetinkaya-rundel.github.io/golive-uscots/ (slides have all the links and are a great example of nice Xaringan slides...or at least I assume that's what she's used. They look great.)
+
+#### Benefits of live coding
+
+- It slows you down! 
+- You actually say the name of the functions, modelling pronunciation and making it easier for students to ask questions about it!
+- you are showing process thinking as well. How do you set up your workflow?
+- "Unintended knowledge transfer" how do you learn more, watching a YouTube cook-through or reading a recipe.
+- TURN 👏 YOUR 👏 ERRORS 👏 INTO 👏 TEACHABLE 👏 MOMENTS
+  - shows you don't have to be perfect to be able to code!
+  - but this can be embarrassing or stressful...have the "something I prepared earlier" cooking show approach. 
+  - promise the follow-up if you can't resolve the error on the fly, have a plan B so you can be more comfortable.
+  - Can model things like standard practice of putting loaded packages at the beginning but SHOW that you don't always know all the ones you want to use and so you'll add back at the top as you go (demonstrates order)
+- RUN RUN RUN! You're not being charged for each run, be as lavish as you like.
+- Emphasizes importance (without you having to learn to fight Xaringan...)
+
+There is empirical evidence (largely from the CS literature) about this being useful for students.
+
+#### BUT! Don't _just_ live code
+
+- More formats to engage > just one
+- Easy to lose/demotivate people
+- Can be hard to capture (better with recording)
+- Switching between contexts (slides, live code) is a useful signal and moment to re-engage
+
+
+#### How do we decide?
+
+- Live code first if it's how you use tools, like reprexes or using GitHub
+- Static first: new syntax and interpreting results
+
+#### Live coding considerations
+
+- TEST, TEST, TEST, does this work on small screens? (Online)
+- What's the experience of the person at the back (In-person)
+- Mine's students requested that she code with a dark background, because they were watching videos at night.
+  - You can show how to set up the theming, too!
+- When live coding in Zoom, Mine has moved the console up to the top right (on Zoom) to help it be less occluded by the Zoom bar. (Show them how to do it!)
+- For webinars and webcasts, Mine does short videos that she can narrate.
+- Have a way to show the student experience of a tool (like a student account)
+- Changed camera location of speaker to show different interaction styles. For the application exercises, where students are likely to code-along, the location is better for typing, vs something that is more focused on just watching the screen.
+- Can use learnR modules for more 'on rails' live coding. 
+
+#### General list of things I like when Mine teaches and that I should copy:
+
+- Shares and reshares links in chat
+- Has shortlink in footer of every slide
+- Model running code that doesn't run because you didn't load the package
+- Down arrow runs all code chunks above
+- Browser pop-up "You have not done anything wrong"
+  - "Show restraint from your usual workflow" try not to just auto-close a pop-up you know well but they've never seen
+  - Gear icon (next to Knit) to stop treating like an notebook and just output to console. 
+- Start with factory settings and teach customization
+
+#### Links
+
+- Speaking R from Amelia McNamara
+  - Video: https://www.youtube.com/watch?v=ckW9sSdIVAc (thanks Nick Seewald)
+  - Slides: https://www.amelia.mn/SpeakingR/#1 (thanks Allison Theobold)
+- 📦 `livecode` from Mine https://github.com/rundel/livecode
+  - Caveat: work being done!
+- 📦 `asciicast` https://github.com/r-lib/asciicast
+- Mouseposé for showing what you're typing! I'm in love!
+- Operating in an error prone world module from the DoSS toolkit https://dosstoolkit.com/#operating-in-an-error-prone-world
+
+
+## Reading list
+
+### Books
+
+- Wilson, G. (2019). _Teaching Tech Together
+How to create and deliver lessons that work
+and build a teaching community around them._ https://teachtogether.tech/en/index.html
+
+### Articles
+
+- Rubin, Marc J., (2013). _The effectiveness of live-coding to teach introductory programming_. https://dl.acm.org/doi/10.1145/2445196.2445388
+- Raj, Patel, Halverson, Halverson. (2018). _Role of Live-coding in Learning Introductory Programming_. https://dl.acm.org/doi/10.1145/3279720.3279725
