@@ -1,0 +1,127 @@
+---
+title: "Learning from Data: The Two Cultures (journal club)"
+description: |
+  Some notes and questions based on Breiman's article before
+author:
+  - name: Liza Bolton
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+These are some notes for a fairly impromptu journal club for the
+Independent Summer Statistics Community in the Department of Statistical
+Sciences at the University of Toronto. The idea is to chat about the
+original article before going to a talk called 'Learning from Data: The
+Two Cultures'.
+([Info/registration](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&referrer=https%3A%2F%2Fwcc.on24.com%2F&eventid=3142820&sessionid=1&key=1361B84658C58CAC0A99AFE43B1ED10D&regTag=&V2=false&sourcepage=register)).
+The speaker is Adji Bousso Dieng (Founder, The Africa I Know; Google AI;
+Princeton University (Incoming)) and moderator is David Blei (Columbia
+University; ACM Prize in Computing Recipient).
+
+**Breiman's article, free and in full:
+[http://www2.math.uu.se/\~thulin/mm/breiman.pdf](http://www2.math.uu.se/~thulin/mm/breiman.pdf__){.uri}.**
+
+## Check list before we get started
+
+<input type="checkbox" unchecked></input> [Registered for the
+talk](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&referrer=https%3A%2F%2Fwcc.on24.com%2F&eventid=3142820&sessionid=1&key=1361B84658C58CAC0A99AFE43B1ED10D&regTag=&V2=false&sourcepage=register)
+<input type="checkbox" unchecked></input> [Have the paper
+open](http://www2.math.uu.se/~thulin/mm/breiman.pdf) (even if you
+haven't had a chance to read it all)
+<input type="checkbox" unchecked></input> Introduce yourself: Name, year
+& program of study, why you were interested in this talk.
+
+## Background on this talk
+
+This talk is part of a series of 'TechTalks' from the Association for
+Computing Machinery (ACM). You can [view past ACM TechTalks on their
+learning portal](https://learning.acm.org/techtalks). They also have a
+podcast series, [ByteCast](https://learning.acm.org/bytecast).
+
+## Why two cultures?
+
+You'll see the idea of 'Two Cultures' in STEM related topics pop up now
+and then and (I think) they call back to a lecture given by C. P. Snow
+in 1959 ([Wikipedia](https://en.wikipedia.org/wiki/The_Two_Cultures)).
+His talk (and later book) was about how the sciences and the humanities
+has become two separate 'cultures' and that this split was a problem
+when it comes to trying to solve our big problems.
+
+## Discussion questions
+
+1.  Right at the start of the introduction, Breiman says there are two
+    goals for traditional statistical analyses: prediction and
+    information. In your studies so far, have you done both, one more
+    than the other, only one?
+
+2.  Are you more naturally a data modelling culture member or an
+    algorithmic modelling culture member?
+
+    -   Does Breiman's estimate of what percentage of statisticians are
+        in each culture seem right 20 years later? Does it surprise you?
+
+3.  ***Writing:*** Did you find this article easy or hard to read? What
+    did you like/helped? What was difficult?
+
+4.  In the description of the Ozone project (Section 3.1), how did the
+    way the training and test sets were set up differ to what you might
+    have seen usually done? Why do you think this was? Could the normal
+    way also have worked? (Note: if you've never encountered
+    training/test sets, let's talk about that!)
+
+5.  In section 3.3, Breiman discusses his perceptions about statistical
+    analysis after year of consulting, upon going back into academia.
+    Did any of these surprise you? Do you disagree with any? Which of
+    these perceptions do you already hold?
+
+6.  In section 5.2, when residual analysis is helpful/not for
+    understanding model fit. Was there anything new you learned from
+    this section?
+
+7.  Section 5.3, discusses 'the multiplicity of data models'. What does
+    this mean to you? Can you connect it to the idea 'all models are
+    wrong, but some are useful'?
+
+8.  Breiman set up the below as his goals for the paper. Do you think
+    they were achieved?
+
+    -   Focusing just on the data modelling culture has:
+
+        -   *Led to irrelevant theory and questionable scientific
+            conclusions;*
+
+        -   *Kept statisticians from using more suitable algorithmic
+            models;*
+
+        -   *Prevented statisticians from working on exciting new
+            problems;*
+
+9.  What is one thing in the article you'd like to learn more about and
+    how? (Self-learning, in your courses, at future optional events?)
+
+10. In the summary for the upcoming talk, it is stated that *"there is a
+    growing community of researchers working on methodologies embracing
+    both cultures",* but goes on to identify two NEW cultures and how
+    they need to work together. Any predictions about this topic?
+    Examples from your own experience?
+
+## Quotes I liked
+
+"If our goal as a field is to use data to solve problems, then we need
+to move away from exclusive dependence on data models and adopt a more
+diverse set of tools"
+
+"One is left with an unsettled sense about the arbitrariness of residual
+analysis"
+
+"Occam's Razor, long admired, is usually interpreted to mean that
+simpler is better. Unfortunately,
+in prediction, accuracy and simplicity (interpretability) are in
+conflict"
+
+"the emphasis needs to be on the problem and
+on the data. "

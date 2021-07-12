@@ -19,6 +19,8 @@ United States Conference on Teaching Statistics https://www.causeweb.org/cause/u
 
 Program: https://www.causeweb.org/cause/uscots/uscots21/program
 
+This conference did something very cool in creating a Google Doc for shared conference notes. I won't share that link here as I believe it is intended to be private to the conference attendees, but, what a great idea!
+
 ## Going Live: Live Coding as an (Incredibly) Effective Tool for Teaching Programming
 
 <i class="fa fa-user"></i> [Mine Cetinkya-Rundel](https://www2.stat.duke.edu/~mc301/), Duke, University of Edinburgh, RStudio, <i class="fa fa-twitter"></i> [\@minebocek](https://twitter.com/minebocek)
@@ -90,15 +92,70 @@ There is empirical evidence (largely from the CS literature) about this being us
 - Operating in an error prone world module from the DoSS toolkit https://dosstoolkit.com/#operating-in-an-error-prone-world
 
 
+## Panel Discussion on "Expanding Horizons and Fostering Diversity"
+
+Check out Amy Hogan's awesome live tweets! <i class="fa fa-twitter"></i> [\@alittlestats](https://twitter.com/alittlestats) 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Good afternoon. Today&#39;s <a href="https://twitter.com/hashtag/USCOTS21?src=hash&amp;ref_src=twsrc%5Etfw">#USCOTS21</a> keynote is a panel discussion featuring Felicia Simpson, Jacqueline Hughes-Oliver, Jamylle Carter, Prince Afriyie, Samuel Echevarria-Cruz: &quot;Expanding Horizons and Fostering Diversity&quot;</p>&mdash; Amy Hogan (@alittlestats) <a href="https://twitter.com/alittlestats/status/1409907301692096517?ref_src=twsrc%5Etfw">June 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We have to convince students they have been lied to - that math literacy is innate and reading literacy is something you work for ~ Samuel Echevarria-Cruz <a href="https://twitter.com/hashtag/USCOTS21?src=hash&amp;ref_src=twsrc%5Etfw">#USCOTS21</a></p>&mdash; Judith Canner (@DrCanner) <a href="https://twitter.com/DrCanner/status/1409923616402149380?ref_src=twsrc%5Etfw">June 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Links 
+
+- Diversity statement's for syllabi/teaching statements
+  - https://statistics.sciences.ncsu.edu/resources/faculty/sample-diversity-statement/
+  - https://www.brown.edu/sheridan/teaching-learning-resources/inclusive-teaching/statements
+- Setting the stage activity: https://danaernst.com/setting-the-stage/
+- Ebony Omotola McGee. (2020). Black, Brown, Bruised: How Racialized STEM Education Stifles Innovation. 
+- Schoenfeld, A. H. (2009). Working with Schools: The Story of a Mathematics Education Collaboration. American Mathematical Monthly, 116(3), 197-217.
+
+
+## Posters
+
+Megan Mocko on Mnemonics
+https://www.tandfonline.com/doi/full/10.1080/10691898.2017.1294879
+
+## Data feminism
+
+There was so much good stuff I just stopped writing and decided I just need to by the book and tab it up.
+
+- Key question: "Data science with who's values?"
+- Intersectionality was coined by Kimberlé Crenshaw (1989)
+  - It is not only about roles/identities, it is about POWER.
+- In today's world, data is power. ("Data is the new oil").
+- Data science needs feminism quite badly, actually!
+- 7 principles of data feminism
+  - examine power
+  - challenge power
+  - rethink binaries and hierarchies
+  - elevate emotion and embodiment
+  - embrace pluralism
+  - consider context
+  - make labour visible
+- Being allowed to _refuse_ to work with/be subject to data
+
+### Links
+- https://www.media.mit.edu/publications/abuse-and-misogynoir-playbook/
+- Petition: https://googlewalkout.medium.com/standing-with-dr-timnit-gebru-isupporttimnit-believeblackwomen-6dadc300d382
+- Mimi Onuoha. (2016). _The Library of Missing Datasets_ 
+  - https://mimionuoha.com/the-library-of-missing-datasets
+  - https://github.com/MimiOnuoha/missing-datasets 
+
 ## Reading list
 
 ### Books
 
-- Wilson, G. (2019). _Teaching Tech Together
-How to create and deliver lessons that work
-and build a teaching community around them._ https://teachtogether.tech/en/index.html
+<i class="fa fa-book"></i> [Goodreads bookshelf.](https://www.goodreads.com/review/list/44982838-liza?ref=nav_mybooks&shelf=uscots21)
+
+- Wilson, G. (2019). __Teaching Tech Together: How to create and deliver lessons that work and build a teaching community around them.__ https://teachtogether.tech/en/index.html
+- Ebony Omotola McGee. (2020). _Black, Brown, Bruised: How Racialized STEM Education Stifles Innovation_. 
+- D’Ignazio, C. & Klein, L. F. (2020). _Data Feminism._ https://datafeminism.io/
 
 ### Articles
 
 - Rubin, Marc J., (2013). _The effectiveness of live-coding to teach introductory programming_. https://dl.acm.org/doi/10.1145/2445196.2445388
 - Raj, Patel, Halverson, Halverson. (2018). _Role of Live-coding in Learning Introductory Programming_. https://dl.acm.org/doi/10.1145/3279720.3279725
+- Schoenfeld, A. H. (2009). Working with Schools: The Story of a Mathematics Education Collaboration. American Mathematical Monthly, 116(3), 197-217.
+- Megan Mocko et al. on Mnemonics
+https://www.tandfonline.com/doi/full/10.1080/10691898.2017.1294879
