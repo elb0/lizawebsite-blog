@@ -4,8 +4,15 @@ description: |
   Some notes and questions based on Breiman's article before
 author:
   - name: Liza Bolton
-date: "`r Sys.Date()`"
-output: distill::distill_article
+preview: images/tea.jpg
+categories: 
+  - stats-ed
+date: "2021-07-13"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
@@ -29,6 +36,7 @@ University; ACM Prize in Computing Recipient).
 
 <input type="checkbox" unchecked></input> [Registered for the
 talk](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&referrer=https%3A%2F%2Fwcc.on24.com%2F&eventid=3142820&sessionid=1&key=1361B84658C58CAC0A99AFE43B1ED10D&regTag=&V2=false&sourcepage=register)
+
 <input type="checkbox" unchecked></input> [Have the paper
 open](http://www2.math.uu.se/~thulin/mm/breiman.pdf) (even if you
 haven't had a chance to read it all)
@@ -123,5 +131,7 @@ simpler is better. Unfortunately,
 in prediction, accuracy and simplicity (interpretability) are in
 conflict"
 
-"the emphasis needs to be on the problem and
-on the data. "
+"the emphasis needs to be on the problem and on the data."
+
+_Display photo by <a href="https://unsplash.com/@freestocks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">freestocks</a> on <a href="https://unsplash.com/s/photos/reading?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>_
+  
