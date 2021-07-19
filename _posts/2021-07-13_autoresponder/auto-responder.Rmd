@@ -19,31 +19,27 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-I get a lot of emails. A lot of similar emails. So, I have an email auto-response on all-year round. I highly recommend considering this for anyone working with a large number of students or people with similar questions! It means fewer people are waiting on you for simple answers and you have more time to address complicated or unique questions
-
-Am I worried that this is less friendly and personable than I'd want to be be? Yes. But when was the last time you received and amazing admin email anyways? 
+I get a lot of emails. A lot of similar emails. So, I have an email auto-response on all-year round.
 
 Below is a lightly reformatted version of my current message, just in case you find it easier to access here. Note: This is the version that is internal to U of T, slightly different version for external emails.
+
+_Am I worried that this is less friendly and personable than I'd want to be be?_ __Yes.__  _But when was the last time you received and amazing admin email anyways? I highly recommend considering this for anyone working with a large number of people with similar questions! It means (I hope) fewer people are waiting on you for simple answers and you have more time to address complicated or unique questions._
 
 ------------------------------------------------------------------------
 
 Hi there,
 
-Thanks for reaching out!
-I get a lot of the same questions from students, so to hopefully save you and me time, I have set up this automatic reply to address several frequently asked questions.
-*Last updated July 13.*
+Thanks for reaching out! I get a lot of the same questions from students, so to hopefully save you and me time, I have set up this automatic reply to address several frequently asked questions. *Last updated July 13.*
 
 If your question isn't related to the below, I will respond when I can.
 
 *Note: I will be unavailable August 12--22, inclusive.*
 
-If your email is related to one of the topics covered below, **please consider this automatic reply my response**.
-Please note that this is *especially* the case for references.
+If your email is related to one of the topics covered below, **please consider this automatic reply my response**. Please note that this is *especially* the case for references.
 
 ### References
 
-I won't currently be saying yes to any grad school references for right now or for the next academic year, but am planning to develop more advice for students about the who/how/what of approaching me for reference letters and my policies.
-This wont' be till August/September, but below is some guidance on what to expect.
+I won't currently be saying yes to any grad school references for right now or for the next academic year, but am planning to develop more advice for students about the who/how/what of approaching me for reference letters and my policies. This wont' be till August/September, but below is some guidance on what to expect.
 
 To be able to write a reference that would actually strengthen your application, AND to have fair criteria considering that I get easily 100--150 requests per year and can usually only write for about 20--25 students (I know that sounds small...but it still takes roughly a whole work week of time), my usual minimum criteria is at least TWO out of the following activities with me:
 
@@ -65,65 +61,52 @@ Some examples from 2020/21 of students I said yes to:
 
 ### Course enrolment
 
-I cannot add students to a course, waive prerequisites or move you off a waitlist.
-Please reach out to the UG stats team ([ug.statistics\@utoronto.ca](mailto:ug.statistics@utoronto.ca){.email}) about questions of this nature.
-Book an appointment during their office hours.
-There will also be an enrolment hotline that you can access via this link on July 12th, 15th, 19th, and 30th from 9am-noon EST to speak with someone.
-For grad courses, please email [grad.statistics\@utoronto.ca](mailto:grad.statistics@utoronto.ca){.email}.
+I cannot add students to a course, waive prerequisites or move you off a waitlist. Please reach out to the UG stats team ([ug.statistics\@utoronto.ca](mailto:ug.statistics@utoronto.ca){.email}) about questions of this nature.
 
-### Will [STA130/STA490/STA303] be able to be completed online-only? 
+-   [Book an appointment during their office hours.](https://outlook.office365.com/owa/calendar/DepartmentofStatisticalSciencesUndergraduate@utoronto.onmicrosoft.com/bookings/)\
+-   There will also be an enrolment hotline that you can access via [this link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDRhYzNmOGItNzhkNS00YjEyLThmODYtOTE4YWJlOGFkMDRk%40thread.v2/0?context=%7b%22Tid%22%3a%2278aac226-2f03-4b4d-9037-b46d56c55210%22%2c%22Oid%22%3a%221fa22aef-3d59-45f9-ac3a-df5e534de807%22%7d) on July 12th, 15th, 19th, and 30th from 9am-noon EST to speak with someone.
+-   For grad courses, please email [grad.statistics\@utoronto.ca](mailto:grad.statistics@utoronto.ca){.email}.
 
-Yes.
-More information below.
+### Will [STA130/STA490/STA303] be able to be completed online-only?
+
+Yes. More information below.
 
 -   STA130 is a completely online course (look for the '99' code in the section number. More information in the Arts & Science FAQ.) All content and assessment will be accessed/completed online.
 
--   STA490 lectures will be online, and you will have a choice (subject to health advice) about whether you sign up for in-person or online project meeting sections.
-    All assessments will be completed and submitted online.
+-   STA490 lectures will be online, and you will have a choice (subject to health advice) about whether you sign up for in-person or online project meeting sections. All assessments will be completed and submitted online.
 
--   STA303 will be a flipped course, with content delivered online and opportunities for activities both in-person (subject to health advice) and online.
-    All assessments will be completed and submitted online.
+-   STA303 will be a flipped course, with content delivered online and opportunities for activities both in-person (subject to health advice) and online. All assessments will be completed and submitted online.
 
-See also <https://www.lizabolton.com/teaching.html>.
-(Mostly just the same info as above).
+See also <https://www.lizabolton.com/teaching.html>. (Mostly just the same info as above).
 
-### STA490 FAQs 
+### STA490 FAQs
 
-#### *Who can apply to take this course?* 
+#### *Who can apply to take this course?*
 
-You will be prioritized for a spot in STA490Y1 in 2021--22 if you are on track to complete the Applied Statistics Specialist or a Specialist in Statistical Science: Methods and Practice program (including a Focus) in 2021--22, and you have successfully completed STA303H1, STA304H1/STA305H1, and STA355H1.
-Should space in the course permit, students pursuing a Statistics Major, or another Statistics specialist program offered in the UTSG Department of Statistical Sciences (i.e., the Statistics Specialist, the Specialist in Statistical Science: Theory and Methods, or the Data Science Specialist) will be considered for enrolment in STA490Y1.
-Decisions for students in these other Statistics programs of study will be made based on when the application for enrolment in STA490Y1 was received, the number of 300- and 400- level STA courses taken, and marks in these courses.
+You will be prioritized for a spot in STA490Y1 in 2021--22 if you are on track to complete the Applied Statistics Specialist or a Specialist in Statistical Science: Methods and Practice program (including a Focus) in 2021--22, and you have successfully completed STA303H1, STA304H1/STA305H1, and STA355H1. Should space in the course permit, students pursuing a Statistics Major, or another Statistics specialist program offered in the UTSG Department of Statistical Sciences (i.e., the Statistics Specialist, the Specialist in Statistical Science: Theory and Methods, or the Data Science Specialist) will be considered for enrolment in STA490Y1. Decisions for students in these other Statistics programs of study will be made based on when the application for enrolment in STA490Y1 was received, the number of 300- and 400- level STA courses taken, and marks in these courses.
 
-#### *How do you apply?* 
+#### *How do you apply?*
 
 Fill out this form <https://forms.office.com/r/LP1XuBJzzk> by July 29, 2021.
 
-#### *Will you be able to select which section you will be enrolled in?* 
+#### *Will you be able to select which section you will be enrolled in?*
 
 This will most likely be assigned based on the the range of experience and focus subjects among the selected students, as well as preferences for online or in-person meetings (selected students will be asked about this in a further survey).
 
 ### Syllabi
 
-My 2021--22 syllabi are not yet available to students.
-Previous year's syllabi are available on the [Department website](https://www.statistics.utoronto.ca/resources/past-courses-outlines) (but will change year to year).
+My 2021--22 syllabi are not yet available to students. Previous syllabi are available on the [Department website](https://www.statistics.utoronto.ca/resources/past-courses-outlines) (but will change year to year).
 
 ### Reading courses
 
-I will not be taking on any students for Spring/Summer 2021.
-That said, reading courses are a great opportunity and I hope you will approach other Profs in the department!
-I will be considering taking on a small number of STA496 students for a half-credit, year long version in 2021-22.
-I'll make more information available on this in August.
-See also: <https://www.lizabolton.com/reading_courses.html>.
+I will not be taking on any students for Spring/Summer 2021. That said, reading courses are a great opportunity and I hope you will approach other Profs in the department! I will be considering taking on a small number of STA496 students for a half-credit, year long version in 2021-22. I'll make more information available on this in August. See also: <https://www.lizabolton.com/reading_courses.html>.
 
 ### Research opportunities/Masters/PhDs
 
-I do not have any research opportunities currently available.
-Please see the graduate section of our Department website for more information: <https://www.statistics.utoronto.ca/graduate>.
+I do not have any research opportunities currently available. Please see the graduate section of our Department website for more information: <https://www.statistics.utoronto.ca/graduate>.
 
 ### Teaching assistant opportunities
 
-See the [Department website](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1).
-The main round of TA recruitment is ongoing at the time of writing, applications close July 21.
+See the [Department website](https://www.statistics.utoronto.ca/employment-opportunities/cupe-positions-unit-1). The main round of TA recruitment is ongoing at the time of writing, applications close July 21.
 
 *Display photo by [Onlineprinters](https://unsplash.com/@onlineprinters?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/email?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).*
