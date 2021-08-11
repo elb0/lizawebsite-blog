@@ -6,6 +6,11 @@ description: |
 output_dir: "docs"
 favicon: images/favicon.ico
 base_url: blog.lizabolton.com
+collections:
+  posts:
+    categories: true
+    categories_metadata: true
+    authors_metadata: false
 navbar:
   right:
     - text: "Blog"

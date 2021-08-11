@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #20794d; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,14 +77,13 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.sc { color: #20794d; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
-
 
   <!--radix_placeholder_meta_tags-->
 <title>Liza Bolton: My email autoresponder as of August 11, 2021</title>
@@ -1883,10 +1882,7 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refs = $(this).attr('data-cites').split(" ");
-      var refHtml = refs.map(function(ref) {
-        return "<p>" + $('#ref-' + ref).html() + "</p>";
-      }).join("\n");
+      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -2443,7 +2439,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"My email autoresponder as of August 11, 2021","description":"Potentially easier format in which to read my message.","authors":[{"author":"Liza Bolton","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-08-11T00:00:00.000-04:00","citationText":"Bolton, 2021"}
+{"title":"My email autoresponder as of August 11, 2021","description":"Potentially easier format in which to read my message.","authors":[{"author":"Liza Bolton","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-08-11T00:00:00.000+00:00","citationText":"Bolton, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2502,7 +2498,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <p>Thanks for reaching out! I get a lot of the same questions from students, so to hopefully save you and me time, I have set up this automatic reply to address several frequently asked questions. You can also read a version of this message online <a href="https://blog.lizabolton.com/posts/2021-08-11_autoresponder/" title="https://blog.lizabolton.com/posts/2021-08-11_autoresponder/">here</a>. <em>Last updated August 11.</em>  </p>
 <p>If your question isn’t related to the below, I will respond when I can.</p>
 <p><em>Note: I will be unavailable August 12–22, inclusive.</em></p>
-<p><span style="background-color: #FFD700"><strong>If your email is related to one of the topics covered below, please consider <u>this automatic reply</u> my response. Please note that this is especially the case for references.</strong><span></p>
+<p><span style="background-color: #FFD700"><strong>If your email is related to one of the topics covered below, please consider <u>this automatic reply</u> my response. Please note that this is especially the case for references.</strong></span></p>
 <ul>
 <li><p><strong>References</strong>: I won’t <em>currently</em> be saying yes to any grad school references for right now or for the next academic year, but am planning to develop more advice for students about the who/how/what of approaching me for reference letters and my policies. This won’t be till late-August/September, but below is some guidance on what to expect.</p>
 <ul>

@@ -1886,10 +1886,7 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refs = $(this).attr('data-cites').split(" ");
-      var refHtml = refs.map(function(ref) {
-        return "<p>" + $('#ref-' + ref).html() + "</p>";
-      }).join("\n");
+      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -2446,7 +2443,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"USCOTS 2021","description":"Notes and links from USCOTS 2021. I often find I get the most from conferences if I take notes with the vague notion of sharing them. So this is mostly for me, but I hope it might be of interest to others, too. Note: This post will be updated sporadically.","authors":[{"author":"Liza Bolton","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-28T00:00:00.000-04:00","citationText":"Bolton, 2021"}
+{"title":"USCOTS 2021","description":"Notes and links from USCOTS 2021. I often find I get the most from conferences if I take notes with the vague notion of sharing them. So this is mostly for me, but I hope it might be of interest to others, too. Note: This post will be updated sporadically.","authors":[{"author":"Liza Bolton","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-28T00:00:00.000+00:00","citationText":"Bolton, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
