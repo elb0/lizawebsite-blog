@@ -3,10 +3,10 @@ title: "Liza Bolton"
 theme: theme.css
 description: |
   Musings on data analysis, statistics education and more.
-output_dir: "docs"
 favicon: images/favicon.ico
 google_analytics: "G-LMV8VS6LCJ"
 base_url: blog.lizabolton.com
+output_dir: docs
 collections:
   posts:
     categories: true
