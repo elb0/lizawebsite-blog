@@ -12,7 +12,28 @@
       <link>blog.lizabolton.com</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Automagical email and admin for large courses</title>
+      <dc:creator>Liza Bolton</dc:creator>
+      <link>blog.lizabolton.com/posts/2021-09-07_automate</link>
+      <description>Getting started with Power Automate.</description>
+      <category>ed-tech</category>
+      <guid>blog.lizabolton.com/posts/2021-09-07_automate</guid>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content url="blog.lizabolton.com/posts/2021-09-07_automate/images/magic.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>🍂Fall thoughts 🎃</title>
+      <dc:creator>Liza Bolton</dc:creator>
+      <link>blog.lizabolton.com/posts/2021-09-07_fall-thoughts</link>
+      <description>A collection of resources and things I'm working on that may or may not be useful to you too.</description>
+      <category>ed-tech</category>
+      <category>admin</category>
+      <guid>blog.lizabolton.com/posts/2021-09-07_fall-thoughts</guid>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content url="blog.lizabolton.com/posts/2021-09-07_fall-thoughts/images/bo-pumpkin.jpeg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>My email autoresponder as of July 13, 2021</title>
       <dc:creator>Liza Bolton</dc:creator>
