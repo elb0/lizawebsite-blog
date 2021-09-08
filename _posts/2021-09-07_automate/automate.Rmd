@@ -4,10 +4,10 @@ description: |
   Getting started with Power Automate.
 author:
   - name: Liza Bolton
-preview: images/magic.jpg
+preview: images/magic.png
 categories:
   - ed-tech
-date: 09-07-2021
+date: 09-08-2021
 output:
   distill::distill_article:
     toc: true
@@ -92,10 +92,13 @@ This one is a more complicated flow to set up, but if you write a lot of referen
 
 Here is the [template for my old form for this](https://forms.office.com/Pages/ShareFormPage.aspx?id=JsKqeAMvTUuQN7RtVsVSEOKHUU3SzAJJhmOKjJhDWEpUNUlVTFJVNkc0Mk8wQTdXTTU4M0JWSUEwRy4u&sharetoken=eOjrzFuz021k7Via8smI)...but! One of our staff team is actually working on a more generalizable system that multiple profs could use that would also include an approval step, so students would request the reference, we'll make a judgment on whether we could write them a letter that would strengthen their application, and then if we accept, the dates get added to our calendar.
 
-# Some other things to consider
+<br>
+<br>
 
 I've also just posted [a more general blog with resources/ideas/examples of some other things I am doing for Fall semester](https://blog.lizabolton.com/posts/2021-09-07_fall-thoughts/). Is your autoresponder playing defense for you? Have you pimped your email signature lately? Did you know Canvas/Quercus supports bootstrap for layouts?
 
+<br>
+<br>
 
 _Cover photo by <a href="https://unsplash.com/@clothandtwig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karly Santiago</a> on <a href="https://unsplash.com/s/photos/magic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>_
   

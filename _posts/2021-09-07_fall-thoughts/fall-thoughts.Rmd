@@ -1,9 +1,9 @@
 ---
-title: "🍂Fall thoughts🎃"
+title: "🍂 Fall thoughts 🎃"
 description: |
   A collection of resources and things I'm working on that may or may not be useful to you too.
 author: Liza Bolton
-date: 09-07-2021
+date: 09-08-2021
 preview: images/bo-pumpkin.jpeg
 categories: 
   - ed-tech
@@ -61,7 +61,7 @@ Our department meditation facilitor said she was proud of me for this, setting b
 
 ### Automagical email and admin for large courses
 
-See my post, _Automagical email and admin for large courses: Getting started with Power Automate_ for a run down of a workflow that helps me manage large classes and make my and my students' lives easier. 
+See my post, [_Automagical email and admin for large courses: Getting started with Power Automate_](https://blog.lizabolton.com/posts/2021-09-07_automate/) for a run down of a workflow that helps me manage large classes and make my and my students' lives easier. 
 
 ### Making your Quercus/Canvas pretty 
 
@@ -132,5 +132,7 @@ A few of us in the Department of Statistical Sciences are continueing a small pi
 
 If youre interested in creating a culture of feedback but something like that above isn't the right fit for your course or the present moment, some of my other favourite tools are clearest point/muddiest point style weekly check-ins, and/or adding a mid-semester survey with your students. These are a fabulous way to tweak and improve your course as you go, instead of having "oh, dang, I wish someone had told me that earlier" moments when you read your course evaluations. I also think it is really important to spend some of your time responding to what your hear from students, I often do this at the start of the next class. There is a nice article from our Centre for Teaching Support & Innovation (CTSI): [_The Many Benefits of Cultures of Feedback within the Classroom_](https://teaching.utoronto.ca/cultures-of-feedback/)
 
+<br>
+<br>
 
 _Cover image from [Bo Burnham's 'White Woman's Instagram'](https://www.youtube.com/watch?v=xHotXbGZiFY)_
