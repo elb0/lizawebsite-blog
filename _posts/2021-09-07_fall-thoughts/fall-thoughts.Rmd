@@ -100,6 +100,25 @@ You'll need to change the image path for this to work for your own courses, but 
 
 ![](images/callout.png)
 
+#### Quercus (Canvas) let's you use bootstrap to make responsive pages!
+
+This is a slightly older version of our current STA130 home page, but it gives you a general sense of the look. The great thing about this page is that it adjust how it presents all the boxes/buttons when you are on a smaller screen. 
+
+I have shared some example html code in a [GitHub repo](https://github.com/elb0/2021F-quercus-sta130) and there is lots of advice from more skilled folks below.
+
+* [A useful video](https://www.youtube.com/watch?v=vtuFe4qZfck)
+
+* [Website companion](https://www.howtocanvas.com/create-amazing-pages-in-canvas/bootstrap
+<https://teams.microsoft.com/l/message/19:0d1de7e2e576453884b8355e7e8ec88a@thread.tacv2/1628176527940?tenantId=78aac226-2f03-4b4d-9037-b46d56c55210&amp;groupId=05e503fe-8a8a-4731-9a6b-32eca9b24367&amp;parentMessageId=1627504903369&amp;teamName=AS OLA CoP&amp;channelName=General&amp;createdTime=1628176527940)
+
+
+![](https://github.com/elb0/2021F-quercus-sta130/raw/master/2021-08-05_home-page-quick-look.gif)
+
+You can see what Bill Ju [\@NeuroscienceUT](https://twitter.com/NeuroscienceUT) has been up to with this on his course page, too!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">So my colleagues have been sharing code and glowing up their Quercus pages - thank you for the code and inspiration and help! Acknowledging all those involved - <a href="https://twitter.com/Liza_Bolton?ref_src=twsrc%5Etfw">@Liza_Bolton</a> <a href="https://twitter.com/karenreid?ref_src=twsrc%5Etfw">@karenreid</a> <a href="https://twitter.com/JenniferAHarri2?ref_src=twsrc%5Etfw">@JenniferAHarri2</a> and Max!! <a href="https://t.co/aRWCnKT7tw">pic.twitter.com/aRWCnKT7tw</a></p>&mdash; Bill J (@NeuroscienceUT) <a href="https://twitter.com/NeuroscienceUT/status/1429979313382871042?ref_src=twsrc%5Etfw">August 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ### JupyterHub and RStudio
 
 This one is really just for other folks at U of T using the JupyterHub and RStudio, but that could still potentially be one of you reading this. 
