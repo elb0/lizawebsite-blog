@@ -12,7 +12,17 @@
       <link>blog.lizabolton.com</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 08 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Expanding on a comment from Chris Chatfield's The Joys of Consulting</title>
+      <dc:creator>Liza Bolton</dc:creator>
+      <link>blog.lizabolton.com/posts/2021-09-26_chatfield490</link>
+      <description>A fun little example to deepen your t-test intuitions based on a common student question in STA490.</description>
+      <category>stats-ed</category>
+      <guid>blog.lizabolton.com/posts/2021-09-26_chatfield490</guid>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content url="blog.lizabolton.com/posts/2021-09-26_chatfield490/images/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Automagical email and admin for large courses</title>
       <dc:creator>Liza Bolton</dc:creator>

@@ -1,0 +1,240 @@
+---
+title: "Expanding on a comment from Chris Chatfield's The Joys of Consulting"
+description: |
+  A fun little example to deepen your t-test intuitions based on a common student question in STA490.
+author: Liza Bolton
+date: 2021-09-26
+preview: images/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg
+categories: 
+  - stats-ed
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
+---
+
+
+One of the readings for [Michael Moon's](https://micbon.com/) and my fourth year statistics class ([STA490: Consultation, Communication, and Collaboration](https://www.lizabolton.com/teaching.html#sta490-full-year)) is the delightful ["The joys of consulting" case study from Chris Chatfield in Significance (March, 2007)](https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2007.00219.x). 
+
+There is a comment on page 36 that every year students are very interested in! 
+
+> For experiment A, it is noteworthy that, even though all differences have the same sign and the Winsorised sample gives a highly signifi cant result, making the largest observation even more extreme (which might be expected to add to the evidence against the null hypothesis) actually reduces the level of signifi cance. I had not expected this. I knew that signifi cance levels for normal tests were inaccurate when data were skewed, but I did not realise that making an observation more extreme could actually send the significance level in the “wrong” direction.
+
+~ Chris Chatfield, ["The joys of consulting" (March, 2007)](https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2007.00219.x)
+
+Now this might not make much sense out of context, but I thought I'd write this up as a blog because it would be easy to share with our students AND, at the same, share this fun example that others might like to play around with. Fundamentally, it is just a matter of remembering how the t-test works, but it is really great lens to check whether your REALLY understand what is going on.
+
+```{r, out.width="50%", echo=FALSE, fig.align = 'center'}
+knitr::include_graphics("https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png")
+```
+
+_My students' reaction to the above passage every year. Image description: The surprised Pikachu meme, a screen shot from the Pokémon animated series where Pikachu, a yellow electric mouse that fights other pocket monsters, has its mouth wide open in surprise._
+
+Note: Full credit for choosing this article to [Alison Gibbs](https://www.statistics.utoronto.ca/people/directories/all-faculty/alison-gibbs) and/or [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon) from whom we happily inherited it from.
+
+```{r, include = FALSE}
+library(tidyverse)
+library(broom) #tidy function
+library(kableExtra)
+```
+
+### Get up the data for experiment A
+
+🔥 Hot tip! I copied the data from the PDF, but saved some time on reformatting thanks to multiple cursors in R Studio. A fun [trick for you to check out](https://www.r-bloggers.com/2019/04/rstudios-multiple-cursors-rule/).
+
+```{r, class.source = 'fold-show'}
+expA <- tibble(
+  sample = c(101, 102, 103, 104, 105, 106, 107, 108, 109),
+  before = c(7.4, 8.9, 11.1, 12.3, 21.8, 39.6, 43, 46.6, 279.6),
+  after = c(6.3, 7.9, 10.3, 11.3, 20.7, 36.8, 38.7, 44.2, 254.8)) %>% 
+  mutate(diff = after-before) %>% 
+  arrange(diff)
+
+expA
+```
+
+### Standard paired t-tests
+
+#### What are our hypotheses for testing experiment A?
+
+$H_0:$ The average difference in NT-proBNP concentration before and after being refrigerated is 0.
+
+$H_1:$ The average difference inNT-proBNP concentration before and after being refrigerated is NOT 0.
+
+If you run `?t.test` you'll get a refresher on how this function works. We input the differences column (not the before and after columns) because this is a paired t-test. The default value of $\mu$ is 0 which is the correct null value for our investigation.
+
+```{r}
+t.test(expA$diff)
+```
+
+We see that we have a large p-value (larger than 0.05) and so have no evidence against the claim that the the NT-proBNP concentration before and after being refrigerated is 0.
+
+### Let's Winsorize!
+
+Read the article to understand why I'm about to do this as well as the final analyses Chatfield recommended.
+
+As I already arranged this dataset when I made it above, I know that my most extreme difference is in the first row. I'll replace it with the next most extreme value, in the second row, and then re-run the t-test.
+
+```{r}
+# create base for Winsorizing
+expA_wins <- expA 
+
+# Winsorize (note this code isn't necessarily generalizable!)
+expA_wins$diff[1] <- expA_wins$diff[2] 
+```
+
+Hmmm, looks pretty ugly still when it comes to our normality assumption!
+
+```{r}
+hist(expA_wins$diff)
+```
+
+And not normal enough for Shapiro-Wilk's test, and that often gives a pass to small samples sizes, (even when it shouldn't).
+
+```{r}
+shapiro.test(expA_wins$diff)
+```
+
+```{r}
+# t-test
+t.test(expA_wins$diff)
+```
+
+So, as described, when we Winsorize, we get a significant result from the paired t-test. Why do we get this significant results when DECREASE the average differences? 
+
+
+```{r, echo=FALSE}
+Means = tibble("Version" = c("Mean difference", "Standard deviation"), Raw = c(round(mean(expA$diff),2),  round(sd(expA$diff),2)), Winsorized = c(round(mean(expA_wins$diff), 2), round(sd(expA_wins$diff), 2))) %>% 
+  t()
+
+Means %>% 
+  kbl() %>%
+  kable_styling()
+```
+
+
+Recall how a t-test statistic is calculated (here D for difference, because our values were paired):
+
+$$t = \frac{\bar{X}_D - \mu_0}{s_D/\sqrt n}$$
+
+The critical value we're comparing $t$ it to will stay the same, as we're not changing sample size, so we need to just think about the relationships in this formula. 
+
+- $\mu_0$ is the hypothesized value of 0 and that will stay the same, so that doesn't acutally matter and $n$ will also stay the same. So what we're left with is
+
+$$t \propto \frac{\bar{X}_D}{s_D} $$
+
+Recall that $\propto$ indicates 'proportional to'.
+
+### Simulate changing the extreme value to a range of other values
+```{r}
+simulation <- tibble(
+  group = rep(1:100, each = 9),
+  diff = rep(expA$diff, 100),
+  obs = rep(1:9, 100)
+) %>% 
+  arrange(obs) %>% 
+  mutate(extreme_val = rep(round(seq(-50, 0, length.out = 100), 2), 9))
+
+# replace the most extreme value with a series of other values
+simulation$diff[1:100] = round(seq(-50, 0, length.out = 100), 2)
+
+simulation_grouped <- simulation %>% 
+  group_by(group, extreme_val) %>% 
+  select(-obs) %>% 
+  nest() %>% 
+  mutate(t_test = map(data, ~{t.test(.) %>% tidy()})) %>% 
+  unnest(cols = c(data, t_test)) %>% 
+  select(-parameter, -method, -alternative) %>% 
+  mutate(sd = sd(diff))
+```
+
+
+```{r, echo = FALSE}
+simulation_grouped %>% 
+  select(-diff) %>% 
+  distinct() %>% 
+  group_by(group, extreme_val) %>% 
+  ggplot(aes(x = extreme_val, y = p.value)) +
+  geom_line() +
+  theme_minimal() +
+  labs(x = "Value most extreme value was replaced with", y = "Resulting p-value",
+       title = "Strength of evidence against the null hypothesis generally increases as LESS\nextreme replacement values replace our 'exteme' value") +
+  theme(panel.grid.minor = element_blank()) +
+  geom_hline(yintercept = 0.05, colour = "red", lty = 2) +
+  geom_vline(xintercept = -24.8, colour = "blue") +
+  annotate("text", x = -43, y = 0.06, label = "Common p-value threshold", color = "red") +
+  annotate("text", x = -15, y = 0.18, label = "Observed extreme value, -24.8", color = "blue")
+
+```
+
+By the way, this kind of chart is exactly what you shouldn't do in a real analysis. We can't just pick a value that gives us a significant test result!
+
+
+So what is going on? Just some math! As the value the extreme value takes decreases, the estimated average difference gets closer to 0, sure, BUT the standard deviation, which is the denominator above decreases, and decreases more quickly than the estimate is decreasing. Reducing the extreme value reduces the variability in our sample and so we can actually get a bigger test statistics from a smaller observed average difference!
+
+```{r, echo = FALSE}
+simulation_grouped %>% 
+  select(-diff) %>% 
+  distinct() %>% 
+  group_by(group, extreme_val) %>% 
+  pivot_longer(-c(group, extreme_val)) %>% 
+  filter(name %in% c("estimate", "sd", "statistic")) %>% 
+  ggplot(aes(x = extreme_val, y = value, color = name)) + 
+  geom_line() +
+    theme_minimal() +
+  labs(x = "Value most extreme value was replaced with", y = "μmol per litre",
+       title = "Strength of evidence against the null hypothesis generally increases as LESS\nextreme replacement values replace our 'exteme' value") +
+  theme(panel.grid.minor = element_blank(), legend.position = 'none') +
+    annotate("text", x = -31.4, y = 15, label = "Standard deviation of differences", color = "blue") +
+  annotate("text", x = -37, y = -0.05, label = "Test statistic", color = "darkgreen") +
+  annotate("text", x = -35, y = -4, label = "Average difference", color = "red") +
+  scale_colour_manual(values = c("red", "blue", "darkgreen"))
+```
+
+__Practice question:__ Can you calculate the exact value for the minimum standard deviation?
+
+# In case you want to play more
+
+```{r}
+expB <- tibble(
+  sample = 1:19,
+  before = c(7.19, 60.64, 20.56, 4076, 14.69, 23.65, 15.37, 11.71, 36.48, 211.1, 
+             413.7, 24.5, 18.4, 96.23, 15.61, 6.78, 141.7, 187.7, 29.57),
+  after = c(6.55, 60.85, 19.92, 3954, 13.74, 23.65, 15.2, 11.88, 36.7, 211.1, 
+            422.1, 23.53, 18, 93.01, 15.3, 6.47, 140.6, 185.3, 29.17)) %>% 
+  mutate(diff = after-before) %>% 
+  arrange(diff)
+
+expB
+
+t.test(expB$diff)
+```
+
+One thing I wasn't sure about was whether Chatfield took the next most extreme by moving to next value in order (i.e., for experiment B, from -122.00 to -3.22) or to truly the next biggest (i.e., -122.00 to 8.40). This doesn't matter for A, but does for B.
+
+I couldn't replicate the significant result Chatfield mentioned for Experiment B, but I also didn't spend too much time trying. Let me know if you figure it out.
+
+```{r, class.source = 'fold-show'}
+expB_wins <- expB
+
+# replace with next on number line
+expB_wins$diff[1] <- expB_wins$diff[2] 
+t.test(expB_wins$diff)
+
+# replace with next biggest overall
+expB_wins$diff[1] <- expB_wins$diff[19] 
+t.test(expB_wins$diff)
+  
+# replace with next biggest overall, but match sign
+expB_wins$diff[1] <- -expB_wins$diff[19] 
+t.test(expB_wins$diff)
+  
+```
+
+
+<br>
+<br>
+
+_Cover image by <a href="https://unsplash.com/@coopery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mohamed Nohassi</a> on <a href="https://unsplash.com/s/photos/joy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>_
+ 
