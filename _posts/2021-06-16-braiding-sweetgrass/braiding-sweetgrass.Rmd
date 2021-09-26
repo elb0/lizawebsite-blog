@@ -2,11 +2,11 @@
 title: "Braiding Sweetgrass by Robin Wall Kimmerer"
 description: |
   Links for Rohan Alexander's reading group.
-preview: images/braiding-sweetgrass.jpeg
 categories: 
   - books
 author: Liza Bolton
 date: 2021-06-25
+preview: images/braiding-sweetgrass.jpeg
 output:
   distill::distill_article:
     toc: true

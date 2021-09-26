@@ -129,7 +129,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["chatfield490_files/anchor-4.2.2/anchor.min.js","chatfield490_files/bowser-1.9.3/bowser.min.js","chatfield490_files/distill-2.2.21/template.v2.js","chatfield490_files/figure-html5/unnamed-chunk-11-1.png","chatfield490_files/figure-html5/unnamed-chunk-12-1.png","chatfield490_files/figure-html5/unnamed-chunk-6-1.png","chatfield490_files/header-attrs-2.10.1/header-attrs.js","chatfield490_files/jquery-3.6.0/jquery-3.6.0.js","chatfield490_files/jquery-3.6.0/jquery-3.6.0.min.js","chatfield490_files/jquery-3.6.0/jquery-3.6.0.min.map","chatfield490_files/kePrint-0.0.1/kePrint.js","chatfield490_files/lightable-0.0.1/lightable.css","chatfield490_files/popper-2.6.0/popper.min.js","chatfield490_files/tippy-6.2.7/tippy-bundle.umd.min.js","chatfield490_files/tippy-6.2.7/tippy-light-border.css","chatfield490_files/tippy-6.2.7/tippy.css","chatfield490_files/tippy-6.2.7/tippy.umd.min.js","chatfield490_files/webcomponents-2.0.0/webcomponents.js","fall-thoughts_files/anchor-4.2.2/anchor.min.js","fall-thoughts_files/bowser-1.9.3/bowser.min.js","fall-thoughts_files/distill-2.2.21/template.v2.js","fall-thoughts_files/figure-html5/unnamed-chunk-5-1.png","fall-thoughts_files/figure-html5/unnamed-chunk-8-1.png","fall-thoughts_files/figure-html5/unnamed-chunk-9-1.png","fall-thoughts_files/header-attrs-2.10.1/header-attrs.js","fall-thoughts_files/jquery-3.6.0/jquery-3.6.0.js","fall-thoughts_files/jquery-3.6.0/jquery-3.6.0.min.js","fall-thoughts_files/jquery-3.6.0/jquery-3.6.0.min.map","fall-thoughts_files/kePrint-0.0.1/kePrint.js","fall-thoughts_files/lightable-0.0.1/lightable.css","fall-thoughts_files/popper-2.6.0/popper.min.js","fall-thoughts_files/tippy-6.2.7/tippy-bundle.umd.min.js","fall-thoughts_files/tippy-6.2.7/tippy-light-border.css","fall-thoughts_files/tippy-6.2.7/tippy.css","fall-thoughts_files/tippy-6.2.7/tippy.umd.min.js","fall-thoughts_files/webcomponents-2.0.0/webcomponents.js","fall-thoughts.html","images/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg"]}
+  {"type":"character","attributes":{},"value":["chatfield490_files/anchor-4.2.2/anchor.min.js","chatfield490_files/bowser-1.9.3/bowser.min.js","chatfield490_files/distill-2.2.21/template.v2.js","chatfield490_files/figure-html5/unnamed-chunk-11-1.png","chatfield490_files/figure-html5/unnamed-chunk-12-1.png","chatfield490_files/figure-html5/unnamed-chunk-6-1.png","chatfield490_files/header-attrs-2.10.1/header-attrs.js","chatfield490_files/jquery-3.6.0/jquery-3.6.0.js","chatfield490_files/jquery-3.6.0/jquery-3.6.0.min.js","chatfield490_files/jquery-3.6.0/jquery-3.6.0.min.map","chatfield490_files/kePrint-0.0.1/kePrint.js","chatfield490_files/lightable-0.0.1/lightable.css","chatfield490_files/popper-2.6.0/popper.min.js","chatfield490_files/tippy-6.2.7/tippy-bundle.umd.min.js","chatfield490_files/tippy-6.2.7/tippy-light-border.css","chatfield490_files/tippy-6.2.7/tippy.css","chatfield490_files/tippy-6.2.7/tippy.umd.min.js","chatfield490_files/webcomponents-2.0.0/webcomponents.js","images/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2504,7 +2504,7 @@ gtag('config', 'G-LMV8VS6LCJ');
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#get-up-the-data-for-experiment-a">Get up the data for experiment A</a></li>
+<li><a href="#set-up-the-data-for-experiment-a">Set up the data for experiment A</a></li>
 <li><a href="#standard-paired-t-tests">Standard paired t-tests</a></li>
 <li><a href="#lets-winsorize">Let’s Winsorize!</a></li>
 <li><a href="#simulate-changing-the-extreme-value-to-a-range-of-other-values">Simulate changing the extreme value to a range of other values</a></li>
@@ -2512,44 +2512,181 @@ gtag('config', 'G-LMV8VS6LCJ');
 </ul>
 </nav>
 </div>
-<p>One of the readings for <a href="https://micbon.com/">Michael Moon’s</a> and my fourth year statistics class (<a href="https://www.lizabolton.com/teaching.html#sta490-full-year">STA490: Consultation, Communication, and Collaboration</a>) is the delightful <a href="https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2007.00219.x">“The joys of consulting” case study from Chris Chatfield in Significance (March, 2007)</a>.</p>
-<p>There is a comment on page 36 that every year students are very interested in!</p>
+<p>One of the readings for <a href="https://micbon.com/">Michael Moon’s</a> and my fourth-year statistics class (<a href="https://www.lizabolton.com/teaching.html#sta490-full-year">STA490: Consultation, Communication, and Collaboration</a>) is the delightful <a href="https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2007.00219.x">“The joys of consulting” case study from Chris Chatfield in Significance (March, 2007)</a>.</p>
+<p>There is a comment on page 36 that every year students are very interested in…(bolding mine)</p>
 <blockquote>
-<p>For experiment A, it is noteworthy that, even though all differences have the same sign and the Winsorised sample gives a highly signifi cant result, making the largest observation even more extreme (which might be expected to add to the evidence against the null hypothesis) actually reduces the level of signifi cance. I had not expected this. I knew that signifi cance levels for normal tests were inaccurate when data were skewed, but I did not realise that making an observation more extreme could actually send the significance level in the “wrong” direction.</p>
+<p>For experiment A, it is noteworthy that, even though all differences have the same sign and the Winsorised sample gives a highly significant result, making the largest observation even more extreme (which might be expected to add to the evidence against the null hypothesis) actually reduces the level of significance. I had not expected this. I knew that significance levels for normal tests were inaccurate when data were skewed, but I did not realise that <strong>making an observation more extreme could actually send the significance level in the “wrong” direction</strong>.</p>
 </blockquote>
 <p>~ Chris Chatfield, <a href="https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2007.00219.x">“The joys of consulting” (March, 2007)</a></p>
-<p>Now this might not make much sense out of context, but I thought I’d write this up as a blog because it would be easy to share with our students AND, at the same, share this fun example that others might like to play around with. Fundamentally, it is just a matter of remembering how the t-test works, but it is really great lens to check whether your REALLY understand what is going on.</p>
+<p>Now this might not make much sense out of context, but I thought I’d write this up as a blog post because it would be easy to share with our students AND, at the same, we could share this fun example that others might like to play around with. Fundamentally, it is just a matter of remembering how the t-test works, but it is really great exercise to check whether your REALLY understand what is going on.</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png" width="50%" style="display: block; margin: auto;" /></p>
 </div>
 <p><em>My students’ reaction to the above passage every year. Image description: The surprised Pikachu meme, a screen shot from the Pokémon animated series where Pikachu, a yellow electric mouse that fights other pocket monsters, has its mouth wide open in surprise.</em></p>
-<p>Note: Full credit for choosing this article to <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/alison-gibbs">Alison Gibbs</a> and/or <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon">Nathalie Moon</a> from whom we happily inherited it from.</p>
-<h3 id="get-up-the-data-for-experiment-a">Get up the data for experiment A</h3>
-<p>🔥 Hot tip! I copied the data from the PDF, but saved some time on reformatting thanks to multiple cursors in R Studio. A fun <a href="https://www.r-bloggers.com/2019/04/rstudios-multiple-cursors-rule/">trick for you to check out</a>.</p>
+<p>Note: Full credit for choosing this article to <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/alison-gibbs">Alison Gibbs</a> and <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon">Nathalie Moon</a> from whom we happily inherited it from.</p>
+<h3 id="set-up-the-data-for-experiment-a">Set up the data for experiment A</h3>
+<p>🔥 Hot tip! I just copied the data from the PDF, but saved some time on reformatting thanks to <strong>multiple cursors</strong> in R Studio. A fun <a href="https://www.r-bloggers.com/2019/04/rstudios-multiple-cursors-rule/">trick for you to check out</a>.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>expA</span> <span class='op'>&lt;-</span> <span class='fu'>tibble</span><span class='op'>(</span>
   sample <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>101</span>, <span class='fl'>102</span>, <span class='fl'>103</span>, <span class='fl'>104</span>, <span class='fl'>105</span>, <span class='fl'>106</span>, <span class='fl'>107</span>, <span class='fl'>108</span>, <span class='fl'>109</span><span class='op'>)</span>,
   before <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>7.4</span>, <span class='fl'>8.9</span>, <span class='fl'>11.1</span>, <span class='fl'>12.3</span>, <span class='fl'>21.8</span>, <span class='fl'>39.6</span>, <span class='fl'>43</span>, <span class='fl'>46.6</span>, <span class='fl'>279.6</span><span class='op'>)</span>,
-  after <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>6.3</span>, <span class='fl'>7.9</span>, <span class='fl'>10.3</span>, <span class='fl'>11.3</span>, <span class='fl'>20.7</span>, <span class='fl'>36.8</span>, <span class='fl'>38.7</span>, <span class='fl'>44.2</span>, <span class='fl'>254.8</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
+  after <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>6.3</span>, <span class='fl'>7.9</span>, <span class='fl'>10.3</span>, <span class='fl'>11.3</span>, <span class='fl'>20.7</span>, <span class='fl'>36.8</span>, <span class='fl'>38.7</span>, <span class='fl'>44.2</span>, <span class='fl'>254.8</span><span class='op'>)</span>
+    <span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='fu'>mutate</span><span class='op'>(</span>diff <span class='op'>=</span> <span class='va'>after</span><span class='op'>-</span><span class='va'>before</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='fu'>arrange</span><span class='op'>(</span><span class='va'>diff</span><span class='op'>)</span>
 
-<span class='va'>expA</span>
+<span class='va'>expA</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'><a href='https://rdrr.io/pkg/kableExtra/man/kbl.html'>kbl</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'><a href='https://rdrr.io/pkg/kableExtra/man/kable_styling.html'>kable_styling</a></span><span class='op'>(</span><span class='op'>)</span>
 </code></pre>
 </div>
-<pre><code># A tibble: 9 × 4
-  sample before after    diff
-   &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;
-1    109  280.  255.  -24.8  
-2    107   43    38.7  -4.30 
-3    106   39.6  36.8  -2.80 
-4    108   46.6  44.2  -2.4  
-5    105   21.8  20.7  -1.10 
-6    101    7.4   6.3  -1.10 
-7    102    8.9   7.9  -1    
-8    104   12.3  11.3  -1    
-9    103   11.1  10.3  -0.800</code></pre>
+<table class="table" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:right;">
+sample
+</th>
+<th style="text-align:right;">
+before
+</th>
+<th style="text-align:right;">
+after
+</th>
+<th style="text-align:right;">
+diff
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+109
+</td>
+<td style="text-align:right;">
+279.6
+</td>
+<td style="text-align:right;">
+254.8
+</td>
+<td style="text-align:right;">
+-24.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+107
+</td>
+<td style="text-align:right;">
+43.0
+</td>
+<td style="text-align:right;">
+38.7
+</td>
+<td style="text-align:right;">
+-4.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+106
+</td>
+<td style="text-align:right;">
+39.6
+</td>
+<td style="text-align:right;">
+36.8
+</td>
+<td style="text-align:right;">
+-2.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+108
+</td>
+<td style="text-align:right;">
+46.6
+</td>
+<td style="text-align:right;">
+44.2
+</td>
+<td style="text-align:right;">
+-2.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+105
+</td>
+<td style="text-align:right;">
+21.8
+</td>
+<td style="text-align:right;">
+20.7
+</td>
+<td style="text-align:right;">
+-1.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+101
+</td>
+<td style="text-align:right;">
+7.4
+</td>
+<td style="text-align:right;">
+6.3
+</td>
+<td style="text-align:right;">
+-1.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+102
+</td>
+<td style="text-align:right;">
+8.9
+</td>
+<td style="text-align:right;">
+7.9
+</td>
+<td style="text-align:right;">
+-1.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+104
+</td>
+<td style="text-align:right;">
+12.3
+</td>
+<td style="text-align:right;">
+11.3
+</td>
+<td style="text-align:right;">
+-1.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+103
+</td>
+<td style="text-align:right;">
+11.1
+</td>
+<td style="text-align:right;">
+10.3
+</td>
+<td style="text-align:right;">
+-0.8
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 <h3 id="standard-paired-t-tests">Standard paired t-tests</h3>
 <h4 id="what-are-our-hypotheses-for-testing-experiment-a">What are our hypotheses for testing experiment A?</h4>
@@ -2587,7 +2724,6 @@ mean of x
 </code></pre>
 </div>
 </div>
-<p>Hmmm, looks pretty ugly still when it comes to our normality assumption!</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/graphics/hist.html'>hist</a></span><span class='op'>(</span><span class='va'>expA_wins</span><span class='op'>$</span><span class='va'>diff</span><span class='op'>)</span>
@@ -2595,7 +2731,7 @@ mean of x
 </div>
 <p><img src="chatfield490_files/figure-html5/unnamed-chunk-6-1.png" width="624" /></p>
 </div>
-<p>And not normal enough for Shapiro-Wilk’s test, and that often gives a pass to small samples sizes, (even when it shouldn’t).</p>
+<p>Hmmm, looks pretty ugly still when it comes to our normality assumption!</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/stats/shapiro.test.html'>shapiro.test</a></span><span class='op'>(</span><span class='va'>expA_wins</span><span class='op'>$</span><span class='va'>diff</span><span class='op'>)</span>
@@ -2607,6 +2743,7 @@ mean of x
 data:  expA_wins$diff
 W = 0.7965, p-value = 0.01863</code></pre>
 </div>
+<p>And not normal enough for Shapiro-Wilk’s test, and that often gives a pass to small samples sizes, even when it shouldn’t.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='co'># t-test</span>
@@ -2625,7 +2762,7 @@ sample estimates:
 mean of x 
 -2.088889 </code></pre>
 </div>
-<p>So, as described, when we Winsorize, we get a significant result from the paired t-test. Why do we get this significant results when DECREASE the average differences?</p>
+<p>So, as described, when we Winsorize, we get a significant result from the paired t-test. Why do we get this significant result when we DECREASE the average difference?</p>
 <div class="layout-chunk" data-layout="l-body">
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <tbody>
@@ -2665,15 +2802,18 @@ Winsorized
 </tbody>
 </table>
 </div>
-<p>Recall how a t-test statistic is calculated (here D for difference, because our values were paired):</p>
+<p>Recall how a t-test statistic is calculated (D is for difference, because our values were paired):</p>
 <p><span class="math display">\[t = \frac{\bar{X}_D - \mu_0}{s_D/\sqrt n}\]</span></p>
 <p>The critical value we’re comparing <span class="math inline">\(t\)</span> it to will stay the same, as we’re not changing sample size, so we need to just think about the relationships in this formula.</p>
 <ul>
-<li><span class="math inline">\(\mu_0\)</span> is the hypothesized value of 0 and that will stay the same, so that doesn’t acutally matter and <span class="math inline">\(n\)</span> will also stay the same. So what we’re left with is</li>
+<li><span class="math inline">\(\mu_0\)</span> is the hypothesized value of 0 and that will stay the same, and</li>
+<li><span class="math inline">\(n\)</span> will also stay the same as we’re not removing or adding data, just dragging a point around.</li>
 </ul>
+<p>Therefore, all we’re thinking about is the following relationship:</p>
 <p><span class="math display">\[t \propto \frac{\bar{X}_D}{s_D} \]</span></p>
 <p>Recall that <span class="math inline">\(\propto\)</span> indicates ‘proportional to’.</p>
 <h3 id="simulate-changing-the-extreme-value-to-a-range-of-other-values">Simulate changing the extreme value to a range of other values</h3>
+<p>You may already be able to see where this is going, but let’s make some pictures!</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>simulation</span> <span class='op'>&lt;-</span> <span class='fu'>tibble</span><span class='op'>(</span>
@@ -2701,8 +2841,8 @@ Winsorized
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="chatfield490_files/figure-html5/unnamed-chunk-11-1.png" width="624" /></p>
 </div>
-<p>By the way, this kind of chart is exactly what you shouldn’t do in a real analysis. We can’t just pick a value that gives us a significant test result!</p>
-<p>So what is going on? Just some math! As the value the extreme value takes decreases, the estimated average difference gets closer to 0, sure, BUT the standard deviation, which is the denominator above decreases, and decreases more quickly than the estimate is decreasing. Reducing the extreme value reduces the variability in our sample and so we can actually get a bigger test statistics from a smaller observed average difference!</p>
+<p>By the way, this kind of chart is exactly what you shouldn’t do in an acutal analysis. We can’t just pick a value that gives us a significant test result!</p>
+<p>So what is going on? Just some math! As the value the extreme value takes decreases, the estimated average difference gets closer to 0, sure, BUT the standard deviation, which is the denominator in the relationship above, decreases, and decreases more quickly than the estimate is decreasing! (Think about the calculation of the standard deviation to see why.). Reducing the extreme value reduces the variability in our sample and so we can actually get a bigger test statistic from a smaller observed average difference!</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="chatfield490_files/figure-html5/unnamed-chunk-12-1.png" width="624" /></p>
 </div>
@@ -2819,7 +2959,7 @@ sample estimates:
 </div>
 <p><br> <br></p>
 <p><em>Cover image by <a href="https://unsplash.com/@coopery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mohamed Nohassi</a> on <a href="https://unsplash.com/s/photos/joy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></em></p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

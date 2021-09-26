@@ -15,15 +15,15 @@ output:
 ---
 
 
-One of the readings for [Michael Moon's](https://micbon.com/) and my fourth year statistics class ([STA490: Consultation, Communication, and Collaboration](https://www.lizabolton.com/teaching.html#sta490-full-year)) is the delightful ["The joys of consulting" case study from Chris Chatfield in Significance (March, 2007)](https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2007.00219.x). 
+One of the readings for [Michael Moon's](https://micbon.com/) and my fourth-year statistics class ([STA490: Consultation, Communication, and Collaboration](https://www.lizabolton.com/teaching.html#sta490-full-year)) is the delightful ["The joys of consulting" case study from Chris Chatfield in Significance (March, 2007)](https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2007.00219.x). 
 
-There is a comment on page 36 that every year students are very interested in! 
+There is a comment on page 36 that every year students are very interested in...(bolding mine) 
 
-> For experiment A, it is noteworthy that, even though all differences have the same sign and the Winsorised sample gives a highly signifi cant result, making the largest observation even more extreme (which might be expected to add to the evidence against the null hypothesis) actually reduces the level of signifi cance. I had not expected this. I knew that signifi cance levels for normal tests were inaccurate when data were skewed, but I did not realise that making an observation more extreme could actually send the significance level in the “wrong” direction.
+> For experiment A, it is noteworthy that, even though all differences have the same sign and the Winsorised sample gives a highly significant result, making the largest observation even more extreme (which might be expected to add to the evidence against the null hypothesis) actually reduces the level of significance. I had not expected this. I knew that significance levels for normal tests were inaccurate when data were skewed, but I did not realise that **making an observation more extreme could actually send the significance level in the “wrong” direction**.
 
 ~ Chris Chatfield, ["The joys of consulting" (March, 2007)](https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2007.00219.x)
 
-Now this might not make much sense out of context, but I thought I'd write this up as a blog because it would be easy to share with our students AND, at the same, share this fun example that others might like to play around with. Fundamentally, it is just a matter of remembering how the t-test works, but it is really great lens to check whether your REALLY understand what is going on.
+Now this might not make much sense out of context, but I thought I'd write this up as a blog post because it would be easy to share with our students AND, at the same, we could share this fun example that others might like to play around with. Fundamentally, it is just a matter of remembering how the t-test works, but it is really great exercise to check whether your REALLY understand what is going on.
 
 ```{r, out.width="50%", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png")
@@ -31,7 +31,7 @@ knitr::include_graphics("https://i.kym-cdn.com/entries/icons/original/000/027/47
 
 _My students' reaction to the above passage every year. Image description: The surprised Pikachu meme, a screen shot from the Pokémon animated series where Pikachu, a yellow electric mouse that fights other pocket monsters, has its mouth wide open in surprise._
 
-Note: Full credit for choosing this article to [Alison Gibbs](https://www.statistics.utoronto.ca/people/directories/all-faculty/alison-gibbs) and/or [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon) from whom we happily inherited it from.
+Note: Full credit for choosing this article to [Alison Gibbs](https://www.statistics.utoronto.ca/people/directories/all-faculty/alison-gibbs) and [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon) from whom we happily inherited it from.
 
 ```{r, include = FALSE}
 library(tidyverse)
@@ -39,19 +39,22 @@ library(broom) #tidy function
 library(kableExtra)
 ```
 
-### Get up the data for experiment A
+### Set up the data for experiment A
 
-🔥 Hot tip! I copied the data from the PDF, but saved some time on reformatting thanks to multiple cursors in R Studio. A fun [trick for you to check out](https://www.r-bloggers.com/2019/04/rstudios-multiple-cursors-rule/).
+🔥 Hot tip! I just copied the data from the PDF, but saved some time on reformatting thanks to __multiple cursors__ in R Studio. A fun [trick for you to check out](https://www.r-bloggers.com/2019/04/rstudios-multiple-cursors-rule/).
 
 ```{r, class.source = 'fold-show'}
 expA <- tibble(
   sample = c(101, 102, 103, 104, 105, 106, 107, 108, 109),
   before = c(7.4, 8.9, 11.1, 12.3, 21.8, 39.6, 43, 46.6, 279.6),
-  after = c(6.3, 7.9, 10.3, 11.3, 20.7, 36.8, 38.7, 44.2, 254.8)) %>% 
+  after = c(6.3, 7.9, 10.3, 11.3, 20.7, 36.8, 38.7, 44.2, 254.8)
+    ) %>% 
   mutate(diff = after-before) %>% 
   arrange(diff)
 
-expA
+expA %>% 
+  kbl() %>% 
+  kable_styling()
 ```
 
 ### Standard paired t-tests
@@ -84,24 +87,25 @@ expA_wins <- expA
 expA_wins$diff[1] <- expA_wins$diff[2] 
 ```
 
-Hmmm, looks pretty ugly still when it comes to our normality assumption!
 
 ```{r}
 hist(expA_wins$diff)
 ```
 
-And not normal enough for Shapiro-Wilk's test, and that often gives a pass to small samples sizes, (even when it shouldn't).
+Hmmm, looks pretty ugly still when it comes to our normality assumption!
 
 ```{r}
 shapiro.test(expA_wins$diff)
 ```
+
+And not normal enough for Shapiro-Wilk's test, and that often gives a pass to small samples sizes, even when it shouldn't.
 
 ```{r}
 # t-test
 t.test(expA_wins$diff)
 ```
 
-So, as described, when we Winsorize, we get a significant result from the paired t-test. Why do we get this significant results when DECREASE the average differences? 
+So, as described, when we Winsorize, we get a significant result from the paired t-test. Why do we get this significant result when we DECREASE the average difference? 
 
 
 ```{r, echo=FALSE}
@@ -114,19 +118,25 @@ Means %>%
 ```
 
 
-Recall how a t-test statistic is calculated (here D for difference, because our values were paired):
+Recall how a t-test statistic is calculated (D is for difference, because our values were paired):
 
 $$t = \frac{\bar{X}_D - \mu_0}{s_D/\sqrt n}$$
 
 The critical value we're comparing $t$ it to will stay the same, as we're not changing sample size, so we need to just think about the relationships in this formula. 
 
-- $\mu_0$ is the hypothesized value of 0 and that will stay the same, so that doesn't acutally matter and $n$ will also stay the same. So what we're left with is
+- $\mu_0$ is the hypothesized value of 0 and that will stay the same, and
+- $n$ will also stay the same as we're not removing or adding data, just dragging a point around.
+
+Therefore, all we're thinking about is the following relationship:
 
 $$t \propto \frac{\bar{X}_D}{s_D} $$
 
 Recall that $\propto$ indicates 'proportional to'.
 
 ### Simulate changing the extreme value to a range of other values
+
+You may already be able to see where this is going, but let's make some pictures!
+
 ```{r}
 simulation <- tibble(
   group = rep(1:100, each = 9),
@@ -168,10 +178,10 @@ simulation_grouped %>%
 
 ```
 
-By the way, this kind of chart is exactly what you shouldn't do in a real analysis. We can't just pick a value that gives us a significant test result!
+By the way, this kind of chart is exactly what you shouldn't do in an acutal analysis. We can't just pick a value that gives us a significant test result!
 
 
-So what is going on? Just some math! As the value the extreme value takes decreases, the estimated average difference gets closer to 0, sure, BUT the standard deviation, which is the denominator above decreases, and decreases more quickly than the estimate is decreasing. Reducing the extreme value reduces the variability in our sample and so we can actually get a bigger test statistics from a smaller observed average difference!
+So what is going on? Just some math! As the value the extreme value takes decreases, the estimated average difference gets closer to 0, sure, BUT the standard deviation, which is the denominator in the relationship above, decreases, and decreases more quickly than the estimate is decreasing! (Think about the calculation of the standard deviation to see why.). Reducing the extreme value reduces the variability in our sample and so we can actually get a bigger test statistic from a smaller observed average difference!
 
 ```{r, echo = FALSE}
 simulation_grouped %>% 
@@ -184,7 +194,7 @@ simulation_grouped %>%
   geom_line() +
     theme_minimal() +
   labs(x = "Value most extreme value was replaced with", y = "μmol per litre",
-       title = "Strength of evidence against the null hypothesis generally increases as LESS\nextreme replacement values replace our 'exteme' value") +
+       title = "Strength of evidence against the null hypothesis generally increases as \n LESS extreme replacement values replace our 'exteme' value") +
   theme(panel.grid.minor = element_blank(), legend.position = 'none') +
     annotate("text", x = -31.4, y = 15, label = "Standard deviation of differences", color = "blue") +
   annotate("text", x = -37, y = -0.05, label = "Test statistic", color = "darkgreen") +
