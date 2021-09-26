@@ -169,12 +169,14 @@ simulation_grouped %>%
   geom_line() +
   theme_minimal() +
   labs(x = "Value most extreme value was replaced with", y = "Resulting p-value",
-       title = "Strength of evidence against the null hypothesis generally increases as LESS\nextreme replacement values replace our 'exteme' value") +
+       title = "Strength of evidence against the null hypothesis generally increases as\nLESS extreme replacement values replace our 'exteme' value") +
   theme(panel.grid.minor = element_blank()) +
   geom_hline(yintercept = 0.05, colour = "red", lty = 2) +
   geom_vline(xintercept = -24.8, colour = "blue") +
+    geom_vline(xintercept = -4.3, colour = "deepskyblue3") +
   annotate("text", x = -43, y = 0.06, label = "Common p-value threshold", color = "red") +
-  annotate("text", x = -15, y = 0.18, label = "Observed extreme value, -24.8", color = "blue")
+  annotate("text", x = -14.5, y = 0.18, label = "Observed extreme value, -24.8", color = "blue") +
+  annotate("text", x = -12, y = 0.12, label = "Winsorized value, -4.3", color = "deepskyblue3")
 
 ```
 
@@ -194,15 +196,39 @@ simulation_grouped %>%
   geom_line() +
     theme_minimal() +
   labs(x = "Value most extreme value was replaced with", y = "μmol per litre",
-       title = "Strength of evidence against the null hypothesis generally increases as \n LESS extreme replacement values replace our 'exteme' value") +
+       title = "How our mean difference, standard deviation of differences and\ntest statistic change as we change the extreme value's value") +
   theme(panel.grid.minor = element_blank(), legend.position = 'none') +
-    annotate("text", x = -31.4, y = 15, label = "Standard deviation of differences", color = "blue") +
+    annotate("text", x = -31.4, y = 15, label = "Standard deviation of differences", color = "darkorange4") +
   annotate("text", x = -37, y = -0.05, label = "Test statistic", color = "darkgreen") +
-  annotate("text", x = -35, y = -4, label = "Average difference", color = "red") +
-  scale_colour_manual(values = c("red", "blue", "darkgreen"))
+  annotate("text", x = -35, y = -4, label = "Average difference", color = "brown") +
+  scale_colour_manual(values = c("brown", "darkorange4", "darkgreen")) 
+```
+__Practice question:__ Can you calculate the value for the minimum standard deviation?
+
+Another way to look at this is through the other side of the p-value coin, the good ol' confidence interval.
+
+```{r, echo = FALSE}
+simulation_grouped %>% 
+  select(-diff) %>% 
+  distinct() %>% 
+  group_by(group, extreme_val) %>% 
+  #pivot_longer(-c(group, extreme_val)) %>% 
+  #filter(name %in% c("conf.low", "conf.high")) %>% 
+  ggplot(aes(x = extreme_val, ymin = conf.low, ymax = conf.high)) + 
+  #geom_ribbon(fill = "lightgray", alpha = 0.7) +
+  geom_errorbar(color = "grey") +
+    theme_minimal() +
+  labs(x = "Value most extreme value was replaced with", y = "μmol per litre",
+       title = "How our confidence intervals for average difference change\nas we change the extreme value's value") +
+  theme(panel.grid.minor = element_blank(), legend.position = 'none') +
+  geom_hline(yintercept = 0, colour = "purple") +
+    geom_vline(xintercept = -24.8, colour = "blue") +
+    geom_vline(xintercept = -4.3, colour = "deepskyblue3") +
+  annotate("text", x = -7, y = 0.8, label = "0 is our hypothesized value", color = "purple") +
+    annotate("text", x = -14.5, y = -12, label = "Observed extreme value, -24.8", color = "blue") +
+  annotate("text", x = -12, y = -15, label = "Winsorized value, -4.3", color = "deepskyblue3")
 ```
 
-__Practice question:__ Can you calculate the exact value for the minimum standard deviation?
 
 # In case you want to play more
 
