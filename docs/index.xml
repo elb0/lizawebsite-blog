@@ -12,7 +12,17 @@
       <link>blog.lizabolton.com</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Census detectives</title>
+      <dc:creator>Liza Bolton</dc:creator>
+      <link>blog.lizabolton.com/posts/2021-11-22-census-detectives</link>
+      <description>Can you correctly order two Canadian censuses, conducted 100 years apart?</description>
+      <category>stats-ed</category>
+      <guid>blog.lizabolton.com/posts/2021-11-22-census-detectives</guid>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <media:content url="blog.lizabolton.com/posts/2021-11-22-census-detectives/images/investigation.jpeg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Expanding on a comment from Chris Chatfield's The Joys of Consulting</title>
       <dc:creator>Liza Bolton</dc:creator>
@@ -31,7 +41,6 @@
       <category>ed-tech</category>
       <guid>blog.lizabolton.com/posts/2021-09-07_automate</guid>
       <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
-      <media:content url="blog.lizabolton.com/posts/2021-09-07_automate/images/magic.png" medium="image" type="image/png" width="1760" height="778"/>
     </item>
     <item>
       <title>🍂 Fall thoughts 🎃</title>

@@ -23,15 +23,17 @@ There is a comment on page 36 that every year students are very interested in...
 
 ~ Chris Chatfield, ["The joys of consulting" (March, 2007)](https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2007.00219.x)
 
-Now this might not make much sense out of context, but I thought I'd write this up as a blog post because it would be easy to share with our students AND, at the same, we could share this fun example that others might like to play around with. Fundamentally, it is just a matter of remembering how the t-test works, but it is really great exercise to check whether your REALLY understand what is going on.
+Now this might not make much sense out of context, but I thought I'd write this up as a blog post because it would be easy to share with our students (the main audience for this post) AND, at the same, we could share this fun example that others might like to play around with. Fundamentally, it is just a matter of remembering how the _t_-test works, but it is really great exercise to check whether you REALLY understand what is going on.
 
-```{r, out.width="50%", echo=FALSE, fig.align = 'center'}
+```{r, out.width="70%", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png")
 ```
 
-_My students' reaction to the above passage every year. Image description: The surprised Pikachu meme, a screen shot from the Pokémon animated series where Pikachu, a yellow electric mouse that fights other pocket monsters, has its mouth wide open in surprise._
+_My students' reaction to the above passage every year._
 
-Note: Full credit for choosing this article to [Alison Gibbs](https://www.statistics.utoronto.ca/people/directories/all-faculty/alison-gibbs) and [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon) from whom we happily inherited it from.
+_Image description: The surprised Pikachu meme, that is, a screen shot from the Pokémon animated series where Pikachu, a yellow electric mouse that fights other pocket monsters, has its mouth wide open in surprise._
+
+Note: Full credit for choosing this article to [Alison Gibbs](https://www.statistics.utoronto.ca/people/directories/all-faculty/alison-gibbs) and [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon), from whom we happily inherited it from.
 
 ```{r, include = FALSE}
 library(tidyverse)
