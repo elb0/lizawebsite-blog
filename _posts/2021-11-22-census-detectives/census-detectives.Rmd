@@ -33,6 +33,13 @@ The following activity is from a sample seminar with my [STA497 students](https:
 ## Background
 The Constitution Act of 1867 set out the requirement for a census of the population to be taken every 10 years. The first of these decennial censuses took place in 1871 in the four original provinces (Ontario, Quebec, Nova Scotia, New Brunswick). The most recent of these censuses was conducted in 2021.
 
+## A note on langauge
+
+There is some language in these censuses that is outdated and can be offensive. These terms are used only in the context of the historical documents from which they have been drawn, and seek to illustrate the development of our social understandings of identity. If you'd like to learn more about the history of these terms, The Canadian Encyclopedia may be a useful place to start.
+
+- 'Eskimo': https://www.thecanadianencyclopedia.ca/en/article/eskimo  
+- 'Indian': https://www.thecanadianencyclopedia.ca/en/article/indian-term
+
 ## Task
 Complete each of the following census questionnaires about yourself. (Note, these are not the complete census forms, these are questions about sex/gender age and race/ethnicity.
 These questions have been retyped and somewhat reformatted, but the original text has been preserved.
