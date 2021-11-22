@@ -30,7 +30,7 @@ The following activity is from a sample seminar with my [STA497 students](https:
 - [Slides (warning, spoilers!)](https://lizabolton.github.io/statistics-ethics-identity/#1)
 
 
-## Background
+## Background^[_Guide to the Census of Population, 2016, Chapter 2 – Census history_ https://www12.statcan.gc.ca/census-recensement/2016/ref/98-304/chap2-eng.cfm]
 The Constitution Act of 1867 set out the requirement for a census of the population to be taken every 10 years. The first of these decennial censuses took place in 1871 in the four original provinces (Ontario, Quebec, Nova Scotia, New Brunswick). The most recent of these censuses was conducted in 2021.
 
 ## A note on langauge
@@ -70,7 +70,7 @@ xaringanExtra::embed_xaringan(
 ```
 
 
-### Solutions
+## Solutions
 
 <div style="width: 90%; margin: 10px 5% 10px 5%; background-color: #3c133f;">
 
@@ -86,13 +86,18 @@ E = 1951
 
 Something that I particularly love is that if you ordered these samples from shortest to longest, you have the order from oldest to most recent. I think this is a good indication of how our understanding of identity has become more complex, but also probably that our ability to manage and aggreagate data has improved greatly. 
 
-### Comments & points of interest ^[_Guide to the Census of Population, 2016, Chapter 2 – Census history_ https://www12.statcan.gc.ca/census-recensement/2016/ref/98-304/chap2-eng.cfm]
+## 'Clues', comments & points of interest 
+
+Useful source: _Guide to the Census of Population, 2016, Chapter 2 – Census history_ https://www12.statcan.gc.ca/census-recensement/2016/ref/98-304/chap2-eng.cfm
 
 - 2021 was the first census to include questions about both gender and sex, specifically defining sex as sex assigned at birth. 
 - Prior to 2001 data was not collected on couples other than heterosexual couples.  
-- For the 1951 census a new punch card technology was used make data tabulation faster.
+  - Notice the change from "live together as husband and wife" in the description of __common-law__ in 1996 to "live together as a couple" in 2021's description.
+  - Older census forms don't account for common law relationships, and the heads of the house will always be men in a marriage ('wife' as a relationship to head option, but not never 'husband').
+- For the 1951 census a new punch card technology was used make data tabulation faster. That is why the age is set up to record 10s and 1s in the way it is.
 - Yukon wasn't a territory until 1999 and so is not listed in the 1996 census.
 
+What else did you notice? Let me know! [@Liza_Bolton](https://twitter.com/Liza_Bolton)
 
 # Census forms
 
