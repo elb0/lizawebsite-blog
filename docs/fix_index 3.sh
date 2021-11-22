@@ -1,0 +1,1 @@
+sed -i '' '1,/hidden/{s/hidden/visible/;}' docs/index.html
