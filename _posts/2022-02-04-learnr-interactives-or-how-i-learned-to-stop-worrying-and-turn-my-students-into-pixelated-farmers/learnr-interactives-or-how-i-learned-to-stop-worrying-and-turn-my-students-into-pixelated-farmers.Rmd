@@ -6,7 +6,7 @@ author:
   - name: Liza Bolton
     url: {}
 date: 02-04-2022
-preview: images/lb-example.png
+preview: images/statdewvalley.png
 output:
   distill::distill_article:
     self_contained: false
@@ -35,6 +35,8 @@ For instructors looking to incorporate computation and data science content and 
 The Computation and Data Science Education Community of Practice (CDS Education CoP) aims to bring together educators to share their experiences designing and implementing educational activities, pedagogical best practices and use of various technologies. to chat with our community and hear about online sessions, including "Technologies for Teaching Computation and Data Science," on February 4, 12:10-1:30 p.m. on MS Teams. If you have questions, contact [nathan.taback\@utoronto.ca](mailto:nathan.taback@utoronto.ca){.email} and [david\@cs.toronto.edu](mailto:david@cs.toronto.edu){.email}.
 
 # Slides
+
+Direct link: <https://bolton-cds-w22.netlify.app/#1>
 
 ```{r, echo=FALSE}
 xaringanExtra::embed_xaringan(
