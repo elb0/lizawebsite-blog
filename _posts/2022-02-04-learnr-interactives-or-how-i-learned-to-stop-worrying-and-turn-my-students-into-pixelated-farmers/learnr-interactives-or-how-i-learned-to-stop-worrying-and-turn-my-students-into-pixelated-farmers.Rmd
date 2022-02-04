@@ -6,6 +6,7 @@ author:
   - name: Liza Bolton
     url: {}
 date: 02-04-2022
+preview: images/lb-example.png
 output:
   distill::distill_article:
     self_contained: false
