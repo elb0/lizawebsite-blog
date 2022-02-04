@@ -1,7 +1,7 @@
 ---
 title: "`learnr` Interactives or: How I Learned to Stop Worrying and Turn my Students into Pixelated Farmers"
 description: |
-  Speakers notes and image descriptions from my part of the CDS education COP.
+  Slides and image descriptions from my part of the CDS education COP.
 author:
   - name: Liza Bolton
     url: {}
@@ -13,26 +13,29 @@ output:
 
 These slides were presented as part of Computation and Data Science Education Community of Practice (CDS Education CoP) meeting on February 4, 2022.
 
-## Speakers
+### Speakers
 
-Liza Bolton, Assistant Professor, Teaching Stream, Department of Statistical Sciences
-Paul Gries, Professor, Teaching Stream, Department of Computer Science
-David Liu, Associate Professor, Teaching Stream, Department of Computer Science
-Karen Reid, Professor, Teaching Stream, Department of Computer Science
-Scott Schwartz, Assistant Professor, Teaching Stream, Department of Statistical Sciences
-Nathan Taback, Associate Professor, Teaching Stream, Department of Statistical Sciences
+-   Liza Bolton, Assistant Professor, Teaching Stream, Department of Statistical Sciences
 
+-   Paul Gries, Professor, Teaching Stream, Department of Computer Science
 
-## Description
+-   David Liu, Associate Professor, Teaching Stream, Department of Computer Science
+
+-   Karen Reid, Professor, Teaching Stream, Department of Computer Science
+
+-   Scott Schwartz, Assistant Professor, Teaching Stream, Department of Statistical Sciences
+
+-   Nathan Taback, Associate Professor, Teaching Stream, Department of Statistical Sciences
+
+### Event description
 
 For instructors looking to incorporate computation and data science content and skills into their courses, one of the most frequent source of questions and challenges is the technologies they and their students will use. In this session, a team of instructors from the Departments of Computer Science and Statistical Sciences will introduce and demo two web-based platforms used to teach computing, statistics, and data science at the University of Toronto: JupyterHub (currently available to anyone with a UTORid) and MarkUs (available for U of T courses). We will draw on real-life teaching experiences to show the variety of ways these platforms can used, including providing students a cloud-based programming environment and setting up autograding of code-based assessments. Our examples will use the Python and R programming languages, and illustrate some common programming and data science tools like Jupyter notebooks, R Markdown, git, and GitHub.
 
-
-The Computation and Data Science Education Community of Practice (CDS Education CoP) aims to bring together educators to share their experiences designing and implementing educational activities, pedagogical best practices and use of various technologies. to chat with our community and hear about online sessions, including "Technologies for Teaching Computation and Data Science," on February 4, 12:10-1:30 p.m. on MS Teams. If you have questions, contact nathan.taback@utoronto.ca and david@cs.toronto.edu.
+The Computation and Data Science Education Community of Practice (CDS Education CoP) aims to bring together educators to share their experiences designing and implementing educational activities, pedagogical best practices and use of various technologies. to chat with our community and hear about online sessions, including "Technologies for Teaching Computation and Data Science," on February 4, 12:10-1:30 p.m. on MS Teams. If you have questions, contact [nathan.taback\@utoronto.ca](mailto:nathan.taback@utoronto.ca){.email} and [david\@cs.toronto.edu](mailto:david@cs.toronto.edu){.email}.
 
 # Slides
 
-```{r}
+```{r, echo=FALSE}
 xaringanExtra::embed_xaringan(
   url = "https://bolton-cds-w22.netlify.app/",
   ratio = "16:9"
@@ -41,7 +44,6 @@ xaringanExtra::embed_xaringan(
 
 # Image descriptions
 
-## Image descriptions
 ### Slide 1
 
 Background image is a gif from Dr Strangelove (1964, black and white) of a man waving a cowboy hat and riding a large nuclear bomb that is being dropped out of a plane onto the landscape below.
@@ -64,12 +66,12 @@ A poorly drawn cartoon of a bao with legs and arms, in a pink ballerina outfit, 
 
 ### Slide 13
 
-A process flow diagram with 4 sections. 
+A process flow diagram with 4 sections.
 
-- __Plan__: Plan activity based on learning outcomes: commentary, coding tasks, question prompts.  
-- __R__:Combine code, commentary, hints, questions, etc., in an RMarkdown document (learnr package).  
-- __GitHub__: Push to GitHub (check out GitHub desktop and the website if the terminal isn't your happy place yet.  
-- __Link__: Create a pull link for students with nbgitpuller. **Share!**
+-   **Plan**: Plan activity based on learning outcomes: commentary, coding tasks, question prompts.\
+-   **R**:Combine code, commentary, hints, questions, etc., in an RMarkdown document (learnr package).\
+-   **GitHub**: Push to GitHub (check out GitHub desktop and the website if the terminal isn't your happy place yet.\
+-   **Link**: Create a pull link for students with nbgitpuller. **Share!**
 
 ### Slide 14
 
@@ -77,6 +79,4 @@ Group of people with dark skin tones dancing outside to the song Watch me (Whip/
 
 ### Slide 15
 
-Screenshot of nbgitpuller interface filled out for the Statdew Valley activity. Relevant text on slide 15.
-
-
+Screenshot of nbgitpuller interface filled out for the Statdew Valley activity. Relevant text on slide 16.
