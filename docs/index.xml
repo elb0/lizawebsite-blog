@@ -12,7 +12,15 @@
       <link>blog.lizabolton.com</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>`learnr` Interactives or: How I Learned to Stop Worrying and Turn my Students into Pixelated Farmers</title>
+      <dc:creator>Liza Bolton</dc:creator>
+      <link>blog.lizabolton.com/posts/2022-02-04-learnr-interactives-or-how-i-learned-to-stop-worrying-and-turn-my-students-into-pixelated-farmers</link>
+      <description>Speakers notes and image descriptions from my part of the CDS education COP.</description>
+      <guid>blog.lizabolton.com/posts/2022-02-04-learnr-interactives-or-how-i-learned-to-stop-worrying-and-turn-my-students-into-pixelated-farmers</guid>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Census detectives</title>
       <dc:creator>Liza Bolton</dc:creator>
@@ -41,6 +49,7 @@
       <category>ed-tech</category>
       <guid>blog.lizabolton.com/posts/2021-09-07_automate</guid>
       <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content url="blog.lizabolton.com/posts/2021-09-07_automate/images/magic.png" medium="image" type="image/png" width="1760" height="778"/>
     </item>
     <item>
       <title>🍂 Fall thoughts 🎃</title>

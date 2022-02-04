@@ -1,0 +1,82 @@
+---
+title: "`learnr` Interactives or: How I Learned to Stop Worrying and Turn my Students into Pixelated Farmers"
+description: |
+  Speakers notes and image descriptions from my part of the CDS education COP.
+author:
+  - name: Liza Bolton
+    url: {}
+date: 02-04-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+These slides were presented as part of Computation and Data Science Education Community of Practice (CDS Education CoP) meeting on February 4, 2022.
+
+## Speakers
+
+Liza Bolton, Assistant Professor, Teaching Stream, Department of Statistical Sciences
+Paul Gries, Professor, Teaching Stream, Department of Computer Science
+David Liu, Associate Professor, Teaching Stream, Department of Computer Science
+Karen Reid, Professor, Teaching Stream, Department of Computer Science
+Scott Schwartz, Assistant Professor, Teaching Stream, Department of Statistical Sciences
+Nathan Taback, Associate Professor, Teaching Stream, Department of Statistical Sciences
+
+
+## Description
+
+For instructors looking to incorporate computation and data science content and skills into their courses, one of the most frequent source of questions and challenges is the technologies they and their students will use. In this session, a team of instructors from the Departments of Computer Science and Statistical Sciences will introduce and demo two web-based platforms used to teach computing, statistics, and data science at the University of Toronto: JupyterHub (currently available to anyone with a UTORid) and MarkUs (available for U of T courses). We will draw on real-life teaching experiences to show the variety of ways these platforms can used, including providing students a cloud-based programming environment and setting up autograding of code-based assessments. Our examples will use the Python and R programming languages, and illustrate some common programming and data science tools like Jupyter notebooks, R Markdown, git, and GitHub.
+
+
+The Computation and Data Science Education Community of Practice (CDS Education CoP) aims to bring together educators to share their experiences designing and implementing educational activities, pedagogical best practices and use of various technologies. to chat with our community and hear about online sessions, including "Technologies for Teaching Computation and Data Science," on February 4, 12:10-1:30 p.m. on MS Teams. If you have questions, contact nathan.taback@utoronto.ca and david@cs.toronto.edu.
+
+# Slides
+
+```{r}
+xaringanExtra::embed_xaringan(
+  url = "https://bolton-cds-w22.netlify.app/",
+  ratio = "16:9"
+)
+```
+
+# Image descriptions
+
+## Image descriptions
+### Slide 1
+
+Background image is a gif from Dr Strangelove (1964, black and white) of a man waving a cowboy hat and riding a large nuclear bomb that is being dropped out of a plane onto the landscape below.
+
+### Slide 3
+
+A pixel art based image of a farm surrouned by fences, crops and trees, including two people avatars, one rifing a horse and one carrying corn. This is an image from the [Stardew Valley game](https://www.stardewvalley.net/). Pixel art text made to look like boards of raw wood (with leafy offshoots) are nailed together to form the words "STATDEW VALLEY". The second 't' in STAT is slightly tilted towards the right while all the others or oriented up and down (to draw attention to it not saying STARDEW).
+
+### Slide 5
+
+Pixelated image of me (Liza) a smiling brunette, with a light skin-tone and feminine presenting. Image was manipulatedfrom an original photo to be pixelated using tools in R.
+
+### Slide 6
+
+Background image is a gif from Dr Strangelove (1964, black and white) of a two men grappling (the one in front is in a large black coat and black hat, while the one behind is in a suit). ANother man, bald and in classes approaches from the right of the and addresses them, causing them both to pause. He says "Gentleman. You can't fight in here. This is the War Room!"
+
+### Slide 12
+
+A poorly drawn cartoon of a bao with legs and arms, in a pink ballerina outfit, with roses thrown at its feet and the text 'bao take a bow' at the top right
+
+### Slide 13
+
+A process flow diagram with 4 sections. 
+
+- __Plan__: Plan activity based on learning outcomes: commentary, coding tasks, question prompts.  
+- __R__:Combine code, commentary, hints, questions, etc., in an RMarkdown document (learnr package).  
+- __GitHub__: Push to GitHub (check out GitHub desktop and the website if the terminal isn't your happy place yet.  
+- __Link__: Create a pull link for students with nbgitpuller. **Share!**
+
+### Slide 14
+
+Group of people with dark skin tones dancing outside to the song Watch me (Whip/Nae nae) in front of a abstract mural. The text "WATCH ME DIFF WATCH ME REBASE" has been added above them.
+
+### Slide 15
+
+Screenshot of nbgitpuller interface filled out for the Statdew Valley activity. Relevant text on slide 15.
+
+
