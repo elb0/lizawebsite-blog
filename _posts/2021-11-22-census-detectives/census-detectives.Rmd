@@ -20,7 +20,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The following activity is from a sample seminar with my [STA497 students](https://www.lizabolton.com/reading_courses.html#ethical-professional-practice-for-statisticians-research-group-202122) on 2021-11-17. It was intended as a model seminar for their own upcoming seminars about topics from *Calling Bullshit: The Art of Skepticism in a Data-Driven World*, by Carl Bergstrom and Jevin West (see: https://www.callingbullshit.org/) and covered more than just this activity. You can access the slides below
+The following activity is from a sample seminar with my [STA497 students](https://www.lizabolton.com/reading_courses.html#ethical-professional-practice-for-statisticians-research-group-202122) on 2021-11-17. It was intended as a model seminar for their own upcoming seminars about topics from *Calling Bullshit: The Art of Skepticism in a Data-Driven World*, by Carl Bergstrom and Jevin West (see: https://www.callingbullshit.org/) and covered more than just this activity. You can access the slides below.
 
 ## Useful links
 - [PDF version of activity](pdfs/census-detective-activity.pdf)

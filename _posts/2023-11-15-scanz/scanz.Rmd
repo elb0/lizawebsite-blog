@@ -1,0 +1,38 @@
+---
+title: "SCANZ 2023: Data democratisation panel notes"
+description: |
+  Resources and useful links that may come up during our discussion.
+author:
+  - name: Liza Bolton
+    url: {}
+date: 11-15-2023
+preview: images/SCANZ_logo.png
+categories: 
+  - conferences
+  - stats-ed
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Notes and links to support the Data Democratisation panel, 2023 Science Communicators Association of New Zealand Conference, Techtopia: Navigating the power, potential and perils of technology in science communication.
+
+## Speakers
+
+- Dr Karaitiana Taiuru  
+
+- Keith Ng, Ministry of Housing and Urban Development
+
+- Mike Taitoko, Takiwā, Tohu & Calm the Farm
+
+- Liza Bolton, University of Auckland
+
+## Event description
+
+A panel discussion following Karaitiana Taiuru's keynote.
+
+The panel will be driven by facilitator and attendee questions, with the main thrust being about helping science communicators to understand the important considerations that go into building, publicising and making available scientific data. We hope that the audience will go away with two or three practical things they can use in thinking about data - in gathering, in distribution, and in promotion.
+
+# Resources
+
+The three big stories
