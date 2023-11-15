@@ -13,6 +13,8 @@ categories:
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    toc_depth: 3
 ---
 
 Notes and links to support the Data Democratisation panel, [2023 Science Communicators Association of New Zealand Conference: *Techtopia: Navigating the power, potential and perils of technology in science communication*](https://www.scanz.co.nz/2023-conference).
@@ -47,7 +49,7 @@ I think you could claim that there are three data story archetypes. Most situati
 
 ## Means to an [***end***]{.underline}
 
-Data was needed and used to tell a story, but the data itself isn't a big part of the story, just enabling answering the research question. If you could wave a magic wand that guaranteed the data was appropriately collected and measured for your research question, you'd not need to talk about it all. 🪄 But of course, the worthiness of the research question itself is important, too!
+Data was needed and used to tell a story, but the data itself isn't a big part of the story, just enabling answering the research question. If you could wave a magic wand that guaranteed the data was appropriately collected and measured for your research question, you'd not need to talk about it all. 🪄 But of course, the worthiness of the research question itself is important, too! And I'm honestly not sure this truly exists in the real world, I suppose neither of the first two archetypes really exist in full purity...but folks certainly might present things like this.
 
 ### 👎 5D approaches to indigenous data 
 
@@ -56,6 +58,14 @@ Data was needed and used to tell a story, but the data itself isn't a big part o
 > \~ From ***Indigenous Data Sovereignty and Policy*****\
 > edited by Maggie Walter, Tahu Kukutai, Stephanie Russo Carroll, and Desi Rodriguez-Lonebear\
 > Taylor & Francis, 2021**
+
+### 👍 Journos adding data notes
+
+I'm seeing more an more a little (or not so little) data notes portion at the end of articles. This is a great way to balance what flows in an article and isn't the core story, with allowing folks who want to sink their teeth in further. To be fair these examples are very much data journalism, so these are the folks rocking it!
+
+-   Kate Newton for the ABC, [*The Big Swing: El Niño in a changing climate*](https://www.abc.net.au/news/2023-09-07/el-nino-southern-oscillation-climate-change-effects-on-australia/102788002)
+
+-   The Pudding are leaders in this space: [*What does a happily ever after look like?*](https://pudding.cool/2023/10/romance-covers/)by Alice Liang (with Jan Diehm). Lovely, succinct Methods & Notes section at the end.
 
 ## [**Means**]{.underline} (to an **end?)**
 
@@ -66,6 +76,8 @@ This is when the data is the story itself. Whether related to privacy, consent, 
 While the article is specifically about machine learning, the questions worked through when creating a datasheet are valuable for sharing any kind of dataset in an accessible and consistent way.
 
 > Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford. 2021. "Datasheets for Datasets." *Communications of the ACM* 64 (12): 86--92. <https://doi.org/10.1145/3458723>.
+>
+> *Datasheets for datasets are intended to address the needs of two key stakeholder groups: dataset creators and dataset consumers. For dataset creators, the primary objective is to encourage careful reflection on the process of creating, distributing, and maintaining a dataset, including any underlying assumptions, potential risks or harms, and implications of use. For dataset consumers, the primary objective is to ensure they have the information they need to make informed decisions about using a dataset. Transparency on the part of dataset creators is necessary for dataset consumers to be sufficiently well informed that they can select appropriate datasets for their chosen tasks and avoid unintentional misuse.*
 
 📄 Article PDF: <https://arxiv.org/pdf/1803.09010.pdf>
 
@@ -87,26 +99,62 @@ This might sounds strange coming from a statistician, but sometimes the most imp
 
 # Other
 
--   📺 [Ihaka lecutre recordings](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics/ihaka-lecture-series.html)
+## 📺 Watch
+
+-   [Ihaka lecutre recordings](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics/ihaka-lecture-series.html) A lecture series celebrating Ross Ihaka's role in the development of the R language for statistics, right here in Aotearoa.
 
     -   [*What\'s Behind the Map: The Process of Data Visualisation*](https://www.youtube.com/watch?v=utUr1pV8Em4) by Chris McDowall
 
     -   [*How charts lie - and how they make us smarter*](https://www.youtube.com/watch?v=Cd046xZhO_8)by Alberto Cairo
 
--   📺 [Gibbons Lectures 2023: Dr Karaitiana Taiuru - AI Colonisation and Mātauranga Sovereignty](https://www.youtube.com/watch?v=PBsVB1CAy3k&t=1s)
+-   [Gibbons Lectures 2023: Dr Karaitiana Taiuru - AI Colonisation and Mātauranga Sovereignty](https://www.youtube.com/watch?v=PBsVB1CAy3k&t=1s)
 
--   It is the mark of a truly intelligent person to be moved by statistics...<https://quoteinvestigator.com/2013/02/20/moved-by-stats/>
+## 📚 Read
 
-### We like patterns and certainty, and that can be a problem
+-   [*Telling Stories with Data*](https://tellingstorieswithdata.com/) by Rohan Alexander
 
-We're either really good at seeing patterns where they may or may not exist, or at ignoring a more complex picture in favour of the false solidity of a single number.
+    -   Rohan has made a version of this excellent textbook FREE online.
 
--   [Random doesn't feel random enough to us](https://www.businessinsider.com/spotify-made-shuffle-feature-less-random-to-actually-feel-random-2020-3)
+    -   If it means to you what it means to me, you'll be very excisted to know Sir David Spiegelhalter, Andrew Gelman, and Daniella Witten have all endorsed it!
+
+-   [*Shouting Zeros and Ones: Digital Technology, Ethics and Policy in New Zealand*](https://www.bwb.co.nz/books/shouting-zeros-and-ones/) edited by Andrew Chen
+
+    -   *\'Understanding how the zeros and ones increasingly influence and control our lives is critical to understanding how we can reciprocate influence and control back onto those zeros and ones.\'*
+
+        *This vital book is a call to action: to reduce online harm, to protect the integrity of our digital lives and to uphold democratic participation and inclusion.*
+
+        *A diverse group of contributors reveal the hidden impacts of technology on society and on individuals, exploring policy change and personal action to keep the internet a force for good. These voices arrive at a crucial juncture in our relationship to fast-evolving technologies.*
+
+    -   Contributors: Andrew Chen, Kathy Errington, Anjum Rahman, Tom Barraclough, Curtis Barnes, Tahu Kukutai, Donna Cormack, Chris Cormack, Merrin Macleod, Caleb Moses, Stephen Judd, Briony Blackmore, Anna Pendergrast, Kelly Pendergrast and Serena Chen. 
 
 ```{=html}
 <!-- -->
 ```
--   ![](https://www.research.autodesk.com/app/uploads/2023/03/DinoSequential-1.gif)*To do: Add link and alt text*
+-   It is the mark of a truly intelligent person to be moved by statistics...<https://quoteinvestigator.com/2013/02/20/moved-by-stats/>
+
+## We like patterns and certainty, and that can be a problem
+
+We're either really good at seeing patterns where they may or may not exist, or at ignoring a more complex picture in favour of the false solidity of a single number.
+
+-   [A primer on reading political polling](https://www.nzherald.co.nz/nz/election-2023-all-the-things-you-need-to-consider-before-reading-a-political-poll/R3UGYA5CORAK3GFIOCGR4Y3VD4/) (ft. Thomas Lumley and Richard Arnold), with useful transferable info on understanding uncertainty, confidence intervals/margin of error, etc.
+
+-   [Random doesn't feel random enough to us](https://www.businessinsider.com/spotify-made-shuffle-feature-less-random-to-actually-feel-random-2020-3) (How your Spotify shuffle does not work and the 'hot hand' in basketball.)
+
+-   I enjoyed chatting with Richard Hulse as he worked on this article on [*Understanding Consumers*](https://richard.hulse.nz/2023/11/01/understanding-the-customer-better/)which includes some great stats ed points.
+
+-   <div>
+
+    > "*Yes, you can draw a line, but this line does not predict where things are going (statistically speaking).[ The Sharpie is not all powerful](https://www.politico.com/story/2019/09/05/hurricane-dorian-sharpie-trump-1482839)!*
+    >
+    > *This is very important to understand. Humans do not naturally discern the difference between a signal and noise, and this results in actions being taken (or celebrations being made) when none are warranted. Humans love to find patterns in things. Burn marks on toast. Pictures in the night sky. We\'ve been doing it for millenia."* 
+
+    </div>
+
+-   Sometimes we get fixated on a number without putting it in context of its distribution. The shown summary statistics for all the following charts are the same to two decimal places. I don't know about you, but I'd want to know if there was a T-Rex in *my* data*.*
+
+![](https://www.research.autodesk.com/app/uploads/2023/03/DinoSequential-1.gif){width="709"}
+
+Image description: A GIF with an scatter plot on the left and summary statistics on the right: X Mean, Y Mean, X SD, Y SD, Corr. These are all the same to two decimal places. The plot on the left alternates between a range of shapes, including a star, 9 dot clusters, parallel lines (vertical, horizontal, diagonals), and most importantly, a T-Rex.
 
 #### <hr>
 
