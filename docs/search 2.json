@@ -1,0 +1,12 @@
+{
+  "articles": [
+    {
+      "path": "index.html",
+      "title": "Data analysis, statistics education and more.",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2023-11-15T21:12:05+13:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
