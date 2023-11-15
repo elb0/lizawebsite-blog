@@ -41,6 +41,14 @@ The panel will be driven by facilitator and attendee questions, with the main th
 
 # Resources
 
+> -   **"It is the mark of a truly intelligent person to be moved by statistics"**<s>George Bernard Shaw</s>, Bertrand Russell (kinda)
+
+Oft mis-attributed to George Bernard Shaw (an excellent quipper to be in company with!), this quote has been versioned and recycled across time. It was really about education and developing people's sympathies to the point that abstract information about the world could be as moving, and so motivating, as a really personal story from a specific person.
+
+Intelligence is notoriously problematic to measure (probably because it is notoriously poorly defined...), so I'd propose a variation..."*good science communication can help all people be moved by statistics, or at least with the help of them*".
+
+## Three archetypes of data stories
+
 I think you could claim that there are three data story archetypes. Most situations include parts of all three of these, but I think it can help to consider their interplay in the data you're collecting, using or disseminating.
 
 1.  Means to an [***end***]{.underline}
@@ -67,9 +75,19 @@ I'm seeing more an more a little (or not so little) data notes portion at the en
 
 -   The Pudding are leaders in this space: [*What does a happily ever after look like?*](https://pudding.cool/2023/10/romance-covers/)by Alice Liang (with Jan Diehm). Lovely, succinct Methods & Notes section at the end.
 
+### Measurement is hard
+
+-   There is an incredible anecdote in the book *The Victory Lab: The Secret Science of Winning Campaigns* by Sasha Issenberg that also highlights why our STEM folks need exposure to ethics and humanities. It goes something like so: In a meeting on collecting data to try to assess the possible impacts of racist sentiments among voters on Obama's campaign, one of the suggestions from a hot shot data wonk from MIT (or something like that) suggested they just ask people in surveys if they were racist...then you'd know if they were racist. Yep, that is definitely a suggestion.
+
 ## [**Means**]{.underline} (to an **end?)**
 
 This is when the data is the story itself. Whether related to privacy, consent, data sovereignty, etc., even without any particular 'finding', there are concerns/conversations about the data. Often this is because of the risks of misusing the data, but these don't have to have eventuated.
+
+### Open data
+
+-   📣 Panellist Keith Ng's 2017 article on open data: [*I\'m a data nerd and a data cheerleader, but still I fear Bill English\'s datatopia*](https://thespinoff.co.nz/society/13-01-2017/im-a-data-nerd-and-a-data-cheerleader-but-still-i-fear-bill-englishs-datatopia)*,* on the Spinoff
+
+-   Check out Caleb Moses' essay in [*Shouting Zeros and Ones: Digital Technology, Ethics and Policy in New Zealand*](https://www.bwb.co.nz/books/shouting-zeros-and-ones/) edited by Andrew Chen
 
 ### 👍 *Datasheets* for explaining data 
 
@@ -126,11 +144,6 @@ This might sounds strange coming from a statistician, but sometimes the most imp
         *A diverse group of contributors reveal the hidden impacts of technology on society and on individuals, exploring policy change and personal action to keep the internet a force for good. These voices arrive at a crucial juncture in our relationship to fast-evolving technologies.*
 
     -   Contributors: Andrew Chen, Kathy Errington, Anjum Rahman, Tom Barraclough, Curtis Barnes, Tahu Kukutai, Donna Cormack, Chris Cormack, Merrin Macleod, Caleb Moses, Stephen Judd, Briony Blackmore, Anna Pendergrast, Kelly Pendergrast and Serena Chen. 
-
-```{=html}
-<!-- -->
-```
--   It is the mark of a truly intelligent person to be moved by statistics...<https://quoteinvestigator.com/2013/02/20/moved-by-stats/>
 
 ## We like patterns and certainty, and that can be a problem
 
