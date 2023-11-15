@@ -15,17 +15,19 @@ output:
     self_contained: false
 ---
 
-Notes and links to support the Data Democratisation panel, 2023 Science Communicators Association of New Zealand Conference, Techtopia: Navigating the power, potential and perils of technology in science communication.
+Notes and links to support the Data Democratisation panel, [2023 Science Communicators Association of New Zealand Conference: *Techtopia: Navigating the power, potential and perils of technology in science communication*](https://www.scanz.co.nz/2023-conference).
+
+This conference took place November 16 & 17, 2023 in Te Whanganui-a-Tara Wellington, Aotearoa New Zealand.
 
 ## Speakers
 
-- Dr Karaitiana Taiuru  
+-   Dr Karaitiana Taiuru
 
-- Keith Ng, Ministry of Housing and Urban Development
+-   Keith Ng, Ministry of Housing and Urban Development
 
-- Mike Taitoko, Takiwā, Tohu & Calm the Farm
+-   Mike Taitoko, Takiwā, Tohu & Calm the Farm
 
-- Liza Bolton, University of Auckland
+-   Liza Bolton, University of Auckland
 
 ## Event description
 
@@ -33,6 +35,56 @@ A panel discussion following Karaitiana Taiuru's keynote.
 
 The panel will be driven by facilitator and attendee questions, with the main thrust being about helping science communicators to understand the important considerations that go into building, publicising and making available scientific data. We hope that the audience will go away with two or three practical things they can use in thinking about data - in gathering, in distribution, and in promotion.
 
+![AI generated image (so a bit wonky) of a person in construction hi-viz gear standing amongst the colourful bars of a bar chart, holding an angle measure. Their construction boots have a snazzy little heal and there is a reflection on the ground. The text: "This post is a work in progress" has been added in the top right corner. This image was created using DALLE-2 with the prompt: "a construction worker working on a 3d bar chart that looks like a building"](images/workinprogress_text.png)
+
 # Resources
 
-The three big stories
+I think you could claim that there are three data story archetypes. Most situations include parts of all three of these, but I think it can help to consider their interplay in the data you're collecting, using or disseminating.
+
+1.  Means to an [***end***]{.underline}
+2.  [**Means**]{.underline} (to an end?)
+3.  <s>Means to an end</s>
+
+## Means to an [***end***]{.underline}
+
+Data was needed and used to tell a story, but the data itself isn't a big part of the story, just enabling answering the research question. If you could wave a magic wand that guaranteed the data was appropriately collected and measured for your research question, you'd not need to talk about it all. 🪄 But of course, the worthiness of the research question itself is important, too!
+
+### 👎 5D approaches to indigenous data 
+
+> Statistics have long been used as a tool for shaping the narrative about Indigenous People, communities, and nations through the use of 5 D data---\"a set of items related almost exclusively to measure Indigenous difference, disparity, disadvantage, dysfunction and deprivation\". This pathologizing approach to data creation and analysis has led to dysfunctional policies that are then used to justify the need for more data focused on the 5 Ds and that shape dominant society\'s understanding of Indigenous People.
+>
+> \~ From ***Indigenous Data Sovereignty and Policy*****\
+> edited by Maggie Walter, Tahu Kukutai, Stephanie Russo Carroll, and Desi Rodriguez-Lonebear\
+> Taylor & Francis, 2021**
+
+## [**Means**]{.underline} (to an **end?)**
+
+This is when the data is the story itself. Whether related to privacy, consent, data sovereignty, etc., even without any particular 'finding', there are concerns/conversations about the data. Often this is because of the risks of misusing the data, but these don't have to have eventuated.
+
+### 👍 *Datasheets* for explaining data 
+
+While the article is specifically about machine learning, the questions worked through when creating a datasheet are valuable for sharing any kind of dataset in an accessible and consistent way.
+
+> Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford. 2021. "Datasheets for Datasets." *Communications of the ACM* 64 (12): 86--92. <https://doi.org/10.1145/3458723>.
+
+📄 Article PDF: <https://arxiv.org/pdf/1803.09010.pdf>
+
+++ A worked example for the awesome textbook by Rohan Alexander, *Telling Stories with Data* <https://tellingstorieswithdata.com/25-datasheet.html>
+
+## <s>Means to an end</s>
+
+Uh oh, missing, 404, data not found.
+
+This might sounds strange coming from a statistician, but sometimes the most important data story, is the story about where the data *isn't.*What's MISSING?
+
+> 🖼️ Check out the incredible mixed-media installation *The Library of Missing Datasets* (2016) by [MIMI ỌNỤỌHA](https://mimionuoha.com/). It is "a physical repository of those things that have been excluded in a society where so much is collected.
+>
+> "Missing data sets" are the blank spots that exist in spaces that are otherwise data-saturated."
+
+[![A feminine hand with darker skin reaches into a filing cabinet with many files inside, each with tabbed labels. The hand is reaching for "Publicaly available gun trace data". The image is from MIMI ỌNỤỌHA's website and is of 'The Library of Missing Datasets' (2016)](images/ONUOHA-datasets.png){width="749"}](https://mimionuoha.com/the-library-of-missing-datasets)
+
+👮‍♀️ [This recent article by the marvellous Sapeer Mayron](https://www.stuff.co.nz/pou-tiaki/300938784/data-shows-ongoing-racial-bias-in-police-warrantless-searches) draws attention to a pattern of increasingly missing ethnicity data in police warrants. There are a lot of possible reasons we might see this from the plausibly positive (officers not assuming ethnicity where they might once have?), to the clerical (overly burdensome reporting mechanisms? quality data entry not rewarded/taught/checked?), to the problematic (pressure to minimise known disparities in warrants by ethnicity). In the end, we don't know why the missing have increased, but I'm glad to see this question being posed.
+
+<hr>
+
+Need a statistics buddy for something you're working on? You can see more of my talks, including some of my general statistics communication on my [Talks](https://www.lizabolton.com/talks.html#lottoyoure-doing-it-wrong-an-interview-with-the-project-nz) page.
