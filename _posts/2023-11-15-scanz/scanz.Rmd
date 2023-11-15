@@ -75,7 +75,7 @@ While the article is specifically about machine learning, the questions worked t
 
 Uh oh, missing, 404, data not found.
 
-This might sounds strange coming from a statistician, but sometimes the most important data story, is the story about where the data *isn't.*What's MISSING?
+This might sounds strange coming from a statistician, but sometimes the most important data story is the story about where the data *isn't.*What's MISSING?
 
 > 🖼️ Check out the incredible mixed-media installation *The Library of Missing Datasets* (2016) by [MIMI ỌNỤỌHA](https://mimionuoha.com/). It is "a physical repository of those things that have been excluded in a society where so much is collected.
 >
@@ -85,6 +85,29 @@ This might sounds strange coming from a statistician, but sometimes the most imp
 
 👮‍♀️ [This recent article by the marvellous Sapeer Mayron](https://www.stuff.co.nz/pou-tiaki/300938784/data-shows-ongoing-racial-bias-in-police-warrantless-searches) draws attention to a pattern of increasingly missing ethnicity data in police warrants. There are a lot of possible reasons we might see this from the plausibly positive (officers not assuming ethnicity where they might once have?), to the clerical (overly burdensome reporting mechanisms? quality data entry not rewarded/taught/checked?), to the problematic (pressure to minimise known disparities in warrants by ethnicity). In the end, we don't know why the missing have increased, but I'm glad to see this question being posed.
 
-<hr>
+# Other
+
+-   📺 [Ihaka lecutre recordings](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics/ihaka-lecture-series.html)
+
+    -   [*What\'s Behind the Map: The Process of Data Visualisation*](https://www.youtube.com/watch?v=utUr1pV8Em4) by Chris McDowall
+
+    -   [*How charts lie - and how they make us smarter*](https://www.youtube.com/watch?v=Cd046xZhO_8)by Alberto Cairo
+
+-   📺 [Gibbons Lectures 2023: Dr Karaitiana Taiuru - AI Colonisation and Mātauranga Sovereignty](https://www.youtube.com/watch?v=PBsVB1CAy3k&t=1s)
+
+-   It is the mark of a truly intelligent person to be moved by statistics...<https://quoteinvestigator.com/2013/02/20/moved-by-stats/>
+
+### We like patterns and certainty, and that can be a problem
+
+We're either really good at seeing patterns where they may or may not exist, or at ignoring a more complex picture in favour of the false solidity of a single number.
+
+-   [Random doesn't feel random enough to us](https://www.businessinsider.com/spotify-made-shuffle-feature-less-random-to-actually-feel-random-2020-3)
+
+```{=html}
+<!-- -->
+```
+-   ![](https://www.research.autodesk.com/app/uploads/2023/03/DinoSequential-1.gif)*To do: Add link and alt text*
+
+#### <hr>
 
 Need a statistics buddy for something you're working on? You can see more of my talks, including some of my general statistics communication on my [Talks](https://www.lizabolton.com/talks.html#lottoyoure-doing-it-wrong-an-interview-with-the-project-nz) page.
