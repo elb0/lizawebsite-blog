@@ -75,7 +75,7 @@ I'm seeing more an more a little (or not so little) data notes portion at the en
 
 ### Measurement is hard
 
--   There is an incredible anecdote in the book *The Victory Lab: The Secret Science of Winning Campaigns* by Sasha Issenberg that also highlights why our STEM folks need exposure to ethics and humanities. It goes something like so: In a meeting on collecting data to try to assess the possible impacts of racist sentiments among voters on Obama's campaign, one of the suggestions from a hot shot data wonk from MIT (or something like that) suggested they just ask people in surveys if they were racist...then you'd know if they were racist. Yep, that is definitely a suggestion.
+-   There is an incredible anecdote in the book *The Victory Lab: The Secret Science of Winning Campaigns* by Sasha Issenberg that also highlights why our STEM folks need exposure to ethics and humanities. It goes something like so: In a meeting on collecting data to try to assess the possible impacts of racist sentiments among voters on Obama's campaign, one of the suggestions from a hot shot data wonk from MIT (or something like that) was that they just ask people in surveys if they were racist...then you'd know if they were racist. Yep, that is definitely a suggestion.
 
 ## [**Means**]{.underline} (to an **end?)**
 
