@@ -85,7 +85,11 @@ This is when the data is the story itself. Whether related to privacy, consent, 
 
 -   📣 Panellist Keith Ng's 2017 article on open data: [*I\'m a data nerd and a data cheerleader, but still I fear Bill English\'s datatopia*](https://thespinoff.co.nz/society/13-01-2017/im-a-data-nerd-and-a-data-cheerleader-but-still-i-fear-bill-englishs-datatopia)*,* on the Spinoff
 
+    -   It was actually thanks to this article that I first met Keith!
+
 -   Check out Caleb Moses' essay in [*Shouting Zeros and Ones: Digital Technology, Ethics and Policy in New Zealand*](https://www.bwb.co.nz/books/shouting-zeros-and-ones/) edited by Andrew Chen
+
+-   Herald data journo [Chris Knox spotted an issue with data from three polling places in the recent election](https://www.nzherald.co.nz/nz/election-2023-electoral-commission-reviewing-voting-results-after-herald-investigation-led-to-discovery-of-three-wrong-counts/MNYX4TGLM5ENFBUQYQL7CM7WZA/). While in the end this didn't change an outcome, this is an important issue for the Electoral Commission to be aware of and work on.
 
 ### 👍 *Datasheets* for explaining data 
 
