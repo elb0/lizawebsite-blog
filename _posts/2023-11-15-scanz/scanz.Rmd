@@ -39,11 +39,14 @@ The panel will be driven by facilitator and attendee questions, with the main th
 
 ![AI generated image (so a bit wonky) of a person in construction hi-viz gear standing amongst the colourful bars of a bar chart, holding an angle measure. Their construction boots have a snazzy little heal and there is a reflection on the ground. The text: "This post is a work in progress" has been added in the top right corner. This image was created using DALLE-2 with the prompt: "a construction worker working on a 3d bar chart that looks like a building"](images/workinprogress_text.png)
 
-> -   **"It is the mark of a truly intelligent person to be moved by statistics"**<s>George Bernard Shaw</s>, Bertrand Russell (kinda)
+> -   **"It is the mark of a truly intelligent person to be moved by statistics"\
+>     **<s>George Bernard Shaw</s>, Bertrand Russell (kinda)
 
 Oft mis-attributed to George Bernard Shaw (an excellent quipper to be in company with!), this quote has been versioned and recycled across time. It was really about education and developing people's sympathies to the point that abstract information about the world could be as moving, and so motivating, as a really personal story from a specific person.
 
-Intelligence is notoriously problematic to measure (probably because it is notoriously poorly defined...), so I'd propose a variation..."*good science communication can help all people be moved by statistics, or at least with the help of them*".
+Intelligence is notoriously problematic to measure (probably because it is notoriously poorly defined...), so I'd propose a variation..."*good science communication can help all people be moved by statistics, or with the help of them*".
+
+...Not as catchy, guess I'll stick to my day job.
 
 # Three archetypes of data stories
 
@@ -61,8 +64,7 @@ Data was needed and used to tell a story, but the data itself isn't a big part o
 
 > Statistics have long been used as a tool for shaping the narrative about Indigenous People, communities, and nations through the use of 5 D data---\"a set of items related almost exclusively to measure Indigenous difference, disparity, disadvantage, dysfunction and deprivation\". This pathologizing approach to data creation and analysis has led to dysfunctional policies that are then used to justify the need for more data focused on the 5 Ds and that shape dominant society\'s understanding of Indigenous People.
 >
-> \~ From ***Indigenous Data Sovereignty and Policy*****\
-> edited by Maggie Walter, Tahu Kukutai, Stephanie Russo Carroll, and Desi Rodriguez-Lonebear\
+> \~ From ***Indigenous Data Sovereignty and Policy*** **edited by Maggie Walter, Tahu Kukutai, Stephanie Russo Carroll, and Desi Rodriguez-Lonebear\
 > Taylor & Francis, 2021**
 
 ### 👍 Journos adding data notes
@@ -75,7 +77,7 @@ I'm seeing more an more a little (or not so little) data notes portion at the en
 
 ### Measurement is hard
 
--   There is an incredible anecdote in the book *The Victory Lab: The Secret Science of Winning Campaigns* by Sasha Issenberg that also highlights why our STEM folks need exposure to ethics and humanities. It goes something like so: In a meeting on collecting data to try to assess the possible impacts of racist sentiments among voters on Obama's campaign, one of the suggestions from a hot shot data wonk from MIT (or something like that) was that they just ask people in surveys if they were racist...then you'd know if they were racist. Yep, that is definitely a suggestion.
+There is so much to this, but there is an incredible anecdote in the book [*The Victory Lab: The Secret Science of Winning Campaigns* by Sasha Issenberg](https://books.google.co.nz/books/about/The_Victory_Lab.html?id=lCzuJnHRzJAC&redir_esc=y) that also highlights why our STEM folks need exposure to ethics and humanities. It goes something like so: In a meeting on collecting data to try to assess the possible impacts of racist sentiments among voters on Obama's campaign, one of the suggestions from a hot shot data wonk from MIT (or something like that) was that they just ask people in surveys if they were racist...then you'd know if they were racist. Yep, that is definitely a suggestion.
 
 ## [**Means**]{.underline} (to an **end?)**
 
@@ -146,6 +148,24 @@ This might sounds strange coming from a statistician, but sometimes the most imp
         *A diverse group of contributors reveal the hidden impacts of technology on society and on individuals, exploring policy change and personal action to keep the internet a force for good. These voices arrive at a crucial juncture in our relationship to fast-evolving technologies.*
 
     -   Contributors: Andrew Chen, Kathy Errington, Anjum Rahman, Tom Barraclough, Curtis Barnes, Tahu Kukutai, Donna Cormack, Chris Cormack, Merrin Macleod, Caleb Moses, Stephen Judd, Briony Blackmore, Anna Pendergrast, Kelly Pendergrast and Serena Chen. 
+
+## The Statistical-thinking bogs
+
+The following is about students intro stats, but I think it is fantastically generalisable:
+
+> ...students tend to enter and leave most introductory statistics courses thinking of statistics in one of at least two incorrect ways:
+>
+> 1\. Students believe that statistics and mathematics are similar in that statistical problems have a single correct answer; an answer that tells us indisputable facts about the world we live in (Bog #1: overconfidence) (Nicholson & Darnton, 2003; Pfannkuch & Brown, 1996),
+>
+> or,
+>
+> 2\. Students believe that statistics can be 'made to say anything,' like 'magic,' and so cannot be trusted. Thus, statistics is viewed as disconnected and useless for scientific research and society (Bog #2: disbelief) (Martin, 2003; Pfannkuch & Brown, 1996).
+>
+> Tintle, N., Chance, B., Cobb, G., Roy, S., Swanson, T., & VanderStoep, J. (2015). Combating Anti-Statistical Thinking Using Simulation-Based Methods Throughout the Undergraduate Curriculum. *The American Statistician*, *69*(4), 362--370. <http://www.jstor.org/stable/24592138>
+
+📄 PDF: <https://arxiv.org/pdf/1508.00543.pdf>
+
+![Two AI images generated by DALLE 2 from the prompt "dramatic oil painting of a swamp". Left is labelled 'bog of overconfidence' and the right is labelled 'bog of disbelief'.](images/bog.png)
 
 ## We like patterns and certainty, and that can be a problem
 
