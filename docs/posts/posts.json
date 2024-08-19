@@ -3,18 +3,17 @@
     "path": "posts/2024-06-20-ethical-codes-for-science/",
     "title": "Ethical codes for science",
     "description": "Power posing, teaching ethics and using Quarto to write a screenplay.",
-    "author": [
-      {
-        "name": "Liza Bolton",
-        "url": {}
-      }
-    ],
+    "author": [],
     "date": "2024-06-20",
-    "categories": [],
+    "categories": [
+      "stats-ed"
+    ],
     "contents": "\nThe University of Auckland Waipapa Taumta Rau has introduced new first year courses specific to each Faculty to help students transition to university study. More about the coursse here.\nI was invited to provide a recorded lecture on ethical codes and practice for science, and managed to sneak in a bit of a focus on statistics. Big thanks to Joei Mudaliar for letting me rope her into helping me film in the loo! (We put up a warning sign, don’t worry!)\n\nI had some fun setting up the CSS to make it look like a traditional screenplay. You can read the full script here.\n\nThe CSS to make the Quarto Document render like a screenplay was adapted from Scrippet by John August (johnaugust.com) and a comment from Matthew Petty.\n\n\n\n",
-    "preview": {},
-    "last_modified": "2024-08-19T21:38:40+12:00",
-    "input_file": "ethical-codes-for-science.knit.md"
+    "preview": "posts/2024-06-20-ethical-codes-for-science/images/bathroom.png",
+    "last_modified": "2024-08-19T21:50:25+12:00",
+    "input_file": {},
+    "preview_width": 2232,
+    "preview_height": 1578
   },
   {
     "path": "posts/2023-11-15-scanz/",

@@ -3,9 +3,11 @@ title: "Ethical codes for science"
 description: |
   Power posing, teaching ethics and using Quarto to write a screenplay.
 author:
-  - name: Liza Bolton
-    url: {}
-date: 2024-06-20
+name: Liza Bolton
+date: 06-20-2024
+preview: images/bathroom.png
+categories: 
+  - stats-ed
 output:
   distill::distill_article:
     self_contained: false
@@ -21,7 +23,7 @@ I was invited to provide a recorded lecture on ethical codes and practice for sc
 
 ![](images/bathroom.png){fig-alt="Liza, a femme brunette in a white blouse, standing in a bathroom, gesturing to camera."}
 
-I had some fun setting up the CSS to make it look like a traditional screenplay. You can read the full script [here]().
+I had some fun setting up the CSS to make it look like a traditional screenplay. You can read the full script [here](https://www.lizabolton.com/script.html).
 
 ![](images/script_header.png){fig-alt="Screenshot of the beginning of the script HTML file, showing the fixed width font and formatting of a traditional screenplay."}
 
