@@ -1,0 +1,57 @@
+---
+title: "Raising the Bar annotated bibliography"
+description: |
+  This way or data-way? A survival guide for a world of data. Selected notes, sources and further reading related to my talk.
+author:
+name: Liza Bolton
+date: 08-27-2024
+preview: images/rtb.png
+categories: 
+  - stats-ed
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Kia ora! If you found your way here through my talk, thank you so much for coming. Skip down to the [annotated bibliography](https://blog.lizabolton.com/posts/2024-08-27-raising-the-bar-annotated-bibliography/#annotated-bibliography). If you found this some other way...welcome! There is some information on the event below.
+
+## Event information
+### Abstract
+What do motivational posts on LinkedIn have in common with the supposedly small feet of Victorians? Join Dr Liza Bolton as she explores the habits of statistical thinking that can make our day-to-day lives better – from picking a restaurant like a statistician, to why you shouldn’t necessarily believe a bus stop advertisement when it tells you your hometown is one of New Zealand’s most monogamous. There are no mathematics prerequisites here – number lovers and loathers alike are invited on a romp through the good, the bad and the ugly from a world full of data and decisions.
+
+### Bio
+Dr Liza Bolton teaches statistics and data science at the University of Auckland, having recently returned from three years at the University of Toronto in Canada. She is also a statistical consultant, though tends to prefer the term “data ambassador” to describe her work representing people's data back to them in meaningful ways. Her interests lie in the realms of health, equity and education, with her research focusing on statistics education and applied statistics, specifically exploring social anVd economic predictors of mortality in Aotearoa.
+
+### Event
+6:30pm @[Norma Taps](https://normataps.co.nz/), 90 Wellesley Street West, Auckland CBD, Auckland 1010
+
+Also speaking at this location at 8:00pm is [Rebecca Sharp](https://www.rtbevent.com/rebecca-sharp)
+
+## Annotated bibliography
+
+*I'm currently still adding to this section in the lead up to the talk.*
+
+![](images/workinprogress_text.png){fig-alt="AI generated image of a person in construction gear with colourful blocks and some sort of measuring device. Text in the image says: This post is a work in progress."} 
+
+### Te Awamutu: The ~~Rose~~ Monogamy Town of New Zealand? 🌹👩🏻‍🤝‍👨🏽
+
+- [The original report from EliteSingles](https://www.elitesingles.co.nz/em/from-single-to-couple/monogamous-relationships)  
+- New Zealand Herald coverage: Herald online. (2017, January 10). New Zealand's most monogamous town revealed. NZ Herald. Retrieved from: https://www.nzherald.co.nz/lifestyle/new-zealands-most-monogamous-town-revealed/ULLQJCPIQZB2HQXTN5XHW3XTKU/   
+
+#### Turns our you can trust 'big garlic' 🧄...or 'big ergonomic chair'
+
+I am a big fan of Hayden Donnell's work and the below Mediawatch episode from a year ago is no exception! It is a 9'31" listen and looks at the rise of coverage of 'research' provided by organisations that is intended as advertising much more than 
+
+- Donnell, H. (2023, June 25). One weird trick for getting uncritical media coverage [Radio broadcast]. Mediawatch. Retrieved from: https://www.rnz.co.nz/national/programmes/mediawatch/audio/2018895605/one-weird-trick-for-getting-uncritical-media-coverage
+
+Importantly, the above story notes: "journalists who might have questions about a study's credibility [should] contact the publicly-funded [Science Media Centre](https://www.sciencemediacentre.co.nz/) for advice." For transperancy, I should note that I am listed on the [SciMex](https://www.scimex.org/about/scimex) directory and have been paid for a workshop for a Data Journalism program they were running.
+
+### Motivational memes, the small feet of Victorians and armouring planes 
+
+
