@@ -44,6 +44,12 @@ The formatting of this is probably a bit loose for a real 'annotated bibliograph
 ```
 
 
+> "The best thing about being a statistician, is that you get to play in everyone’s backyard." ~ John Tukey
+
+Brillinger, D. R. (2014). "... how wonderful the field of statistics is...". In Lin, X., Genest, C., Banks, D.L., Molenberghs, G., Scott, D.W., & Wang, J.-L. (Eds.). *Past, Present, and Future of Statistical Science* (1st ed.). Chapman and Hall/CRC. https://doi.org/10.1201/b16720 
+
+
+
 ## Te Awamutu: The ~~Rose~~ Monogamy Town of New Zealand? 🌹👩🏻‍🤝‍👨🏽
 
 - [The original report from EliteSingles](https://www.elitesingles.co.nz/em/from-single-to-couple/monogamous-relationships)  
@@ -71,7 +77,11 @@ This is one of my favourites:
 
 > "**Our world imperfectly becomes data.** If we are to use data nonetheless to learn about the world, then we need to actively seek to understand their imperfections and the implications of those imperfections." ~ Rohan Alexander
 
-- Adore this quote from my friend (and former colleague at the University of Toronto) Rohan Alexander in the [introduction to his (free!!) textbook, Telling Stories with Data ](https://rohanalexander.github.io/telling_stories-published/01-introduction.html). You can also purchase a print copy of this book from Chapman and Hall/CRC [here](https://www.routledge.com/Telling-Stories-with-Data-With-Applications-in-R/Alexander/p/book/9781032134772). Full citation:  Alexander, R. (2023). *Telling stories with data: With applications in R*. Routledge.      
+- Adore the above quote from my friend (and former colleague at the University of Toronto) Rohan Alexander in the [introduction to his (free!!) textbook, Telling Stories with Data ](https://rohanalexander.github.io/telling_stories-published/01-introduction.html). You can also purchase a print copy of this book from Chapman and Hall/CRC [here](https://www.routledge.com/Telling-Stories-with-Data-With-Applications-in-R/Alexander/p/book/9781032134772). Full citation:  Alexander, R. (2023). *Telling stories with data: With applications in R*. Routledge.      
+
+> "There are three kinds of lies: Lies, damned lies, and statistics" ~ Mark Twain (attributing it to Benjamin Disreali, who may not have said it...and everyone attributes it to Twain now, except for me who gave the WRONG attribution in my bFM interview — the shame! 😳) 
+
+Twain, M. *Chapters from My Autobiography*. http://www.gutenberg.org/files/19987/19987-h/19987-h.htm. Published 1906. Accessed August 27, 2024.
 
 ## The statistical-thinking bogs
 
@@ -117,14 +127,15 @@ Statistics: The Art and Science of Learning from Data, 5th edition
 - [The Bell Homestead in Brantford, Ontario, Canada](https://www.brantford.ca/en/things-to-do/history.aspx), where the first Alexander Graham Bell worked on his telephone design, eventually winning the first US Patent for it.
   - I couldn't find any write-up online about the tiny-waisted garment I remember, unfortunately.
   
-- An example of the kind of "famous failures" motivational post I have seen a lot of.
+- An example of the kind of "famous failures" motivational post I have seen a lot of:
 
-![](https://sta303-bolton.github.io/sta303-w22-courseguide/images/m2/failures.jpg){alt="A grid of 15 'famous failures' from www.TheQuotes.net"}
+![](https://sta303-bolton.github.io/sta303-w22-courseguide/images/m2/failures.jpg){alt="A grid of 15 'famous failures' from www.TheQuotes.net"} [Image source](https://www.thequotes.net/2013/08/failures-are-stepping-stones-to-success/)
 
-- [Survivorship bias](https://thedecisionlab.com/biases/survivorship-bias), a guide from the Decision Lab, including a version of the Abraham Wald World War II aircraft story and examples for Finanical Systems and Medical Research
+- [Survivorship bias](https://thedecisionlab.com/biases/survivorship-bias), a guide from the Decision Lab, including examples for Finanical Systems and Medical Research
+  - More on Abraham Wald's work with the Statistical Research Group at Columbia during World War II from [History of Data Science](https://www.historyofdatascience.com/abraham-wald-a-statistical-hero/).
 
 - Gene Roddenberry survived TWO plance crashes before creating Star Trek. Source: Alexander, David (1995). Star Trek Creator: The Authorized Biography of Gene Roddenberry. New York: Roc. ISBN 0-451-45440-5.
-  - 📙[Auckland Libraries appears to have a copy](https://discover.aucklandlibraries.govt.nz/search/card?id=1a715bf6-3bb3-5734-b90d-bb2095e94a70&entityType=FormatGroup)
+  - 📙 [Auckland Libraries appears to have a copy](https://discover.aucklandlibraries.govt.nz/search/card?id=1a715bf6-3bb3-5734-b90d-bb2095e94a70&entityType=FormatGroup)
 
 - What did the neolithic art we don't know about look like? Fun TikTok from [@dougweaverart](https://dougweaverart.org/) about survivourship bias in our understanding of pre-historic peoples, and how the future might misunderstand us.
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@dougweaverart/video/7398908419471854894" data-video-id="7398908419471854894" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@dougweaverart" href="https://www.tiktok.com/@dougweaverart?refer=embed">@dougweaverart</a> @Charlotte There is a tendency to vote prehistoric people as primitive, superstitious, and serious. I just like to acknowledge that they may have been innovative, practical, and a little bit silly. <a title="greenscreen" target="_blank" href="https://www.tiktok.com/tag/greenscreen?refer=embed">#greenscreen</a> <a title="prehistory" target="_blank" href="https://www.tiktok.com/tag/prehistory?refer=embed">#prehistory</a> <a title="arthistory" target="_blank" href="https://www.tiktok.com/tag/arthistory?refer=embed">#arthistory</a> <a title="history" target="_blank" href="https://www.tiktok.com/tag/history?refer=embed">#history</a> <a target="_blank" title="♬ original sound - dougweaverart" href="https://www.tiktok.com/music/original-sound-7398908415701027627?refer=embed">♬ original sound - dougweaverart</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
@@ -137,6 +148,8 @@ Statistics: The Art and Science of Learning from Data, 5th edition
 - Join us for the [Ihaka Lecture Series](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics/ihaka-lecture-series.html) is an annual lecture series named after Associate Professor Ross Ihaka in honour of his contributions to the field. *Ross Ihaka, along with Robert Gentleman, co-created R – a statistical programming language now used by the majority of the world’s practising statisticians.*
   - **Engaging through data**: *The 2024 Ihaka Lecture Series features three speakers that bring together visualisation, teamwork and reproducibility. They share their real-world experience in developing engaging visualisations, bringing people and tools together and a vision for reproducible data analysis.*
   
+![](images/ihaka_farah.jpg){alt="Poster for Farah Hancock's 2024 Ihaka Lecture on Thursday 19 September. Farah is a Data/Longform journalist with RNZ and her talk is titled 'Putting feelings into figures'."}  
+  
 - [*Calling Bullshit: The Art of Skepticism in a Data-Driven World*](https://callingbullshit.org/) is both a book and a series of recorded lecturers and case studies.  
 
 > "Science is not a magic wand that turns everything it touches to truth. Instead, "science operates as a procedure of uncertainty reduction," said Nosek, of the Center for Open Science. “The goal is to get less wrong over time.” This concept is fundamental — whatever we know now is only our best approximation of the truth. We can never presume to have everything right." ~ Christie Aschwanden
@@ -148,5 +161,7 @@ Statistics: The Art and Science of Learning from Data, 5th edition
 
 - Study opportunities in Statistics and Data Science
 We have a range of undergraduate and postgraduate study options, with several catering to professionals wanting to upskill. Come learn with us! 
-  - Explore your study options in Data Science. 
-  - Explore your study options in Statistics.
+  - [Explore your study options in Data Science.](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/data-science.html#utm_source=data-sci&utm_medium=subject-guide&utm_campaign=2018-sci-ug-subject-guides) 
+  - [Explore your study options in Statistics.](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics/study-statistics.html)
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XMAuPESg-1w?si=NY7ADJu_WlfZIyOy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
