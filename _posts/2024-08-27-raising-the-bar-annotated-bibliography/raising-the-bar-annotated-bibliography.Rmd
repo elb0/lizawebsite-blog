@@ -44,6 +44,8 @@ The formatting of this is probably a bit loose for a real 'annotated bibliograph
 ```
 
 
+- Pepeha background: Opai, K. (2022, August 7). *Pepeha for non-Māori*. E-Tangata. https://e-tangata.co.nz/reflections/pepeha-for-non-maori/
+
 > "The best thing about being a statistician, is that you get to play in everyone’s backyard." ~ John Tukey
 
 Brillinger, D. R. (2014). "... how wonderful the field of statistics is...". In Lin, X., Genest, C., Banks, D.L., Molenberghs, G., Scott, D.W., & Wang, J.-L. (Eds.). *Past, Present, and Future of Statistical Science* (1st ed.). Chapman and Hall/CRC. https://doi.org/10.1201/b16720 
@@ -126,6 +128,11 @@ Statistics: The Art and Science of Learning from Data, 5th edition
 
 - [The Bell Homestead in Brantford, Ontario, Canada](https://www.brantford.ca/en/things-to-do/history.aspx), where the first Alexander Graham Bell worked on his telephone design, eventually winning the first US Patent for it.
   - I couldn't find any write-up online about the tiny-waisted garment I remember, unfortunately.
+  
+- Chrisman, S. A. (2017, October 16). *The Case of the Small Shoes: A.k.a. Survival Bias: No, People Were Not “Just Smaller Then”*. This Victorian Life. Retrieved from http://www.thisvictorianlife.com/blog/the-case-of-the-small-shoes-a-k-a-survival-bias-no-people-were-not-just-smaller-then/  
+
+- "People were smaller in the 1920s" — designer Marion Boyce on one reason they weren't relying on vintage pieces in the costuming of Miss Fisher's Murder Mysteries. 
+  - Miller, J. (2015, October 28). *Nine Costume-Design Secrets About Miss Fisher’s Murder Mysteries*. Vanity Fair. https://www.vanityfair.com/hollywood/2015/10/miss-fishers-murder-mysteries-costume-design
   
 - An example of the kind of "famous failures" motivational post I have seen a lot of:
 
