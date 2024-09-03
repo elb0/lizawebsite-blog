@@ -19,7 +19,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Kia ora! If you found your way here through my talk, thank you so much for coming. Skip down to the [annotated bibliography](https://blog.lizabolton.com/posts/2024-08-27-raising-the-bar-annotated-bibliography/#annotated-bibliography). If you found this some other way...welcome! There is some information on the event below.
+Kia ora! If you found your way here through my talk, thank you so much for coming. Skip down to the [annotated bibliography](https://blog.lizabolton.com/posts/2024-08-27-raising-the-bar-annotated-bibliography/#annotated-bibliography). If you found this some other way...welcome! There is some information on the event below, including links to listen.
 
 ## Event information
 ### Abstract
@@ -28,10 +28,9 @@ What do motivational posts on LinkedIn have in common with the supposedly small 
 ### Bio
 Dr Liza Bolton teaches statistics and data science at the University of Auckland, having recently returned from three years at the University of Toronto in Canada. She is also a statistical consultant, though tends to prefer the term “data ambassador” to describe her work representing people's data back to them in meaningful ways. Her interests lie in the realms of health, equity and education, with her research focusing on statistics education and applied statistics, specifically exploring social anVd economic predictors of mortality in Aotearoa.
 
-### Event
-6:30pm @[Norma Taps](https://normataps.co.nz/), 90 Wellesley Street West, Auckland CBD, Auckland 1010
+### Listen [54:07]
 
-Also speaking at this location at 8:00pm is [Rebecca Sharp](https://www.rtbevent.com/rebecca-sharp)
+Listen on [SoundCloud](https://soundcloud.com/university-of-auckland/this-way-or-data-way-a?in=university-of-auckland/sets/raising-the-bar-auckland-2024&si=3abe747c6c004219844db13d685ae1d7) or [Spotify](https://open.spotify.com/episode/1tmaaDYd0dUyXPBPykxqsd).
 
 # Annotated bibliography
 
