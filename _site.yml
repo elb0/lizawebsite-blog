@@ -23,5 +23,5 @@ navbar:
     - icon: fa fa-linkedin
       href: https://www.linkedin.com/in/lizabolton/
     - icon: fa fa-paper-plane
-      href: mailto:liza.bolton@utoronto.ca
+      href: mailto:liza.bolton@auckland.ac.nz
 output: distill::distill_article
