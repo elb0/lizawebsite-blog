@@ -39,11 +39,11 @@ The Computation and Data Science Education Community of Practice (CDS Education 
 
 # Slides
 
-Direct link: <https://bolton-cds-w22.netlify.app/#1>
+Direct link: <https://lizabolton.github.io/pixel-farmers-2022/#1>
 
 ```{r, echo=FALSE}
 xaringanExtra::embed_xaringan(
-  url = "https://bolton-cds-w22.netlify.app/",
+  url = "https://lizabolton.github.io/pixel-farmers-2022/#1",
   ratio = "16:9"
 )
 ```
@@ -64,7 +64,7 @@ Pixelated image of me (Liza) a smiling brunette, with a light skin-tone and femi
 
 ### Slide 6
 
-Background image is a gif from Dr Strangelove (1964, black and white) of a two men grappling (the one in front is in a large black coat and black hat, while the one behind is in a suit). ANother man, bald and in classes approaches from the right of the and addresses them, causing them both to pause. He says "Gentleman. You can't fight in here. This is the War Room!"
+Background image is a gif from Dr Strangelove (1964, black and white) of a two men grappling (the one in front is in a large black coat and black hat, while the one behind is in a suit). Another man, bald and in classes approaches from the right of the and addresses them, causing them both to pause. He says "Gentleman. You can't fight in here. This is the War Room!"
 
 ### Slide 12
 
